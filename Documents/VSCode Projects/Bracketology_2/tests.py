@@ -3,10 +3,10 @@ from classes import *
 import datetime
 import re
 
-with open("test_df.csv", 'r', encoding='utf-8') as f:
-    df = pd.read_csv(f)
-
 def extract_name_rank(text: str):
+    """
+    Extracts team name and rank from text.
+    """
     pattern = re.compile(r'([^()]+)(?: \((\d+)\))?')
     match = pattern.findall(text)
     name = match[0][0].rstrip()
@@ -17,6 +17,9 @@ def extract_name_rank(text: str):
     return name, ranking
 
 def parse_game(df: pd.DataFrame, date: datetime):
+    """
+    Takes a game dataframe and returns a Game object.
+    """
     home, home_rank = extract_name_rank(df.iloc[1,1])
     away, away_rank = extract_name_rank(df.iloc[0,1])
     gender = df.iloc[2,1].split("'")[0]
@@ -30,11 +33,13 @@ def parse_game(df: pd.DataFrame, date: datetime):
                 date)
 
 def log_games_on_date(date: datetime):
+    """
+    Creates Game objects for all games on a given day.
+    """
     month = date.month
     day = date.day
     year = date.year
-
-Team("UNC","Women")
-Team("South Carolina","Women")
-date = datetime.date(2023,12,3)
-print(parse_game(df, date))
+    url = f'https://www.sports-reference.com/cbb/boxscores/index.cgi?month={date.month}&day={date.day}&year={date.year}'  # Replace with the actual URL
+    result = scrape_tables_from_url(url)
+    for df in result:
+        game = parse_game(df, date)
