@@ -66,7 +66,7 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
         print("Loading stats on file.")
         tables = {}
         for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
-            tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}")
+            tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}", index_col=0)
         return tables
     print("Scraping new stats from web.")
     pages = ["school-stats","opponent-stats","advanced-school-stats","advanced-opponent-stats","ratings"]
