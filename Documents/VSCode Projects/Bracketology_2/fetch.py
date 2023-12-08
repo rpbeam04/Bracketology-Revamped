@@ -1,6 +1,7 @@
 import pandas as pd
 from classes import *
 import datetime
+import html5lib
 import re
 import os
 
@@ -37,7 +38,7 @@ def log_games_on_date(date: datetime):
     """
     Creates Game objects for all games on a given day.
     """
-    url = f'https://www.sports-reference.com/cbb/boxscores/index.cgi?month={date.month}&day={date.day}&year={date.year}'  # Replace with the actual URL
+    url = fr'https://www.sports-reference.com/cbb/boxscores/index.cgi?month={date.month}&day={date.day}&year={date.year}'  # Replace with the actual URL
     result = scrape_tables_from_url(url)
     games = []
     for df in result:
@@ -59,15 +60,18 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
     """
     Fetch and return team stats tables.
     """
-    with open("Stats/cache.txt","r") as f:
-        cache = datetime.datetime.fromisoformat(f.read())
-        now = datetime.datetime.today()
-    if cache.day == now.day and ((cache.hour < 8 and now.hour < 8) or (cache.hour > 8 and now.hour > 8)):
-        print("Loading stats on file.")
-        tables = {}
-        for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
-            tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}", index_col=0)
-        return tables
+    try:
+        with open("Stats/cache.txt","r") as f:
+            cache = datetime.datetime.fromisoformat(f.read())
+            now = datetime.datetime.today()
+        if cache.day == now.day and ((cache.hour < 8 and now.hour < 8) or (cache.hour > 8 and now.hour > 8)):
+            print("Loading stats on file.")
+            tables = {}
+            for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
+                tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}", index_col=0)
+            return tables
+    except:
+        pass
     print("Scraping new stats from web.")
     pages = ["school-stats","opponent-stats","advanced-school-stats","advanced-opponent-stats","ratings"]
     tables = {}
