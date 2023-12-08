@@ -2,9 +2,11 @@ import datetime
 import json
 
 class Team:
-    def __init__(self, name: str, gender: str):
+    def __init__(self, name: str, gender: str, conference: str):
         self.Name = name
         self.Gender = gender
+        self.Conf = conference
+        self.Conference = conference
         self.Roster = []
         self.Games = []
         Team.team_list.append(self)
@@ -24,11 +26,17 @@ class Team:
     
     @classmethod
     def clean_duplicates(cls):
+        duplicates = []
+        init_len = len(Team.team_list)
         for i,team in enumerate(Team.team_list):
             for j,check in enumerate(Team.team_list):
                 if (team.Name == check.Name and 
                     team.Gender == check.Gender and i != j):
                     print(f"Duplicate found: {team.Name} ({team.Gender})")
+                    duplicates.append(check)
+        for team in duplicates:
+            Team.team_list.remove(team)
+        print(f"Team List: {init_len} --> {len(Team.team_list)} teams.")
 
     @classmethod
     def write_teams_to_json(cls, filename='teams.json'):

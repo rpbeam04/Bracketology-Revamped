@@ -2,6 +2,7 @@ import pandas as pd
 from classes import *
 import datetime
 import re
+import os
 
 def extract_name_rank(text: str):
     """
@@ -58,6 +59,16 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
     """
     Fetch and return team stats tables.
     """
+    with open("Stats/cache.txt","r") as f:
+        cache = datetime.datetime.fromisoformat(f.read())
+        now = datetime.datetime.today()
+    if cache.day == now.day and ((cache.hour < 8 and now.hour < 8) or (cache.hour > 8 and now.hour > 8)):
+        print("Loading stats on file.")
+        tables = {}
+        for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
+            tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}")
+        return tables
+    print("Scraping new stats from web.")
     pages = ["school-stats","opponent-stats","advanced-school-stats","advanced-opponent-stats","ratings"]
     tables = {}
     for page in pages:
@@ -67,6 +78,51 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
             if i > 0:
                 j = f"-{i}"
             tables[f"{page}{j}"] = table
-    for key, value in tables.items():
-        pass
+    for key, table in tables.items():
+        df = table
+        if type(list(df.columns)[0]) is tuple:
+            header = [pair[0] for pair in list(df.columns)]
+            header2 = [pair[1] for pair in list(df.columns)]
+        else:
+            header = list(df.columns)
+            header2 = list(df.loc[0])
+            df = df.drop(df.index[0])
+        for i, item in enumerate(header):
+            if item.startswith("Unnamed"):
+                header[i] = header2[i]
+            elif item.startswith("Overall"):
+                header[i] = header2[i].replace("%","_Pct").replace("-","_")
+            elif item.startswith("SRS"):
+                header[i] = header2[i]
+            elif item.startswith("Adjusted"):
+                header[i] = f"Adj_{header2[i]}"
+            elif item.startswith("Conf"):
+                header[i] = f"{header2[i]}_Conf"
+            elif item.startswith("Home"):
+                header[i] = f"{header2[i]}_Home"
+            elif item.startswith("Away"):
+                header[i] = f"{header2[i]}_Away"
+            elif item.startswith("Points"):
+                header[i] = f"Pts_{header2[i].strip('.')}"
+            elif item.startswith("Totals"):
+                header[i] = header2[i].replace("%","_Pct")
+            elif item.startswith("Opponent"):
+                header[i] = f'Opp_{header2[i].replace("%","_Pct").replace("/","per")}'
+            elif item.startswith("School Advanced"):
+                header[i] = f'Opp_{header2[i].replace("%","_Pct").replace("/","per")}'
+            else:
+                header[i] = f"{header[i]}_{header2[i]}"
+        df.columns = [str(h) for h in header]
+        df = df[~((df['Rk'] == "Rk") | df['Rk'].isna())]
+        df = df.apply(pd.to_numeric, errors='ignore')
+        try:
+            df = df.drop(columns = "nan")
+        except:
+            pass
+        df = df.drop(columns = [col for col in list(df.columns) if "Unnamed" in col])
+        df = df.reset_index(drop = True)
+        tables[key] = df
+        df.to_csv(f"Stats/{key}.csv")
+    with open("Stats/cache.txt","w") as f:
+        f.write(str(datetime.datetime.now().isoformat()))
     return tables

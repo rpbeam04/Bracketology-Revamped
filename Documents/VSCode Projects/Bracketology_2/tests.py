@@ -1,11 +1,11 @@
 import fetch
 import datetime
 import pandas as pd
+import numpy as np
 from pprint import *
 from IPython.display import display
+import os
 
-with open("Stats/school-stats.csv") as f:
-    df = pd.read_csv(f)
-
-df.columns = [1]*len(df.columns)
-print(df.columns)
+x = fetch.fetch_team_stats()
+for k,v in x.items():
+    print(k,v)
