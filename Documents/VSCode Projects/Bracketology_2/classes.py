@@ -23,8 +23,12 @@ class Team:
         return None
     
     @classmethod
-    def check_duplicates(cls):
-        pass
+    def clean_duplicates(cls):
+        for i,team in enumerate(Team.team_list):
+            for j,check in enumerate(Team.team_list):
+                if (team.Name == check.Name and 
+                    team.Gender == check.Gender and i != j):
+                    print(f"Duplicate found: {team.Name} ({team.Gender})")
 
     @classmethod
     def write_teams_to_json(cls, filename='teams.json'):
@@ -32,7 +36,7 @@ class Team:
         for team in cls.team_list:
             team_dict = {}
             for attr, value in vars(team).items():
-                if not callable(value) and not attr.startswith("__") and not attr == "Roster":
+                if not callable(value) and not attr.startswith("__"):
                     team_dict[attr] = value
             team_data.append(team_dict)
         with open(filename, 'w') as json_file:
@@ -44,6 +48,10 @@ class Team:
             with open(filename, 'r') as json_file:
                 team_data_list = json.load(json_file)
             for team_data in team_data_list:
+                try:
+                    del team_data["Roster"]
+                except:
+                    pass
                 team = Team(team_data["Name"], team_data["Gender"])
                 del team_data["Name"]
                 del team_data["Gender"]
@@ -65,6 +73,10 @@ class Game:
         self.Gender = gender
         self.Date = date
         self.Neutral = False
+        if self.Home_Score > 0 or self.Away_Score > 0:
+            self.Complete = True
+        else:
+            self.Complete = False
         Game.game_list.append(self)
         home.Games.append(self)
         away.Games.append(self)
@@ -80,7 +92,8 @@ class Game:
         for game in Game.game_list:
             if game.Away.Name == away and game.Home.Name == home and game.Gender == gender:
                 games.append(game)
-        print("No games found.")
+        if len(games) == 0:
+            print("No games found.")
         return games
     
     @classmethod
