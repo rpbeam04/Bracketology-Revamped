@@ -84,7 +84,7 @@ Coach("Mike Tomlin","DC",teams[1])
 
 teams[1].Players
 
-def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, dist: int = 75, time: float = 0.0, margin: int = 0):
+def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, dist: int = 75, quarter: int = 1, time: float = 0.0, margin: int = 0):
     """
     generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, dist: int = 75, time: float = 0.0, margin: int = 0):
     
@@ -93,7 +93,8 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
     down: int, the down
     to_go: int, yards to get a first down
     dist: int, yards to score a touchdown
-    time: float, game time between 0 and 60 minutes, counting up
+    quarter: int, quarter of the game
+    time: float, game time in the quarter between 0 and 15 minutes, counting up
     margin: int, the current scoring margin between teams, positive means offense is winning
     
     Returns:
@@ -135,12 +136,13 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
         desc = f"{offense.return_starter("RB").Name} rush for {result} yards."
         return result, desc
 
-def go_for_it(to_go, dist, time, margin, aggression):
-    if time > 45 and margin < 0:
+def go_for_it(quarter, to_go, dist, time, margin, aggression):
+    if quarter == 4 and margin < 0:
         if to_go < 5 and dist < 50:
             return True
-    if time > 55 and margin < 0 and margin > -16:
+    if quarter == 4 and time > 10 and margin < 0 and margin >= 8:
         return True
+    return False
     
 def special_teams():
     return 0, "Special teams go brrr."
@@ -157,17 +159,33 @@ b = (upper_bound - mu) / std_upper
 truncated_normal = truncnorm(a, b, loc=mu, scale=std_lower + std_upper)
 
 samples = truncated_normal.rvs(100000)
-plt.hist(samples, bins=30, density=True, alpha=0.7, color='b')
+# plt.hist(samples, bins=30, density=True, alpha=0.7, color='b')
 
-plt.xlabel('Yardage Gained on Pass')
-plt.ylabel('Probability Density')
-plt.title('Truncated Normal Distribution with Different Standard Deviations')
+# plt.xlabel('Yardage Gained on Pass')
+# plt.ylabel('Probability Density')
+# plt.title('Truncated Normal Distribution with Different Standard Deviations')
 
-plt.show()
+# plt.show()
 
-df = pd.read_csv('https://raw.githubusercontent.com/ArrowheadAnalytics/next-gen-scrapy-2.0/master/pass_and_game_data.csv', low_memory=False)
-#There's an additional index row we don't need, so I am getting rid of it here
-df = df.iloc[0:,1:]
+# df = pd.read_csv('https://raw.githubusercontent.com/ArrowheadAnalytics/next-gen-scrapy-2.0/master/pass_and_game_data.csv', low_memory=False)
+# #There's an additional index row we don't need, so I am getting rid of it here
+# df = df.iloc[0:,1:]
 
-fig = plt.hist(df.y, bins = 30, density = True)
-plt.show()
+# fig = plt.hist(df.y, bins = round(max(list(df.y))-min(list(df.y))), density = True)
+# plt.show()
+
+def convert_float_time(time):
+    minute = 15 - math.ceil(time)
+    second = round((math.ceil(time) - time)*60)
+    return minute, second
+
+def display_clock_time(minute, second):
+    if second < 10:
+        second = f"0{str(second)}"
+    return f"{minute}:{second}"
+
+# GAME LOOP
+for time in np.arange(0,15.0001,1/24):
+    quarter = math.floor(time/15) + 1
+    minute, second = convert_float_time(time)
+    print(f"{round(time,2)}: {quarter}Q, {display_clock_time(minute, second)}")
