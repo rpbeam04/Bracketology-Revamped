@@ -108,6 +108,7 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
         101: PAT successful
         110: PAT unsuccessful
         300: made field goal
+        400: touchback
     desc: str, description of the play
     play_time: float, time taken by the play
     run_clock: bool, whether the clock keeps running after the play
@@ -147,15 +148,17 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
         return result, desc, 0.1, True
 
 def go_for_it(quarter, to_go, dist, time, margin, aggression):
-    if quarter == 4 and margin < 0:
-        if to_go < 5 and dist < 50:
+    if not margin >= -3 and dist < 40:
+        if quarter == 4 and margin < 0:
+            if to_go < 5 and dist < 50:
+                return True
+        if quarter == 4 and time > 10 and margin < 0 and margin >= -8:
             return True
-    if quarter == 4 and time > 10 and margin < 0 and margin >= 8:
-        return True
+        return False
     return False
     
 def special_teams(offense: Team, quarter, time, dist, margin):
-    if dist < 40:
+    if dist < 43:
         a = -4.4947 * 10**(-126)
         b = 1.736 * 10**9
         c = 0.993889
@@ -167,13 +170,15 @@ def special_teams(offense: Team, quarter, time, dist, margin):
             return 0, f"{offense.return_starter("PK")} {dist+17} yard field goal is no good.", 0.1, False
     else:
         punt = rand_norm_int(45,10)
+        touchback = ""
         if punt < 25:
             punt = rand_norm_int(35,5)
         while punt < 0:
             punt = rand_norm_int(45,10)
-        return punt, f"{offense.return_starter("PP")} punt for {punt} yards.", 1/6, False
-
-
+        if dist - punt <= 0:
+            punt = dist
+            touchback = " Touchback."
+        return punt, f"{offense.return_starter("PP")} punt for {punt} yards.{touchback}", 1/6, False
 
 def yard_line(distance):
     """
@@ -183,19 +188,18 @@ def yard_line(distance):
         return 100 - distance
     return distance
 
+# lower_bound = -10
+# upper_bound = 100
 
-lower_bound = -10
-upper_bound = 100
+# mu = 10.5
+# std_lower = 5  # Standard deviation for losses
+# std_upper = 20  # Standard deviation for gains
 
-mu = 10.5
-std_lower = 5  # Standard deviation for losses
-std_upper = 20  # Standard deviation for gains
+# a = (lower_bound - mu) / std_lower
+# b = (upper_bound - mu) / std_upper
+# truncated_normal = truncnorm(a, b, loc=mu, scale=std_lower + std_upper)
 
-a = (lower_bound - mu) / std_lower
-b = (upper_bound - mu) / std_upper
-truncated_normal = truncnorm(a, b, loc=mu, scale=std_lower + std_upper)
-
-samples = truncated_normal.rvs(100000)
+# samples = truncated_normal.rvs(100000)
 # plt.hist(samples, bins=30, density=True, alpha=0.7, color='b')
 
 # plt.xlabel('Yardage Gained on Pass')
@@ -255,7 +259,7 @@ def kickoff(kicking: Team, receiving: Team, onside: bool = False):
                 yards = rand_norm_int(18,5)
             return yards, f"{kicking.Name} kickoff, returned for {yards} yards by {receiving.return_starter("WR")}.", 0.1, False, False
     else:
-        yards = rand_norm_int(54,2)
+        yards =  rand_norm_int(54,2)
         outcome = success(0.02)
         if outcome:
             if yards < 50:
@@ -294,6 +298,22 @@ def point_after_touchdown(offense: Team, defense: Team, two_pt_conv: bool = Fals
         result, desc, play_time, run_clock = generate_play(offense, defense, 1, 2, 2, 1, 5, 0)
         return result, f"{desc}", play_time, run_clock
 
+def display_down(down, to_go, pat, kick_after_pat):
+    if pat:
+        return "PAT"
+    elif kick_after_pat:
+        return "Kickoff"
+    else:
+        if down == 1:
+            suffix = "st"
+        elif down == 2:
+            suffix = "nd"
+        elif down == 3:
+            suffix = "rd"
+        else:
+            suffix = "th"
+        return f"{down}{suffix} & {to_go}"
+
 # GAME LOOP
 game = True
 quarter = 1
@@ -318,7 +338,7 @@ while game:
     else:
         margin = away_score - home_score
     minute, second = convert_float_time(time)
-    print(f"Q{quarter}: {display_clock_time(minute, second)} | {down} & {to_go} | {yard_line(dist)} yard line.")
+    print(f"Q{quarter}: {display_clock_time(minute, second)} | {display_down(down, to_go, pat, kick_after_pat)} | {yard_line(dist)} yard line. | {offense.Name} {margin}")
     special = False
     if quarter % 2 == 1 and time == 0 and game_start == False:
         special = True
@@ -331,6 +351,14 @@ while game:
             defense = teams_receive[1]
             result, desc, play_time, run_clock, onside_recovery = kickoff(defense,offense,False)
             time += play_time
+            game_start = True
+        else:
+            random.shuffle(teams_receive)
+            offense = teams_receive[0]
+            defense = teams_receive[1]
+            result, desc, play_time, run_clock, onside_recovery = kickoff(defense,offense,False)
+            time += play_time
+            game_start = True
         down = 1
         to_go = 10
         dist = 100 - result
@@ -367,20 +395,28 @@ while game:
             pass
     if not special:
         result, desc, play_time, run_clock = generate_play(offense, defense, down, to_go, dist, quarter, time, margin)
-        if score_check(result, dist)[1]:
+        if result == 300:
+            if home.Name == offense.Name:
+                home_score += 3
+            else:
+                away_score += 3
+            kick_after_pat = True
+            run_clock = False
+        elif score_check(result, dist)[1] and "punt" not in desc:
             if home.Name == offense.Name:
                 home_score += 6
             else:
                 away_score += 6
             pat = True
             run_clock = False
-        elif result > to_go and down != 4:
+        elif result >= to_go and "punt" not in desc:
             down = 1
             to_go = 10
+            dist -= score_check(result, dist)[0]
         else:
             down += 1
             to_go -= result
-        dist -= score_check(result, dist)[0]
+            dist -= score_check(result, dist)[0]
         time += play_time
         if run_clock:
             time += 0.5
@@ -395,5 +431,18 @@ while game:
         dist = 100 - dist
     print(desc)
     print(f"{home.Name} {home_score}, {away.Name} {away_score}\n")
-    if time > 15:
+    if time >= 15 and pat == False:
+        quarter +=1
+        time = 0
+        if quarter == 3:
+            game_start == False
+        if quarter > 4 and home_score != away_score:
+            print(f"FINAL: {home} {home_score}, {away} {away_score}")
+            game = False
+        elif quarter > 4 and home_score == away_score:
+            quarter = "OT"
+            game_start == False
+
+    if quarter == "OT" and pat:
+        print(f"FINAL: {home} {home_score}, {away} {away_score}")
         game = False
