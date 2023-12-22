@@ -148,12 +148,12 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
         return result, desc, 0.1, True
 
 def go_for_it(quarter, to_go, dist, time, margin, aggression):
-    if not margin >= -3 and dist < 40:
+    if not(margin >= -3 and margin <= 0 and dist < 40):
         if quarter == 4 and margin < 0:
             if to_go < 5 and dist < 50:
                 return True
-        if quarter == 4 and time > 10 and margin < 0 and margin >= -8:
-            return True
+            if time > 10 and margin >= -8:
+                return True
         return False
     return False
     
@@ -224,8 +224,11 @@ def success(pct):
         return True
     return False
 
-def convert_float_time(time):
-    minute = 15 - math.ceil(time)
+def convert_float_time(time, quarter):
+    if quarter <= 4:
+        minute = 15 - math.ceil(time)
+    else:
+        minute = 10 - math.ceil(time)
     second = round((math.ceil(time) - time)*60)
     return minute, second
 
@@ -279,11 +282,11 @@ def kickoff(kicking: Team, receiving: Team, onside: bool = False):
             return yards, desc, 0.1, False, False
 
 def go_for_two(quarter, time, margin):
-    margins = [10,5,2]
+    margins = [-10,-5,-2,1,5]
     if quarter == 4:
         if margin in margins:
             return True
-        elif margin == 8:
+        elif margin == -8:
             return success(0.5)
     return False
 
@@ -337,8 +340,8 @@ while game:
         margin = home_score - away_score
     else:
         margin = away_score - home_score
-    minute, second = convert_float_time(time)
-    print(f"Q{quarter}: {display_clock_time(minute, second)} | {display_down(down, to_go, pat, kick_after_pat)} | {yard_line(dist)} yard line. | {offense.Name} {margin}")
+    minute, second = convert_float_time(time, quarter)
+    print(f"{"OT" if quarter == 5 else "Q"+str(quarter)}: {display_clock_time(minute, second)} | {display_down(down, to_go, pat, kick_after_pat)} | {yard_line(dist)} yard line | {offense.Name} {margin}")
     special = False
     if quarter % 2 == 1 and time == 0 and game_start == False:
         special = True
@@ -436,13 +439,14 @@ while game:
         time = 0
         if quarter == 3:
             game_start == False
-        if quarter > 4 and home_score != away_score:
+        elif quarter > 5:
+            game = False
+        elif quarter > 4 and home_score != away_score:
             print(f"FINAL: {home} {home_score}, {away} {away_score}")
             game = False
         elif quarter > 4 and home_score == away_score:
-            quarter = "OT"
-            game_start == False
+            game_start = False
 
-    if quarter == "OT" and pat:
+    if quarter == 5 and pat:
         print(f"FINAL: {home} {home_score}, {away} {away_score}")
         game = False
