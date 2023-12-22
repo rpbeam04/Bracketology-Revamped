@@ -115,8 +115,8 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
     This function generates a play between the two teams according to the given parameters, and returns the result and stats.
     """
     # Conditions for non-standard plays (special teams, end of half, etc)
-    if down == 4 and not go_for_it():
-        result, desc, play_time = special_teams(quarter, time, dist, margin)
+    if down == 4 and not go_for_it(quarter, to_go, dist, time, margin, 0):
+        result, desc, play_time, test = special_teams(offense, quarter, time, dist, margin)
         return result, desc, play_time, False
     
     # Run Pass Modifiers
@@ -127,9 +127,9 @@ def generate_play(offense: Team, defense: Team, down: int = 1, to_go: int = 10, 
     
     # Yardage and Stats calculations
     # Evenutally, defense will play a role in these
-    cmp_pct = offense.CompletionPct
-    ypcmp = offense.YdsCompletion
-    ypc = offense.YdsCarry
+    cmp_pct = offense.Completion_Pct
+    ypcmp = offense.Yds_per_Completion
+    ypc = offense.Yds_per_Carry
     
     stats = []
     if play_type:
@@ -154,7 +154,7 @@ def go_for_it(quarter, to_go, dist, time, margin, aggression):
         return True
     return False
     
-def special_teams(quarter, time, dist, margin):
+def special_teams(offense: Team, quarter, time, dist, margin):
     if dist < 40:
         a = -4.4947 * 10**(-126)
         b = 1.736 * 10**9
@@ -162,15 +162,16 @@ def special_teams(quarter, time, dist, margin):
         d = 89.081
         outcome = success(a*math.log(b*(dist+17))**d + c + 0.01)
         if outcome:
-            return 300, f"{"kicker"} {dist+17} yard field goal is good."
+            return 300, f"{offense.return_starter("PK")} {dist+17} yard field goal is good.", 0.1, False
         else:
-            return 0, f"{"kicker"} {dist+17} yard field goal is no good."
+            return 0, f"{offense.return_starter("PK")} {dist+17} yard field goal is no good.", 0.1, False
     else:
         punt = rand_norm_int(45,10)
         if punt < 25:
             punt = rand_norm_int(35,5)
         while punt < 0:
             punt = rand_norm_int(45,10)
+        return punt, f"{offense.return_starter("PP")} punt for {punt} yards.", 1/6, False
 
 
 
@@ -215,7 +216,7 @@ def success(pct):
     Given pct [0,1], returns random trial result where pct is chance of success.
     """
     outcome = random.random()
-    if outcome <= success:
+    if outcome <= pct:
         return True
     return False
 
@@ -245,7 +246,7 @@ def kickoff(kicking: Team, receiving: Team, onside: bool = False):
     if not onside:
         touchback = success(0.78)
         if touchback:
-            return 25, f"{kicking.Name} for a touchback.", 0, False, False
+            return 25, f"{kicking.Name} kick off for a touchback.", 0, False, False
         else:
             yards = rand_norm_int(22,8)
             if yards <= 10:
@@ -286,7 +287,9 @@ def point_after_touchdown(offense: Team, defense: Team, two_pt_conv: bool = Fals
     if not two_pt_conv:
         outcome = success(0.95)
         if outcome:
-            return 101, desc, 0, False
+            return 101, f"PAT attempt by {offense.return_starter("PK")} is good.", 0, False
+        else:
+            return 110, f"PAT attempt by {offense.return_starter("PK")} is no good.", 0, False
     else:
         result, desc, play_time, run_clock = generate_play(offense, defense, 1, 2, 2, 1, 5, 0)
         return result, f"{desc}", play_time, run_clock
@@ -301,27 +304,96 @@ home_score = 0
 away_score = 0
 teams_receive = [home, away]
 random.shuffle(teams_receive)
+offense = teams_receive[1]
+defense = teams_receive[0]
 pat = False
+kick_after_pat = False
+game_start = False
+down = 1
+to_go = 0
+dist = 65
 while game:
+    if offense.Name == home.Name:
+        margin = home_score - away_score
+    else:
+        margin = away_score - home_score
+    minute, second = convert_float_time(time)
+    print(f"Q{quarter}: {display_clock_time(minute, second)} | {down} & {to_go} | {yard_line(dist)} yard line.")
     special = False
-    if quarter % 2 == 1 and time == 0:
+    if quarter % 2 == 1 and time == 0 and game_start == False:
         special = True
         if quarter == 1:
-            result, desc, play_time, run_clock, onside_recovery = kickoff(teams_receive[0],teams_receive[1],False)
-            offense = teams_receive[1]
-            defense = teams_receive[0]
+            result, desc, play_time, run_clock, onside_recovery = kickoff(defense,offense,False)
+            time += play_time
+            game_start = True
         elif quarter == 3:
-            result, desc, play_time, run_clock, onside_recovery = kickoff(teams_receive[1],teams_receive[0],False)
             offense = teams_receive[0]
             defense = teams_receive[1]
+            result, desc, play_time, run_clock, onside_recovery = kickoff(defense,offense,False)
+            time += play_time
+        down = 1
+        to_go = 10
+        dist = 100 - result
     elif kick_after_pat:
         special = True
         kick_after_pat = False
         result, desc, play_time, run_clock, onside_recovery = kickoff(offense, defense, False)
+        down = 1
+        to_go = 10
+        dist = 100 - result
+        time += play_time
+        if not onside_recovery:
+            new_offense = defense
+            defense = offense
+            offense = new_offense
     elif pat:
         special = True
         kick_after_pat = True
         pat = False
         result, desc, play_time, run_clock = point_after_touchdown(offense, defense, go_for_two(quarter, time, margin))
+        if result == 101:
+            if home.Name == offense.Name:
+                home_score += 1
+            else:
+                away_score += 1
+        elif result == 110:
+            pass
+        elif result >= 2 and result < 101:
+            if home.Name == offense.Name:
+                home_score += 2
+            else:
+                away_score += 2
+        else:
+            pass
     if not special:
-        result, desc, run_clock = generate_play(offense, defense, down, to_go, dist, quarter, time, margin)
+        result, desc, play_time, run_clock = generate_play(offense, defense, down, to_go, dist, quarter, time, margin)
+        if score_check(result, dist)[1]:
+            if home.Name == offense.Name:
+                home_score += 6
+            else:
+                away_score += 6
+            pat = True
+            run_clock = False
+        elif result > to_go and down != 4:
+            down = 1
+            to_go = 10
+        else:
+            down += 1
+            to_go -= result
+        dist -= score_check(result, dist)[0]
+        time += play_time
+        if run_clock:
+            time += 0.5
+    if down > 4:
+        new_offense = defense
+        defense = offense
+        offense = new_offense
+        down = 1
+        to_go = 10
+        if dist == 0:
+            dist = 25
+        dist = 100 - dist
+    print(desc)
+    print(f"{home.Name} {home_score}, {away.Name} {away_score}\n")
+    if time > 15:
+        game = False
