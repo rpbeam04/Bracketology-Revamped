@@ -33,7 +33,7 @@ def parse_game(df: pd.DataFrame, date: datetime):
                 gender,
                 date)
 
-def log_games_on_date(date: datetime):
+def fetch_games_on_date(date: datetime):
     """
     Creates Game objects for all games on a given day.
     """
@@ -131,16 +131,16 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
     return tables
 
 def generate_date_range(start_date: datetime.datetime, end_date: datetime.datetime):
-    date_list = []
+    date_list: list[datetime.datetime] = []
     current_date = start_date
     while current_date <= end_date:
         date_list.append(current_date)
         current_date += datetime.timedelta(days=1)
     return date_list
 
-# Example usage:
-start_date = datetime.datetime(2024, 1, 1)
-end_date = datetime.datetime(2024, 1, 5)
-result = generate_date_range(start_date, end_date)
-
-print(result)
+def fetch_games(start_date: datetime.datetime, end_date: datetime.datetime):
+    date_range = generate_date_range(start_date, end_date)
+    games: list[Game] = []
+    for date in date_range:
+        games += fetch_games_on_date(date)
+    
