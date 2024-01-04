@@ -1,7 +1,6 @@
 import pandas as pd
 from classes import *
 import datetime
-import html5lib
 import re
 import os
 
@@ -83,7 +82,7 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
                 j = f"-{i}"
             tables[f"{page}{j}"] = table
     for key, table in tables.items():
-        df = table
+        df: pd.DataFrame = table
         if type(list(df.columns)[0]) is tuple:
             header = [pair[0] for pair in list(df.columns)]
             header2 = [pair[1] for pair in list(df.columns)]
@@ -130,3 +129,18 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
     with open("Stats/cache.txt","w") as f:
         f.write(str(datetime.datetime.now().isoformat()))
     return tables
+
+def generate_date_range(start_date: datetime.datetime, end_date: datetime.datetime):
+    date_list = []
+    current_date = start_date
+    while current_date <= end_date:
+        date_list.append(current_date)
+        current_date += datetime.timedelta(days=1)
+    return date_list
+
+# Example usage:
+start_date = datetime.datetime(2024, 1, 1)
+end_date = datetime.datetime(2024, 1, 5)
+result = generate_date_range(start_date, end_date)
+
+print(result)
