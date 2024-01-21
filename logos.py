@@ -120,3 +120,5 @@ with open("Logos/all_team_data.json","r") as f:
 
 for team in team_data.keys():
     fetch_logo(team_name=team, team_data=team_data)
+
+# Still not working correctly
