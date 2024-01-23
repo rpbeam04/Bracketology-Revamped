@@ -61,12 +61,32 @@ def parse_game(df: pd.DataFrame, date: datetime.datetime):
     except:
         return None
 
-def fetch_games_on_date(date: datetime.datetime):
+def fetch_games_on_date(date: datetime.datetime, refresh: bool = True):
     """
     Creates Game objects for all games on a given day.
     """
     url = fr'https://www.sports-reference.com/cbb/boxscores/index.cgi?month={date.month}&day={date.day}&year={date.year}'  # Replace with the actual URL
-    result = scrape_tables_from_url(url)
+    filename = fr"Webpages/{date.year}_{date.month}_{date.day}_games.html"
+
+    if refresh:
+        response = requests.get(url)
+        if response.status_code == 200:
+            with open(filename, 'w', encoding='utf-8') as html_file:
+                html_file.write(response.text)
+        else:
+            print(f"Failed to fetch webpage. Status code: {response.status_code}")
+            return None
+    
+    if not refresh and not os.path.exists(filename):
+        response = requests.get(url)
+        if response.status_code == 200:
+            with open(filename, 'w', encoding='utf-8') as html_file:
+                html_file.write(response.text)
+        else:
+            print(f"Failed to fetch webpage. Status code: {response.status_code}")
+            return None
+
+    result = scrape_tables_from_url(filename)
     games = []
     for df in result:
         games.append(parse_game(df, date))
@@ -178,9 +198,15 @@ def generate_date_range(start_date: datetime.datetime, end_date: datetime.dateti
         current_date += datetime.timedelta(days=1)
     return date_list
 
-def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, month=11, day=6), end_date: datetime.datetime = datetime.datetime(year=2024, month=3, day=10), sleep = 5):
+def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, month=11, day=6), end_date: datetime.datetime = datetime.datetime(year=2024, month=3, day=10), sleep: int = 5, refresh: bool = True):
     date_range = generate_date_range(start_date, end_date)
     games: list[Game] = []
     for date in date_range:
-        games += fetch_games_on_date(date)
+        games += fetch_games_on_date(date, refresh)
         time.sleep(sleep)
+
+def fetch_rpi_rankings(year: int = 2024, gender: str = "men"):
+    url = "https://www.warrennolan.com/basketball/2021/rpi-live"
+
+def fetch_net_rankings(year: int = 2024, gender: str = "men"):
+    pass
