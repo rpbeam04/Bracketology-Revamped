@@ -76,9 +76,10 @@ class Team:
                     del team_data["Roster"]
                 except:
                     pass
-                team = Team(team_data["Name"], team_data["Gender"])
+                team = Team(team_data["Name"], team_data["Gender"], team_data["Conference"])
                 del team_data["Name"]
                 del team_data["Gender"]
+                del team_data["Conference"]
                 for key, val in team_data.items():
                     if key == "Games":
                         setattr(team, key, [])
@@ -174,12 +175,12 @@ class Game:
             with open(filename, 'r') as json_file:
                 game_data_list = json.load(json_file)
             for game_data in game_data_list:
-                game = Game(Team.search_team(game_data["Home"]),
-                            Team.search_team(game_data["Away"]),
+                game = Game(Team.search_team(game_data["Home"], game_data["Gender"]),
+                            Team.search_team(game_data["Away"], game_data["Gender"]),
                             game_data["Home_Score"],
                             game_data["Away_Score"],
                             game_data["Gender"],
-                            datetime.fromisoformat(game_data["Date"])
+                            datetime.datetime.fromisoformat(game_data["Date"])
                             )
                 del game_data["Home"]
                 del game_data["Away"]

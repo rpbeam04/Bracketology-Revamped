@@ -30,7 +30,7 @@ def extract_name_rank(text: str):
         ranking = None
     return name, ranking
 
-def parse_game(df: pd.DataFrame, date: datetime):
+def parse_game(df: pd.DataFrame, date: datetime.datetime):
     """
     Takes a game dataframe and returns a Game object.
     """
@@ -61,7 +61,7 @@ def parse_game(df: pd.DataFrame, date: datetime):
     except:
         return None
 
-def fetch_games_on_date(date: datetime):
+def fetch_games_on_date(date: datetime.datetime):
     """
     Creates Game objects for all games on a given day.
     """
@@ -70,6 +70,7 @@ def fetch_games_on_date(date: datetime):
     games = []
     for df in result:
         games.append(parse_game(df, date))
+    print(f"Games on {date.month}/{date.day}/{date.year} scraped.")
     return [game for game in games if game]
 
 def scrape_tables_from_url(url):
