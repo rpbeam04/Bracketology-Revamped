@@ -1,1 +1,1362 @@
-[]
+[
+  {
+    "Home": "Auburn",
+    "Away": "South Carolina",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "NC State",
+    "Away": "North Carolina",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Arizona",
+    "Away": "California",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Non D1",
+    "Away": "Texas",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Louisville",
+    "Away": "Syracuse",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Nebraska",
+    "Away": "Wisconsin",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Virginia Tech",
+    "Away": "Virginia",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "San Diego",
+    "Away": "Gonzaga",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Ohio State",
+    "Away": "Wisconsin",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Georgia Tech",
+    "Away": "Notre Dame",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Albany (NY)",
+    "Away": "Vermont",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Elon",
+    "Away": "Campbell",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Massachusetts-Lowell",
+    "Away": "Maine",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Monmouth",
+    "Away": "Drexel",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Queens (NC)",
+    "Away": "Eastern Kentucky",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Saint Francis (PA)",
+    "Away": "Central Connecticut State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Nicholls State",
+    "Away": "Northwestern State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Stephen F. Austin",
+    "Away": "Utah Valley",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Vanderbilt",
+    "Away": "Mississippi",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "New Mexico State",
+    "Away": "Liberty",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Southern Utah",
+    "Away": "UT Arlington",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UC Santa Barbara",
+    "Away": "UC Davis",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Eastern Washington",
+    "Away": "Montana State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Pacific",
+    "Away": "Portland",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Portland",
+    "Away": "Pacific",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "San Francisco",
+    "Away": "San Diego",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Green Bay",
+    "Away": "IUPUI",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Texas-Rio Grande Valley",
+    "Away": "Utah Tech",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Kennesaw State",
+    "Away": "Austin Peay",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Queens (NC)",
+    "Away": "Lipscomb",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Binghamton",
+    "Away": "NJIT",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Central Arkansas",
+    "Away": "Jacksonville",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Coastal Carolina",
+    "Away": "Georgia Southern",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "East Carolina",
+    "Away": "Tulsa",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Eastern Illinois",
+    "Away": "Tennessee-Martin",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Lindenwood",
+    "Away": "Western Illinois",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Maine",
+    "Away": "Massachusetts-Lowell",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Niagara",
+    "Away": "Saint Peter's",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "North Alabama",
+    "Away": "North Florida",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "SIU Edwardsville",
+    "Away": "Little Rock",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Stonehill",
+    "Away": "Sacred Heart",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Tennessee State",
+    "Away": "Morehead State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Tennessee Tech",
+    "Away": "Southern Indiana",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Wake Forest",
+    "Away": "Miami (FL)",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Bryant",
+    "Away": "Maryland-Baltimore County",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Central Connecticut State",
+    "Away": "Saint Francis (PA)",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Chattanooga",
+    "Away": "Wofford",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Clemson",
+    "Away": "Boston College",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "College of Charleston",
+    "Away": "UNC Wilmington",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Detroit Mercy",
+    "Away": "Cleveland State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "East Tennessee State",
+    "Away": "Furman",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Fairleigh Dickinson",
+    "Away": "Non D1",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Florida International",
+    "Away": "Louisiana Tech",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Georgia Southern",
+    "Away": "Troy",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Georgia State",
+    "Away": "Appalachian State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Georgia",
+    "Away": "Tennessee",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Hofstra",
+    "Away": "Stony Brook",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Purdue Fort Wayne",
+    "Away": "Milwaukee",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Jacksonville State",
+    "Away": "UTEP",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "James Madison",
+    "Away": "Coastal Carolina",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Kennesaw State",
+    "Away": "Bellarmine",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Kentucky",
+    "Away": "Mississippi State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Le Moyne",
+    "Away": "Wagner",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Liberty",
+    "Away": "New Mexico State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Non D1",
+    "Away": "Fairleigh Dickinson",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Louisiana Tech",
+    "Away": "Florida International",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Marist",
+    "Away": "Quinnipiac",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Marshall",
+    "Away": "Old Dominion",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Maryland-Baltimore County",
+    "Away": "Bryant",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Mount St. Mary's",
+    "Away": "Iona",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "New Orleans",
+    "Away": "Houston Christian",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "NJIT",
+    "Away": "Binghamton",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "North Carolina A&T",
+    "Away": "Hampton",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Oakland",
+    "Away": "Robert Morris",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Pittsburgh",
+    "Away": "Duke",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Rider",
+    "Away": "Fairfield",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Sacred Heart",
+    "Away": "Stonehill",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Sam Houston",
+    "Away": "Western Kentucky",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Siena",
+    "Away": "Manhattan",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Southeastern Louisiana",
+    "Away": "Incarnate Word",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Southern Methodist",
+    "Away": "Tulane",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Southern Mississippi",
+    "Away": "Louisiana",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UT Arlington",
+    "Away": "Southern Utah",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Towson",
+    "Away": "Northeastern",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Troy",
+    "Away": "Louisiana-Monroe",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Vermont",
+    "Away": "Albany (NY)",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Wagner",
+    "Away": "Le Moyne",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "William & Mary",
+    "Away": "Delaware",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Wright State",
+    "Away": "Youngstown State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Abilene Christian",
+    "Away": "Tarleton State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Central Arkansas",
+    "Away": "Florida Gulf Coast",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Denver",
+    "Away": "Kansas City",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Eastern Illinois",
+    "Away": "Tennessee-Martin",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Lindenwood",
+    "Away": "Western Illinois",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "McNeese State",
+    "Away": "Texas A&M-Commerce",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Memphis",
+    "Away": "South Florida",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Kansas City",
+    "Away": "Denver",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Omaha",
+    "Away": "St. Thomas",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "North Alabama",
+    "Away": "Stetson",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "North Dakota State",
+    "Away": "South Dakota State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "North Dakota",
+    "Away": "South Dakota",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Northern Arizona",
+    "Away": "Weber State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Northern Colorado",
+    "Away": "Idaho State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "South Dakota",
+    "Away": "North Dakota",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "South Dakota State",
+    "Away": "North Dakota State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "SIU Edwardsville",
+    "Away": "Little Rock",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "St. Thomas",
+    "Away": "Omaha",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Tarleton State",
+    "Away": "Abilene Christian",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Tennessee State",
+    "Away": "Morehead State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Tennessee Tech",
+    "Away": "Southern Indiana",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Texas State",
+    "Away": "South Alabama",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Utah Valley",
+    "Away": "Stephen F. Austin",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Weber State",
+    "Away": "Northern Arizona",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Arizona State",
+    "Away": "Stanford",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Arkansas",
+    "Away": "Alabama",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Cal State Northridge",
+    "Away": "UC San Diego",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UC Davis",
+    "Away": "UC Santa Barbara",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UC Irvine",
+    "Away": "Cal Poly",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Utah Tech",
+    "Away": "Texas-Rio Grande Valley",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Grand Canyon",
+    "Away": "Seattle",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Idaho State",
+    "Away": "Northern Colorado",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Idaho",
+    "Away": "Montana",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Loyola Marymount",
+    "Away": "Santa Clara",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Montana",
+    "Away": "Idaho",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Montana State",
+    "Away": "Eastern Washington",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Pepperdine",
+    "Away": "San Francisco",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Seattle",
+    "Away": "Grand Canyon",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UTEP",
+    "Away": "Jacksonville State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Western Kentucky",
+    "Away": "Sam Houston",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Cal Poly",
+    "Away": "UC Irvine",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Cal State Bakersfield",
+    "Away": "Long Beach State",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Cal State Fullerton",
+    "Away": "Hawaii",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UC San Diego",
+    "Away": "Cal State Northridge",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Long Beach State",
+    "Away": "Cal State Bakersfield",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "women",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "Southern California",
+    "Away": "Oregon",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  },
+  {
+    "Home": "UCLA",
+    "Away": "Non D1",
+    "Home_Score": 0,
+    "Away_Score": 0,
+    "Gender": "men",
+    "Date": "2024-02-01T00:00:00",
+    "Neutral": false,
+    "Complete": false
+  }
+]
