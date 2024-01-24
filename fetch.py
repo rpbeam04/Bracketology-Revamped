@@ -71,26 +71,28 @@ def fetch_games_on_date(date: datetime.datetime, refresh: bool = True):
     if refresh:
         response = requests.get(url)
         if response.status_code == 200:
+            print(f"Games on {date.month}/{date.day}/{date.year} scraped.")
             with open(filename, 'w', encoding='utf-8') as html_file:
                 html_file.write(response.text)
         else:
             print(f"Failed to fetch webpage. Status code: {response.status_code}")
             return None
-    
-    if not refresh and not os.path.exists(filename):
+    elif not refresh and not os.path.exists(filename):
         response = requests.get(url)
         if response.status_code == 200:
+            print(f"Games on {date.month}/{date.day}/{date.year} scraped.")
             with open(filename, 'w', encoding='utf-8') as html_file:
                 html_file.write(response.text)
         else:
             print(f"Failed to fetch webpage. Status code: {response.status_code}")
             return None
+    else:
+        print(f"Games on {date.month}/{date.day}/{date.year} loaded locally.")
 
     result = scrape_tables_from_url(filename)
     games = []
     for df in result:
         games.append(parse_game(df, date))
-    print(f"Games on {date.month}/{date.day}/{date.year} scraped.")
     return [game for game in games if game]
 
 def scrape_tables_from_url(url):
