@@ -40,9 +40,11 @@ def parse_game(df: pd.DataFrame, date: datetime.datetime):
     away, away_rank = extract_name_rank(df.iloc[0,0])
     try:
         gender = df.iloc[2,1].split("'")[0].lower()
+        if gender.lower() == "nit":
+            gender = "men"
     except:
         gender = "women"
-        print("Error (game): No gender.")
+        print("Error (game): No gender, default to women's.")
     try:
         home_score = int(df.iloc[1,1])
     except:
@@ -200,7 +202,7 @@ def generate_date_range(start_date: datetime.datetime, end_date: datetime.dateti
         current_date += datetime.timedelta(days=1)
     return date_list
 
-def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, month=11, day=6), end_date: datetime.datetime = datetime.datetime(year=2024, month=3, day=10), sleep: int = 5, refresh: bool = True):
+def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, month=11, day=6), end_date: datetime.datetime = datetime.datetime(year=2024, month=3, day=10), sleep: int = 0, refresh: bool = True):
     date_range = generate_date_range(start_date, end_date)
     games: list[Game] = []
     for date in date_range:

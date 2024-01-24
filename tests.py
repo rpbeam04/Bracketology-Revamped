@@ -18,13 +18,14 @@ Team.create_teams_from_json()
 Team.clean_duplicates()
 #pprint(Team.team_list[0].__dict__)
 
-games = fetch.fetch_games(sleep=1, refresh=False)
-#games = fetch.fetch_games_on_date(dt(2024,2,4), refresh=False)
+games = fetch.fetch_games(refresh=False)
+#games = fetch.fetch_games_on_date(dt(2023,11,22), refresh=False)
+Game.write_games_to_json()
 
 print(len(Game.game_list))
 #pprint(Game.game_list[0].__dict__)
 
 team: Team
 for team in Team.team_list:
-    if len(team.Games) < 1 or len(team.Games) > 30:
+    if len(team.Games) < 1:
         print(team.Name, team.Gender, len(team.Games))
