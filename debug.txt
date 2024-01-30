@@ -1,0 +1,814 @@
+PS C:\Users\rpbea\Documents\VSCode Projects\Bracketology_2> & "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/.venv/Scripts/python.exe" "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/tests.py"
+724
+Team List: 724 --> 724 teams.
+Games on 2/3/2024 scraped.
+273
+{'Conf': 'Big 12',
+ 'Conference': 'Big 12',
+ 'Games': [<classes.Game object at 0x0000024C96BB32C0>],
+ 'Gender': 'men',
+ 'Name': 'Houston',
+ 'Roster': []}
+PS C:\Users\rpbea\Documents\VSCode Projects\Bracketology_2> & "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/.venv/Scripts/python.exe" "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/tests.py"
+724
+Team List: 724 --> 724 teams.
+Games on 2/3/2024 scraped.
+273
+{'Conf': 'Big 12',
+ 'Conference': 'Big 12',
+ 'Games': [<classes.Game object at 0x0000011194D264B0>],
+ 'Gender': 'men',
+ 'Name': 'Houston',
+ 'Roster': []}
+PS C:\Users\rpbea\Documents\VSCode Projects\Bracketology_2> & "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/.venv/Scripts/python.exe" "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/tests.py"
+724
+Team List: 724 --> 724 teams.
+Games on 2/3/2024 loaded locally.
+273
+{'Conf': 'Big 12',
+ 'Conference': 'Big 12',
+ 'Games': [<classes.Game object at 0x000001C905225820>],
+ 'Gender': 'men',
+ 'Name': 'Houston',
+ 'Roster': []}
+PS C:\Users\rpbea\Documents\VSCode Projects\Bracketology_2> & "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/.venv/Scripts/python.exe" "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/tests.py"
+724
+Team List: 724 --> 724 teams.
+Games on 2/4/2024 scraped.
+60
+{'Conf': 'Pac-12',
+ 'Conference': 'Pac-12',
+ 'Games': [<classes.Game object at 0x00000238EA81D880>],
+ 'Gender': 'men',
+ 'Name': 'Arizona',
+ 'Roster': []}
+PS C:\Users\rpbea\Documents\VSCode Projects\Bracketology_2> & "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/.venv/Scripts/python.exe" "c:/Users/rpbea/Documents/VSCode Projects/Bracketology_2/tests.py"
+Team List: 724 --> 724 teams.
+Games on 11/6/2023 scraped.
+Games on 11/7/2023 scraped.
+Games on 11/8/2023 scraped.
+Games on 11/9/2023 scraped.
+Error (game): No gender.
+Games on 11/10/2023 scraped.
+Games on 11/11/2023 scraped.
+Games on 11/12/2023 scraped.
+Games on 11/13/2023 scraped.
+Games on 11/14/2023 scraped.
+Error (game): No gender.
+Games on 11/15/2023 scraped.
+Games on 11/16/2023 scraped.
+Games on 11/17/2023 scraped.
+Games on 11/18/2023 scraped.
+Games on 11/19/2023 scraped.
+Games on 11/20/2023 scraped.
+Games on 11/21/2023 scraped.
+Games on 11/22/2023 scraped.
+Error (search_team): No Oregon State, nit found.
+Error (search_team): No Baylor, nit found.
+Error (search_team): No _, women found.
+Error (search_team): No Pittsburgh, nit found.
+Error (search_team): No Florida, nit found.
+Games on 11/23/2023 scraped.
+Games on 11/24/2023 scraped.
+Error (search_team): No _, nit found.
+Error (search_team): No _, nit found.
+Error (search_team): No _, women found.
+Error (search_team): No Pittsburgh, nit found.
+Error (search_team): No _, nit found.
+Games on 11/25/2023 scraped.
+Games on 11/26/2023 scraped.
+Error (search_team): No _, women found.
+Games on 11/27/2023 scraped.
+Games on 11/28/2023 scraped.
+Error (search_team): No _, men found.
+Games on 11/29/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 11/30/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 12/1/2023 scraped.
+Games on 12/2/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 12/3/2023 scraped.
+Error (search_team): No _, women found.
+Games on 12/4/2023 scraped.
+Error (search_team): No _, men found.
+Games on 12/5/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 12/6/2023 scraped.
+Error (search_team): No Bloomfield, women found.
+Error (search_team): No Fairleigh Dickinson-Florham, men found.
+Error (search_team): No Lyndon State, men found.
+Error (search_team): No Coe, men found.
+Games on 12/7/2023 scraped.
+Error (search_team): No Berea, men found.
+Error (search_team): No Rust, men found.
+Error (search_team): No Bethel (IN), men found.
+Games on 12/8/2023 scraped.
+Error (search_team): No Colby-Sawyer, men found.
+Games on 12/9/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No Central Baptist, women found.
+Error (search_team): No Montana Tech, men found.
+Error (search_team): No Western Oregon, men found.
+Error (search_team): No Elizabeth City State, men found.
+Error (search_team): No George Fox, men found.
+Error (search_team): No Ozark Christian College, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Northwest Nazarene, men found.
+Games on 12/10/2023 scraped.
+Error (search_team): No Arkansas-Fort Smith, men found.
+Error (search_team): No Ohio Dominican, men found.
+Error (search_team): No Tennessee Wesleyan, men found.
+Error (search_team): No North Carolina-Pembroke, women found.
+Error (search_team): No Buffalo State, men found.
+Error (search_team): No Oak Hills, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Peru State, women found.
+Error (search_team): No Bethany (WV), men found.
+Error (search_team): No Master's, women found.
+Error (search_team): No Hawaii Pacific, men found.
+Games on 12/11/2023 scraped.
+Error (search_team): No Wheeling Jesuit, women found.
+Error (search_team): No Gallaudet, men found.
+Error (search_team): No Salem International, women found.
+Error (search_team): No Wiley, women found.
+Error (search_team): No Mary Baldwin, men found.
+Error (search_team): No Oklahoma Wesleyan, women found.
+Games on 12/12/2023 scraped.
+Error (search_team): No Emmanuel (MA), women found.
+Error (search_team): No Bethel (TN), men found.
+Error (search_team): No Tabor College, men found.
+Error (search_team): No Sterling College, men found.
+Games on 12/13/2023 scraped.
+Error (search_team): No Portland Bible, men found.
+Error (search_team): No Bryn Athyn, men found.
+Error (search_team): No Freed-Hardeman, women found.
+Games on 12/14/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No Lancaster Bible, women found.
+Error (search_team): No Quincy, women found.
+Error (search_team): No _, women found.
+Error (search_team): No Centenary (LA), women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No University of the Cumberlands (KY), men found.
+Error (search_team): No Birmingham-Southern, men found.
+Games on 12/15/2023 scraped.
+Error (search_team): No Grand Valley State, women found.
+Error (search_team): No Bridgewater (VA), men found.
+Error (search_team): No Saginaw Valley, men found.
+Error (search_team): No Tusculum, men found.
+Error (search_team): No _, women found.
+Games on 12/16/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Bryan, women found.
+Error (search_team): No Farmingdale State, women found.
+Error (search_team): No Lynchburg, men found.
+Error (search_team): No St. Edward's, women found.
+Error (search_team): No Wisconsin-Stevens Point, women found.
+Error (search_team): No SAGU Amer. Indian Coll., men found.
+Games on 12/17/2023 scraped.
+Error (search_team): No Colorado State-Pueblo, men found.
+Error (search_team): No Montevallo, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Washington College, men found.
+Error (search_team): No Miami-Hamilton, men found.
+Error (search_team): No New Jersey City, women found.
+Error (search_team): No Saint Vincent (PA), men found.
+Error (search_team): No Hartford, men found.
+Error (search_team): No Kentucky Christian, men found.
+Error (search_team): No Blackburn, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Crown (MN), men found.
+Error (search_team): No Lindsey Wilson, men found.
+Games on 12/18/2023 scraped.
+Error (search_team): No Calumet College, men found.
+Error (search_team): No Penn State-Allegheny, men found.
+Error (search_team): No Texas Lutheran, men found.
+Error (search_team): No Davis & Elkins, women found.
+Error (search_team): No Westminster (PA), men found.
+Error (search_team): No Thomas (ME), men found.
+Error (search_team): No Houghton, men found.
+Error (search_team): No Fairmont State, women found.
+Error (search_team): No Central Christian, men found.
+Error (search_team): No Adams State, men found.
+Error (search_team): No Cal State East Bay, women found.
+Games on 12/19/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No Saint Martin's, women found.
+Error (search_team): No Louisiana State-Shreveport, women found.
+Error (search_team): No Goucher, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No Wisconsin-Parkside, women found.
+Error (search_team): No Cal St Dominguez Hills, men found.
+Games on 12/20/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No William Woods, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No Cal Lutheran, women found.
+Games on 12/21/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No Aquinas, women found.
+Error (search_team): No _, men found.
+Error (search_team): No Thomas University, men found.
+Error (search_team): No Rosemont, men found.
+Error (search_team): No Milwaukee Engineering, men found.
+Error (search_team): No Cornell (IA), women found.
+Games on 12/22/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No Penn State New Kensington, men found.
+Error (search_team): No Greensboro, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Medgar Evers, men found.
+Error (search_team): No Kean, men found.
+Error (search_team): No Muskingum, men found.
+Error (search_team): No Siena Heights, men found.
+Error (search_team): No Brewton-Parker, men found.
+Error (search_team): No Rockford, men found.
+Error (search_team): No Florida Memorial, men found.
+Error (search_team): No Delaware Valley, men found.
+Games on 12/23/2023 scraped.
+Games on 12/24/2023 scraped.
+Games on 12/25/2023 scraped.
+An error occurred: No tables found
+URL: Webpages/2023_12_25_games.html
+Games on 12/26/2023 scraped.
+An error occurred: No tables found
+URL: Webpages/2023_12_26_games.html
+Games on 12/27/2023 scraped.
+Error (search_team): No Arizona Christian, women found.
+Games on 12/28/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No Fort Valley State, men found.
+Error (search_team): No Truman State, men found.
+Error (search_team): No _, men found.
+Games on 12/29/2023 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No Arcadia, women found.
+Error (search_team): No _, women found.
+Error (search_team): No Talladega, men found.
+Error (search_team): No Elms, men found.
+Error (search_team): No _, men found.
+Error (search_team): No Randolph, women found.
+Error (search_team): No Converse, women found.
+Error (search_team): No West Virginia State, women found.
+Error (search_team): No Southwestern Oklahoma State, men found.
+Error (search_team): No Eastern New Mexico, men found.
+Games on 12/30/2023 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No Coker, men found.
+Error (search_team): No Chestnut Hill, women found.
+Error (search_team): No St. Elizabeth, men found.
+Error (search_team): No Northwood, men found.
+Error (search_team): No La Roche, women found.
+Error (search_team): No Merchant Marine Academy, men found.
+Error (search_team): No Bridgewater State, women found.
+Error (search_team): No Francis Marion, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No Averett, women found.
+Error (search_team): No _, men found.
+Error (search_team): No Mercy, men found.
+Error (search_team): No Flagler, women found.
+Error (search_team): No Concordia (TX), women found.
+Error (search_team): No Hillsdale, women found.
+Error (search_team): No _, men found.
+Error (search_team): No Marywood, men found.
+Error (search_team): No _, women found.
+Error (search_team): No Cal State Maritime, men found.
+Error (search_team): No _, men found.
+Games on 12/31/2023 scraped.
+Error (search_team): No Emerson, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 1/1/2024 scraped.
+Games on 1/2/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No Dallas, men found.
+Games on 1/3/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No Truett-McConnell, men found.
+Games on 1/4/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No Mount Saint Vincent, men found.
+Error (search_team): No Livingstone, women found.
+Error (search_team): No _, men found.
+Games on 1/5/2024 scraped.
+Error (search_team): No _, women found.
+Games on 1/6/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 1/7/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 1/8/2024 scraped.
+Games on 1/9/2024 scraped.
+Error (search_team): No _, men found.
+Games on 1/10/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No Kuyper College, women found.
+Error (search_team): No _, men found.
+Games on 1/11/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 1/12/2024 scraped.
+Error (search_team): No _, women found.
+Games on 1/13/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 1/14/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 1/15/2024 scraped.
+Error (search_team): No Morehouse, men found.
+Games on 1/16/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 1/17/2024 scraped.
+Games on 1/18/2024 scraped.
+Error (search_team): No _, men found.
+Games on 1/19/2024 scraped.
+Error (search_team): No _, women found.
+Games on 1/20/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 1/21/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No Saint Xavier (IL), men found.
+Games on 1/22/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No Mary Washington, women found.
+Error (search_team): No _, women found.
+Error (search_team): No Queens (NY), men found.
+Games on 1/23/2024 scraped.
+Error (search_team): No Wells, men found.
+Games on 1/24/2024 scraped.
+Error (search_team): No _, men found.
+Games on 1/25/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Games on 1/26/2024 scraped.
+Error (search_team): No _, women found.
+Games on 1/27/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 1/28/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 1/29/2024 scraped.
+Games on 1/30/2024 scraped.
+Games on 1/31/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/1/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 2/2/2024 scraped.
+Games on 2/3/2024 loaded locally.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/4/2024 loaded locally.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 2/5/2024 scraped.
+Games on 2/6/2024 scraped.
+Error (search_team): No _, men found.
+Games on 2/7/2024 scraped.
+Error (search_team): No _, women found.
+Games on 2/8/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Games on 2/9/2024 scraped.
+Error (search_team): No _, women found.
+Games on 2/10/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/11/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 2/12/2024 scraped.
+Games on 2/13/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/14/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 2/15/2024 scraped.
+Error (search_team): No _, women found.
+Games on 2/16/2024 scraped.
+Error (search_team): No _, women found.
+Games on 2/17/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/18/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 2/19/2024 scraped.
+Error (search_team): No Indiana-Northwest, men found.
+Games on 2/20/2024 scraped.
+Error (search_team): No _, men found.
+Games on 2/21/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 2/22/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 2/23/2024 scraped.
+Error (search_team): No _, women found.
+Games on 2/24/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/25/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 2/26/2024 scraped.
+Error (search_team): No _, men found.
+Games on 2/27/2024 scraped.
+Error (search_team): No _, women found.
+Games on 2/28/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 2/29/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 3/1/2024 scraped.
+Games on 3/2/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, women found.
+Error (search_team): No _, men found.
+Games on 3/3/2024 scraped.
+Error (search_team): No _, women found.
+Error (search_team): No _, women found.
+Games on 3/4/2024 scraped.
+Error (search_team): No _, men found.
+Games on 3/5/2024 scraped.
+Error (search_team): No _, men found.
+Games on 3/6/2024 scraped.
+Games on 3/7/2024 scraped.
+Error (search_team): No _, men found.
+Games on 3/8/2024 scraped.
+Games on 3/9/2024 scraped.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Error (search_team): No _, men found.
+Games on 3/10/2024 scraped.
+11283
+Purdue men 31
+North Carolina men 31
+Tennessee men 31
+Illinois men 31
+Duke men 31
+Connecticut men 31
+Creighton men 31
+Michigan State men 31
+Marquette men 31
+Wisconsin men 31
+New Mexico men 31
+Florida Atlantic men 31
+Colorado State men 31
+Xavier men 31
+San Diego State men 31
+St. John's (NY) men 31
+Iowa men 31
+Villanova men 31
+Saint Mary's (CA) men 31
+Indiana State men 31
+Clemson men 31
+Dayton men 31
+Wake Forest men 31
+Ohio State men 31
+Southern Methodist men 31
+Utah State men 31
+Providence men 31
+Texas A&M men 31
+Miami (FL) men 31
+Nevada men 32
+Butler men 31
+Boise State men 31
+Kansas State men 31
+Nebraska men 31
+San Francisco men 31
+Memphis men 31
+Virginia Tech men 31
+NC State men 31
+Florida State men 31
+Virginia men 31
+Northwestern men 31
+Drake men 31
+Michigan men 31
+Nevada-Las Vegas men 31
+Bradley men 32
+South Carolina men 31
+Mississippi men 31
+UC Irvine men 32
+Maryland men 31
+Saint Joseph's men 31
+Minnesota men 31
+Boston College men 31
+James Madison men 31
+Rutgers men 31
+Samford men 31
+Virginia Commonwealth men 31
+Penn State men 31
+Southern Illinois men 31
+Indiana men 31
+George Mason men 31
+Duquesne men 31
+Appalachian State men 31
+Akron men 31
+McNeese State men 31
+Oklahoma State men 31
+Louisiana Tech men 31
+Georgia Tech men 31
+Northern Iowa men 31
+Liberty men 31
+Loyola (IL) men 31
+California men 32
+Santa Clara men 31
+UC San Diego men 32
+Weber State men 31
+West Virginia men 31
+College of Charleston men 31
+Seattle men 31
+Notre Dame men 31
+George Washington men 31
+Davidson men 31
+Drexel men 31
+Toledo men 31
+Wichita State men 31
+Montana men 31
+High Point men 31
+Hofstra men 31
+Oakland men 31
+Vermont men 31
+Western Carolina men 31
+Stephen F. Austin men 31
+Georgetown men 31
+Eastern Washington men 31
+Hawaii men 32
+Murray State men 31
+Delaware men 31
+UNC Greensboro men 31
+Morehead State men 31
+Troy men 31
+Belmont men 31
+Denver men 31
+Missouri State men 31
+UAB men 31
+Furman men 31
+St. Thomas men 31
+Youngstown State men 31
+Illinois-Chicago men 31
+Winthrop men 31
+Louisiana men 31
+Purdue Fort Wayne men 31
+Louisville men 31
+Wright State men 31
+South Dakota State men 31
+Fordham men 31
+California Baptist men 31
+Rhode Island men 31
+Lipscomb men 31
+Kent State men 31
+San Jose State men 31
+UT Arlington men 31
+Towson men 31
+Jacksonville State men 31
+Colgate men 31
+Longwood men 31
+Monmouth men 31
+Pepperdine men 32
+Saint Louis men 31
+Ohio men 31
+Arkansas State men 31
+Iona men 31
+Long Beach State men 32
+UNC Asheville men 31
+Tarleton State men 31
+Chattanooga men 31
+Bryant men 31
+Evansville men 31
+Wyoming men 31
+Bowling Green State men 31
+San Diego men 31
+Temple men 31
+Cleveland State men 31
+Radford men 31
+Cal State Northridge men 32
+La Salle men 31
+The Citadel men 31
+Green Bay men 31
+UTEP men 31
+Wofford men 31
+Fresno State men 31
+Stetson men 31
+Fairfield men 31
+Northern Kentucky men 31
+Sam Houston men 31
+Illinois State men 31
+Northeastern men 31
+Rice men 31
+Northern Colorado men 31
+East Tennessee State men 31
+Southern men 31
+Norfolk State men 31
+Gardner-Webb men 31
+Miami (OH) men 31
+South Alabama men 31
+Southern Utah men 31
+Abilene Christian men 31
+Stony Brook men 31
+SIU Edwardsville men 31
+Montana State men 31
+Austin Peay men 31
+Omaha men 31
+DePaul men 31
+Northern Illinois men 31
+Cal State Fullerton men 32
+Albany (NY) men 31
+Mount St. Mary's men 31
+Old Dominion men 31
+New Mexico State men 31
+Florida International men 31
+Lamar men 31
+Texas State men 31
+Maine men 31
+Milwaukee men 31
+Little Rock men 31
+Ball State men 31
+Central Connecticut State men 31
+Cal State Bakersfield men 31
+Tennessee State men 31
+North Dakota State men 31
+Southern Mississippi men 31
+Western Michigan men 31
+Mercer men 31
+UC Riverside men 32
+Portland State men 31
+Texas A&M-Corpus Christi men 31
+Valparaiso men 31
+North Florida men 31
+Western Illinois men 31
+Howard men 31
+Robert Morris men 31
+American men 31
+Tennessee-Martin men 31
+Alabama State men 32
+Middle Tennessee men 31
+Bucknell men 31
+Florida Gulf Coast men 31
+Idaho men 31
+Kansas City men 31
+Sacred Heart men 31
+Campbell men 31
+Portland men 32
+Rider men 31
+Sacramento State men 31
+Boston University men 31
+Southeastern Louisiana men 31
+Presbyterian men 32
+Elon men 31
+Central Michigan men 31
+South Carolina Upstate men 0
+Eastern Illinois men 31
+Queens (NC) men 31
+Lafayette men 31
+North Dakota men 31
+Bellarmine men 31
+Texas-Rio Grande Valley men 31
+Texas A&M-Commerce men 31
+South Dakota men 31
+William & Mary men 31
+Maryland-Baltimore County men 31
+New Orleans men 31
+Cal Poly men 31
+Buffalo men 31
+Southern Indiana men 31
+Eastern Michigan men 31
+Le Moyne men 31
+Prairie View men 31
+Grambling men 31
+Georgia Southern men 31
+Army men 31
+Bethune-Cookman men 32
+North Carolina A&T men 31
+Northern Arizona men 32
+Central Arkansas men 32
+Alcorn State men 31
+Fairleigh Dickinson men 31
+Tennessee Tech men 31
+South Carolina State men 31
+Loyola (MD) men 31
+Incarnate Word men 31
+Arkansas-Pine Bluff men 31
+Lindenwood men 31
+Pacific men 31
+Alabama A&M men 31
+Detroit Mercy men 31
+Hampton men 32
+Holy Cross men 31
+IUPUI men 31
+Southeast Missouri State men 31
+Siena men 31
+Stonehill men 32
+Long Island University men 0
+VMI men 31
+Non D1 men 471
+Louisville women 31
+Gonzaga women 31
+Washington State women 31
+Alabama women 31
+Drake women 31
+Richmond women 31
+Belmont women 31
+Boston College women 31
+Rhode Island women 31
+DePaul women 31
+Cleveland State women 31
+Eastern Washington women 31
+Ball State women 31
+Grand Canyon women 31
+Brigham Young women 31
+Illinois State women 31
+James Madison women 31
+Tulsa women 31
+Providence women 31
+Montana State women 31
+Rutgers women 31
+Illinois-Chicago women 31
+South Dakota women 31
+Northern Arizona women 31
+San Diego State women 31
+Boise State women 31
+Pittsburgh women 31
+Georgia Southern women 31
+Stephen F. Austin women 31
+Purdue Fort Wayne women 31
+Louisiana Tech women 31
+Liberty women 31
+Florida International women 31
+Wright State women 31
+Texas State women 31
+Arkansas-Pine Bluff women 31
+New Mexico women 31
+Air Force women 31
+Nevada women 31
+Fresno State women 31
+UC San Diego women 31
+St. Thomas women 31
+Utah Tech women 31
+Kansas City women 31
+Bethune-Cookman women 31
+Coastal Carolina women 31
+Detroit Mercy women 31
+Eastern Illinois women 31
+South Alabama women 31
+Southern women 32
+Elon women 31
+Presbyterian women 31
+SIU Edwardsville women 31
+Bradley women 33
+South Carolina Upstate women 0
+Evansville women 31
+Long Island University women 0
+Mississippi Valley State women 31
+Non D1 women 322

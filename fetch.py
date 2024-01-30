@@ -189,7 +189,7 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
         df = df.drop(columns = [col for col in list(df.columns) if "Unnamed" in col])
         df = df.reset_index(drop = True)
         tables[key] = df
-        df.to_csv(fr"Stats/{gender.lower()}/{key}.csv")
+        df.to_csv(fr"Stats/{gender.lower()}/{key}.csv", index=False)
     with open(fr"Stats/{gender.lower()}/cache.txt","w") as f:
         f.write(str(datetime.datetime.now().isoformat()))
     return tables
@@ -210,7 +210,34 @@ def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, mon
         time.sleep(sleep)
 
 def fetch_rpi_rankings(year: int = 2024, gender: str = "men"):
-    url = "https://www.warrennolan.com/basketball/2021/rpi-live"
+    gender_flag = ""
+    if gender == "women":
+        gender_flag = "w"
+    url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/rpi-live"
+    rpi_ranks = scrape_tables_from_url(url)[0]
+    rpi_ranks = rpi_ranks.drop(columns= ["RPI Delta"])
+    rpi_ranks = rpi_ranks[rpi_ranks["Team"] != "Team"]
+    rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
+    rpi_ranks = rpi_ranks.reset_index(drop=True)
+    file_path = fr"Metrics/{year}"
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
+    rpi_ranks.to_csv(fr"{file_path}/RPI-{gender}.csv", index=False)
+    return rpi_ranks
 
 def fetch_net_rankings(year: int = 2024, gender: str = "men"):
-    pass
+    gender_flag = ""
+    if gender == "women":
+        gender_flag = "w"
+    url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/net"
+    net_ranks = scrape_tables_from_url(url)[0]
+    net_ranks = net_ranks.drop(columns= ["NET Delta"])
+    file_path = fr"Metrics/{year}"
+    if not os.path.exists(file_path):
+        os.makedirs(file_path)
+    net_ranks.to_csv(fr"{file_path}/NET-{gender}.csv", index=False)
+    # Conference NET
+    url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/net-conference"
+    net_conf = scrape_tables_from_url(url)[0]
+    net_conf.to_csv(fr"{file_path}/NET-conf-{gender}.csv", index=False)
+    return net_ranks, net_conf

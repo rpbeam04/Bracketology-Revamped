@@ -15,11 +15,13 @@ class Team:
     def __str__(self):
         return f"<{self.Name} ({self.Gender})>"
     
-    team_list: list = []
+    team_list: list['Team'] = []
 
     @classmethod
     def search_team(cls, name: str, gender: str):
         team: Team
+        if name == "_":
+            return None
         with open('Teams/alias.json', 'r', encoding='utf-8') as f:
             aliases: dict = json.load(f)
         if name in list(aliases.keys()):
@@ -140,11 +142,12 @@ class Game:
     def __str__(self):
         return f"<{self.Away.Name} @ {self.Home.Name} ({self.Home.Gender[0]})| {self.Date.month}-{self.Date.day}>"
     
-    game_list = []
+    game_list: list['Game'] = []
 
     @classmethod
     def search_games(cls, home: str, away: str, gender: str):
-        games = []
+        games: list[Game] = []
+        game: Game
         for game in Game.game_list:
             if game.Away.Name == away and game.Home.Name == home and game.Gender == gender:
                 games.append(game)
@@ -204,3 +207,11 @@ class Player:
 
     def __str__(self):
         return f"{self.Name} ({self.Pos})"
+
+class Conference:
+    def __init__(self, name):
+        self.Name = name
+        self.Teams = []
+        Conference.conf_list.append(self)
+    
+    conf_list: list['Conference'] = []
