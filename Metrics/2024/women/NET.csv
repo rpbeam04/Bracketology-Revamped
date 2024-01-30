@@ -7,16 +7,16 @@ Iowa,19-2,5
 Utah,13-6,6
 UCLA,16-3,7
 Kansas State,20-1,8
-North Carolina State,18-2,9
+NC State,18-2,9
 Notre Dame,15-4,10
-LSU,18-4,11
-Indiana,17-2,12
+Indiana,17-2,11
+Louisiana State,18-4,12
 Gonzaga,20-2,13
 Baylor,16-3,14
 Ohio State,16-3,15
 Virginia Tech,16-4,16
 Colorado,17-3,17
-USC,14-4,18
+Southern California,14-4,18
 Oregon State,17-3,19
 Michigan State,15-5,20
 Washington State,15-6,21
@@ -25,9 +25,9 @@ Duke,13-7,23
 West Virginia,17-2,24
 Creighton,16-3,25
 Penn State,15-5,26
-Nebraska,13-7,27
-UNLV,17-2,28
-Mississippi State,17-5,29
+Mississippi State,17-5,27
+Nebraska,13-7,28
+Nevada-Las Vegas,17-2,29
 Princeton,15-3,30
 Marquette,16-4,31
 North Carolina,15-6,32
@@ -38,8 +38,8 @@ Minnesota,14-6,36
 Alabama,16-6,37
 TCU,14-5,38
 Iowa State,12-7,39
-Washington,13-6,40
-Miami (FL),13-6,41
+Miami (FL),13-6,40
+Washington,13-6,41
 Syracuse,17-3,42
 Florida State,15-7,43
 Oklahoma,13-6,44
@@ -47,10 +47,10 @@ Arizona,11-10,45
 Michigan,14-7,46
 Villanova,13-7,47
 Middle Tennessee,16-4,48
-George Mason,15-3,49
-Kansas,10-10,50
-Vanderbilt,17-4,51
-Ole Miss,15-5,52
+Vanderbilt,17-4,49
+George Mason,15-3,50
+Kansas,10-10,51
+Mississippi,15-5,52
 Saint Joseph's,19-2,53
 Florida,11-8,54
 Illinois,9-10,55
@@ -58,9 +58,9 @@ Tennessee,12-7,56
 Oklahoma State,11-9,57
 Richmond,18-4,58
 Arkansas,16-6,59
-Seton Hall,12-8,60
-FGCU,15-4,61
-Auburn,14-6,62
+Auburn,14-6,60
+Seton Hall,12-8,61
+Florida Gulf Coast,15-4,62
 Columbia,13-5,63
 Texas Tech,16-6,64
 California,13-8,65
@@ -74,26 +74,26 @@ Stony Brook,16-2,72
 Eastern Washington,14-4,73
 Davidson,14-6,74
 Ball State,17-2,75
-VCU,16-3,76
+Virginia Commonwealth,16-3,76
 North Texas,16-3,77
 Purdue,9-11,78
 Rhode Island,14-8,79
 Harvard,11-7,80
 Fairfield,16-1,81
 Santa Clara,13-7,82
-Saint John's,13-9,83
+St. John's (NY),13-9,83
 Toledo,13-4,84
 Georgetown,14-6,85
-UCF,9-8,86
-BYU,12-9,87
+Central Florida,9-8,86
+Brigham Young,12-9,87
 Oregon,11-11,88
-Montana,13-5,89
-Boston College,11-11,90
+Boston College,11-11,89
+Montana,13-5,90
 Clemson,9-12,91
-Georgia,10-10,92
-Cleveland State,18-4,93
-Grand Canyon,16-4,94
-Jackson State,9-6,95
+Cleveland State,18-4,92
+Grand Canyon,16-4,93
+Jackson State,9-6,94
+Georgia,10-10,95
 Colorado State,12-6,96
 Marshall,13-5,97
 Cincinnati,10-9,98
@@ -103,8 +103,8 @@ Wyoming,11-7,101
 Houston,11-9,102
 James Madison,14-6,103
 Chattanooga,15-3,104
-Illinois State,12-6,105
-DePaul,10-12,106
+DePaul,10-12,105
+Illinois State,12-6,106
 Murray State,12-5,107
 Kent State,11-5,108
 Portland,11-8,109
@@ -113,30 +113,30 @@ Maine,13-8,111
 Tulsa,16-5,112
 Charlotte,12-8,113
 Providence,11-11,114
-ULM,13-5,115
+Louisiana-Monroe,13-5,115
 South Florida,12-9,116
 Arizona State,10-11,117
-Albany,17-2,118
-SMU,10-10,119
+Albany (NY),17-2,118
+Southern Methodist,10-10,119
 Wisconsin,10-9,120
 Troy,11-8,121
 Old Dominion,13-5,122
 UC Irvine,13-6,123
-California Baptist,16-2,124
-Northern Iowa,6-11,125
-North Dakota State,9-8,126
+Northern Iowa,6-11,124
+North Dakota State,9-8,125
+California Baptist,16-2,126
 Missouri State,13-5,127
 Northern Arizona,13-6,128
 Holy Cross,13-6,129
-UIC,12-7,130
-San Diego State,12-8,131
-Montana State,11-10,132
-South Dakota,12-7,133
-Memphis,7-12,134
+Illinois-Chicago,12-7,130
+Memphis,7-12,131
+San Diego State,12-8,132
+Montana State,11-10,133
+South Dakota,12-7,134
 Oral Roberts,11-6,135
 Pacific,12-7,136
 Lamar,11-5,137
-Southern Miss,9-9,138
+Southern Mississippi,9-9,138
 Purdue Fort Wayne,12-8,139
 Duquesne,12-8,140
 Boise State,11-8,141
@@ -152,42 +152,42 @@ Arkansas State,9-9,150
 Hawaii,10-8,151
 Vermont,13-7,152
 Brown,12-5,153
-Charleston,11-5,154
+College of Charleston,11-5,154
 UC Santa Barbara,11-6,155
 Stephen F. Austin,11-7,156
 North Carolina A&T,10-6,157
 Pittsburgh,7-14,158
 Tulane,8-11,159
 Rutgers,6-16,160
-Monmouth,11-6,161
-Liberty,6-13,162
-Kentucky,9-12,163
-San Francisco,7-12,164
-Southeastern Louisiana,8-8,165
-Arkansas-Pine Bluff,8-10,166
+Arkansas-Pine Bluff,8-10,161
+Monmouth,11-6,162
+Liberty,6-13,163
+Kentucky,9-12,164
+San Francisco,7-12,165
+Southeastern Louisiana,8-8,166
 Eastern Kentucky,13-5,167
 Lipscomb,9-9,168
 East Tennessee State,12-6,169
-Georgia Southern,11-8,170
-Idaho,8-9,171
+Idaho,8-9,170
+Georgia Southern,11-8,171
 Georgia State,9-8,172
 Saint Louis,7-13,173
 Northern Colorado,7-9,174
 New Mexico,14-6,175
-Bowling Green,10-8,176
-Southern Illinois,7-12,177
-Louisiana Tech,6-13,178
-FIU,13-6,179
-New Mexico State,8-10,180
-Saint Mary's College,9-11,181
+Bowling Green State,10-8,176
+Louisiana Tech,6-13,177
+Southern Illinois,7-12,178
+New Mexico State,8-10,179
+Florida International,13-6,180
+Saint Mary's (CA),9-11,181
 William & Mary,9-10,182
 UC Davis,8-9,183
-Texas State,9-10,184
-Manhattan,14-4,185
+Manhattan,14-4,184
+Texas State,9-10,185
 Wright State,10-10,186
-Loyola-Chicago,11-9,187
+Loyola (IL),11-9,187
 Appalachian State,10-10,188
-Penn,8-8,189
+Pennsylvania,8-8,189
 Drexel,8-9,190
 Southern Indiana,11-5,191
 Delaware,7-12,192
@@ -197,55 +197,55 @@ Abilene Christian,5-10,195
 Texas A&M-Corpus Christi,10-5,196
 Nevada,10-10,197
 George Washington,7-12,198
-UTA,9-10,199
-Loyola-Marymount,7-11,200
+UT Arlington,9-10,199
+Loyola Marymount,7-11,200
 Milwaukee,10-10,201
-Detroit,14-8,202
-Southern,5-12,203
-Air Force,7-12,204
-Buffalo,9-8,205
-Utah Tech,9-9,206
-Saint Thomas,10-9,207
-Tennessee Tech,7-10,208
-Siena,9-8,209
+Detroit Mercy,14-8,202
+Air Force,7-12,203
+Buffalo,9-8,204
+Utah Tech,9-9,205
+Southern,5-12,206
+St. Thomas,10-9,207
+Siena,9-8,208
+Tennessee Tech,7-10,209
 Mercer,8-14,210
 Lehigh,11-7,211
 UTEP,6-11,212
 Louisiana,6-10,213
 Incarnate Word,7-7,214
 Wofford,8-7,215
-Bethune-Cookman,10-7,216
+UNC Greensboro,10-7,216
 Long Beach State,6-12,217
-UNCG,10-7,218
-Austin Peay,7-11,219
-Grambling State,8-7,220
-Fordham,5-13,221
-Northwestern,7-13,222
+Austin Peay,7-11,218
+Fordham,5-13,219
+Bethune-Cookman,10-7,220
+Northwestern,7-13,221
+Grambling,8-7,222
 Fresno State,8-11,223
 Campbell,8-9,224
-Boston University,12-7,225
-Dayton,8-11,226
-UC Riverside,8-10,227
+Dayton,8-11,225
+UC Riverside,8-10,226
+Boston University,12-7,227
 Colgate,10-8,228
 Morehead State,7-9,229
 UC San Diego,6-12,230
-Maryland Eastern Shore,8-10,231
-Howard,6-13,232
-Little Rock,7-12,233
+Maryland-Eastern Shore,8-10,231
+Little Rock,7-12,232
+Howard,6-13,233
 Akron,7-11,234
 Wichita State,6-15,235
-Oakland,7-10,236
-Samford,8-10,237
+Samford,8-10,236
+Oakland,7-10,237
 San Diego,3-16,238
 Indiana State,7-11,239
 Canisius,10-8,240
 Tennessee-Martin,6-12,241
 Western Illinois,9-6,242
-Nicholls,5-11,243
+Nicholls State,5-11,243
 Cal State Fullerton,7-12,244
 Coastal Carolina,6-15,245
-UMKC,8-12,246
-FAU,5-13,247
+Florida Atlantic,5-13,246
+Kansas City,8-12,247
 Southern Utah,4-13,248
 Sacred Heart,10-9,249
 Yale,4-14,250
@@ -265,9 +265,9 @@ Western Michigan,7-10,263
 Stetson,8-11,264
 Texas A&M-Commerce,7-9,265
 Northern Illinois,8-10,266
-Furman,9-9,267
-North Florida,4-13,268
-Coppin State,7-12,269
+Coppin State,7-12,267
+Furman,9-9,268
+North Florida,4-13,269
 American,8-11,270
 Radford,9-11,271
 Youngstown State,7-13,272
@@ -275,30 +275,30 @@ Ohio,7-11,273
 Northern Kentucky,3-15,274
 Denver,3-16,275
 Binghamton,5-13,276
-Alabama A&M,7-11,277
-New Hampshire,7-13,278
+New Hampshire,7-13,277
+Elon,6-12,278
 Tarleton State,4-13,279
-Elon,6-12,280
-Northeastern,7-10,281
-Le Moyne,8-12,282
-La Salle,6-13,283
-UTRGV,4-14,284
-Southeast Missouri,4-13,285
-Jacksonville State,4-12,286
-Bryant,8-10,287
+Northeastern,7-10,280
+Le Moyne,8-12,281
+La Salle,6-13,282
+Texas-Rio Grande Valley,4-14,283
+Jacksonville State,4-12,284
+Southeast Missouri State,4-13,285
+Bryant,8-10,286
+Alabama A&M,7-11,287
 High Point,8-10,288
-UMass,3-18,289
-New Orleans,7-12,290
-Iona,7-11,291
-Sam Houston State,3-13,292
-Saint Bonaventure,4-16,293
+New Orleans,7-12,289
+Massachusetts,3-18,290
+Sam Houston,3-13,291
+Iona,7-11,292
+St. Bonaventure,4-16,293
 South Carolina Upstate,10-9,294
 Hofstra,6-11,295
-Loyola-Maryland,9-10,296
-Florida A&M,4-14,297
-South Alabama,5-14,298
-Bellarmine,4-13,299
-UMBC,5-12,300
+Loyola (MD),9-10,296
+South Alabama,5-14,297
+Bellarmine,4-13,298
+Florida A&M,4-14,299
+Maryland-Baltimore County,5-12,300
 Cal State Bakersfield,5-12,301
 Marist,5-13,302
 IUPUI,4-15,303
@@ -306,16 +306,16 @@ Central Michigan,3-14,304
 Eastern Michigan,4-13,305
 Merrimack,7-14,306
 Bucknell,5-14,307
-Omaha,3-16,308
-Valparaiso,3-15,309
-Presbyterian College,9-10,310
+Valparaiso,3-15,308
+Presbyterian,9-10,309
+Omaha,3-16,310
 Miami (OH),4-14,311
 Lafayette,6-13,312
 North Carolina Central,6-11,313
 Morgan State,4-14,314
 Dartmouth,4-11,315
 NJIT,8-12,316
-SIUE,2-18,317
+SIU Edwardsville,2-18,317
 Robert Morris,4-15,318
 Tennessee State,3-13,319
 Xavier,1-17,320
@@ -323,39 +323,39 @@ Pepperdine,3-15,321
 Lindenwood,3-14,322
 UNC Asheville,6-12,323
 Charleston Southern,5-14,324
-UMass-Lowell,3-16,325
+Massachusetts-Lowell,3-16,325
 Bradley,4-15,326
-Seattle University,1-17,327
-Army,6-10,328
-Winthrop,6-12,329
+Seattle,1-17,327
+Winthrop,6-12,328
+Army,6-10,329
 Fairleigh Dickinson,5-14,330
-Mount Saint Mary's,6-12,331
-Hampton,2-15,332
-Portland State,3-15,333
-Central Connecticut,4-16,334
-Texas Southern,3-15,335
-Alcorn State,3-14,336
-Rider,5-13,337
-Navy,4-13,338
-Longwood,3-15,339
-Utah State,2-15,340
+Mount St. Mary's,6-12,331
+Alcorn State,3-14,332
+Hampton,2-15,333
+Portland State,3-15,334
+Central Connecticut State,4-16,335
+Rider,5-13,336
+Prairie View,5-9,337
+Longwood,3-15,338
+Navy,4-13,339
+Texas Southern,3-15,340
 Houston Christian,1-14,341
-Sacramento State,1-18,342
-Prairie View A&M,5-9,343
-Queens,3-14,344
+Utah State,2-15,342
+Sacramento State,1-18,343
+Queens (NC),3-14,344
 Cal State Northridge,2-16,345
 Evansville,2-18,346
 Mississippi Valley State,2-19,347
 Saint Peter's,5-13,348
-Long Island,5-14,349
+Long Island University,5-14,349
 Western Carolina,2-16,350
 Gardner-Webb,3-17,351
-UNCW,2-15,352
-Delaware State,4-12,353
-South Carolina State,1-19,354
-McNeese,0-17,355
-Stonehill,3-17,356
-Alabama State,2-16,357
+UNC Wilmington,2-15,352
+South Carolina State,1-19,353
+Delaware State,4-12,354
+McNeese State,0-17,355
+Alabama State,2-16,356
+Stonehill,3-17,357
 Chicago State,0-24,358
 Wagner,4-13,359
 Saint Francis (PA),3-18,360

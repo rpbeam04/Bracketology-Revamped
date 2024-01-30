@@ -22,6 +22,9 @@ class Team:
         team: Team
         if name == "_":
             return None
+        if len(Team.team_list) == 0:
+            print("Warning: no teams created.")
+            return None
         with open('Teams/alias.json', 'r', encoding='utf-8') as f:
             aliases: dict = json.load(f)
         if name in list(aliases.keys()):
@@ -111,8 +114,12 @@ class Team:
         team: Team
         members: list[Team] = []
         for team in Team.team_list:
-            if team.Conf == conference and team.Gender == gender:
-                members.append(team)
+            if isinstance(team.Conf, str):
+                if team.Conf == conference and team.Gender == gender:
+                    members.append(team)
+            else:
+                if team.Conf.Name == conference and team.Gender == gender:
+                    members.append(team)
         return members
     
     @classmethod
@@ -209,9 +216,75 @@ class Player:
         return f"{self.Name} ({self.Pos})"
 
 class Conference:
-    def __init__(self, name):
+    def __init__(self, name: str, gender: str):
         self.Name = name
+        self.Gender = gender
         self.Teams = []
+        for team in Team.team_list:
+            if team.Conf == name and team.Gender == gender:
+                self.Teams.append(team)
+                team.Conf = self
+                team.Conference = self
         Conference.conf_list.append(self)
     
+    def __str__(self):
+        return f"Conf: {self.Name}, {self.Gender}"
+    
     conf_list: list['Conference'] = []
+
+    @classmethod
+    def search_conference(cls, name: str, gender: str):
+        conf: Conference
+        if name == "_":
+            return None
+        if len(Conference.conf_list) == 0:
+            print("Warning: no conferences created.")
+            return None
+        with open('Teams/alias.json', 'r', encoding='utf-8') as f:
+            aliases: dict = json.load(f)
+        if name in list(aliases.keys()):
+            name = aliases[name]
+        for conf in Conference.conf_list:
+            if conf.Name == name and conf.Gender == gender:
+                return conf
+        print(f"Error (search_conference): No {name}, {gender} found.")
+        with open('Teams/alias.json', 'r', encoding='utf-8') as f:
+            alias_data = json.load(f)
+        if name not in list(alias_data.keys()):
+            alias_data.update({name: "_"})
+        with open('Teams/alias.json', 'w', encoding='utf-8') as f:
+            json.dump(alias_data, f, indent=2)
+        return None
+
+    @classmethod
+    def write_conferences_to_json(cls, filename='Teams/conferences.json'):
+        conf_data = []
+        for conf in cls.conf_list:
+            conf_dict = {}
+            for attr, value in vars(conf).items():
+                if not callable(value) and not attr.startswith("__"):
+                    conf_dict[attr] = value
+                if attr == "Teams":
+                    teams = [team.Name for team in value]
+                    conf_dict[attr] = teams
+            conf_data.append(conf_dict)
+        with open(filename, 'w') as json_file:
+            json.dump(conf_data, json_file, indent=2)
+
+    @classmethod
+    def create_conferences_from_json(cls, filename='Teams/conferences.json'):
+        try:
+            with open(filename, 'r') as json_file:
+                conf_data_list = json.load(json_file)
+            for conf_data in conf_data_list:
+                conf = Conference(conf_data["Name"], conf_data["Gender"])
+                del conf_data["Name"]
+                del conf_data["Gender"]
+                for key, val in conf_data.items():
+                    if key == "Teams":
+                        teams = [Team.search_team(name, conf.Gender) for name in val]
+                        setattr(conf, key, teams)
+                    else:
+                        setattr(conf, key, val)
+        except FileNotFoundError:
+            print(f"File '{filename}' not found.")

@@ -1,4 +1,4 @@
-from classes import Team, Game
+from classes import Team, Game, Conference
 import fetch
 from datetime import datetime as dt
 import pandas as pd
@@ -8,26 +8,13 @@ from pprint import *
 from IPython.display import display
 import os
 
-# netm = fetch.fetch_net_rankings(2024)
-# netw = fetch.fetch_net_rankings(2024, gender= "women")
-# rpim = fetch.fetch_rpi_rankings(2024)
-# rpiw = fetch.fetch_rpi_rankings(2024, gender= "women")
-
 Team.create_teams_from_json()
 
-with open("Metrics/2024/NET-men.csv") as f:
-    netm = pd.read_csv(f)
-with open("Metrics/2024/NET-women.csv") as f:
-    netw = pd.read_csv(f)
-
-teams = []
-for team in netm.Team:
-    teams.append({"team": team, "gender": "men"})
-for team in netw.Team:
-    teams.append({"team": team, "gender": "women"})
-
-for team in teams:
-    Team.search_team(team["team"], team["gender"])
+acc = Conference("ACC", "men")
+big_ten = Conference("Big Ten", "women")
+print(len(big_ten.Teams))
+print(Team.search_team("Northwestern", "women").Conf)
+print(Conference.conf_list)
 
 # tests = ["Miami (FL) (9)", "Miami (FL)","Miami (16)", "Miami"]
 # for text in tests:
