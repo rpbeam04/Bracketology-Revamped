@@ -1,34 +1,34 @@
-Conference,Rank,NC Rec,NC WP,Conference Leader,NET
+Conference,Rank,NC_Rec,NC_WP,Conference_Leader,NET
 Big 12,1,145-34,0.8101,Houston,1
 Big Ten,2,117-37,0.7597,Purdue,2
-SEC,3,134-47,0.7403,Tennessee,4
-Big East,4,83-37,0.6917,Connecticut,5
-ACC,5,118-46,0.7195,North Carolina,8
+SEC,3,134-47,0.7403,Alabama,5
+Big East,4,83-37,0.6917,Connecticut,4
+ACC,5,118-46,0.7195,North Carolina,9
 Pac-12,6,84-45,0.6512,Arizona,3
-Mountain West,7,88-38,0.6984,New Mexico,15
-Atlantic 10,8,122-60,0.6703,Dayton,19
-American Athletic,9,98-66,0.5976,FAU,27
-Missouri Valley,10,73-48,0.6033,Indiana State,24
+Mountain West,7,88-38,0.6984,New Mexico,18
+Atlantic 10,8,123-60,0.6721,Dayton,17
+American Athletic,9,98-66,0.5976,FAU,25
+Missouri Valley,10,73-48,0.6033,Indiana State,23
 West Coast,11,61-58,0.5126,Saint Mary's College,21
-Ivy League,12,51-45,0.5312,Princeton,42
-Southern,13,54-50,0.5192,Samford,85
-Western Athletic,14,47-55,0.4608,Grand Canyon,46
-Big West,15,51-57,0.4722,UC Irvine,76
-Conference USA,16,49-61,0.4455,Louisiana Tech,83
-Big South,17,47-59,0.4434,High Point,112
-Sun Belt,18,56-86,0.3944,James Madison,66
-Coastal Athletic,19,71-90,0.441,Drexel,104
-Horizon League,20,37-64,0.3663,Youngstown State,110
-America East,21,54-58,0.4821,Vermont,108
-Big Sky,22,46-63,0.422,Eastern Washington,116
-Mid-American,23,54-72,0.4286,Akron,93
-The Summit League,24,38-66,0.3654,Saint Thomas,154
-MAAC,25,41-65,0.3868,Quinnipiac,152
-ASUN,26,47-97,0.3264,Lipscomb,147
-Southland,27,25-74,0.2525,McNeese,62
-Ohio Valley,28,32-75,0.2991,Morehead State,103
-Independent,29,9-15,0.375,Chicago State,287
-Patriot League,30,26-89,0.2261,Colgate,138
-Northeast,31,27-80,0.2523,Merrimack,190
-MEAC,32,25-80,0.2381,Norfolk State,199
-SWAC,33,19-112,0.145,Southern,219
+Ivy League,12,51-45,0.5312,Princeton,50
+Southern,13,54-50,0.5192,Samford,75
+Western Athletic,14,47-55,0.4608,Grand Canyon,45
+Conference USA,15,49-61,0.4455,Louisiana Tech,70
+Big West,16,51-57,0.4722,UC Irvine,71
+Big South,17,47-59,0.4434,High Point,108
+Coastal Athletic,18,72-90,0.4444,Drexel,110
+Sun Belt,19,56-86,0.3944,James Madison,63
+Horizon League,20,37-64,0.3663,Youngstown State,105
+America East,21,54-58,0.4821,Vermont,101
+Big Sky,22,46-63,0.422,Eastern Washington,114
+Mid-American,23,54-72,0.4286,Akron,89
+The Summit League,24,38-66,0.3654,Saint Thomas,147
+MAAC,25,41-65,0.3868,Quinnipiac,150
+ASUN,26,47-97,0.3264,Lipscomb,164
+Southland,27,25-74,0.2525,McNeese,72
+Ohio Valley,28,32-75,0.2991,Morehead State,100
+Independent,29,9-16,0.36,Chicago State,280
+Patriot League,30,26-89,0.2261,Colgate,132
+Northeast,31,27-80,0.2523,Merrimack,192
+MEAC,32,24-80,0.2308,Norfolk State,204
+SWAC,33,19-112,0.145,Southern,209

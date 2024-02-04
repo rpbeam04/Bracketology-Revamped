@@ -1,17 +1,17 @@
 [
   {
-    "Name": "Arizona",
+    "Name": "Houston",
     "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Houston",
+    "Name": "Arizona",
     "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Conf": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -19,15 +19,7 @@
     "Name": "Purdue",
     "Gender": "men",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Brigham Young",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -35,63 +27,15 @@
     "Name": "Alabama",
     "Gender": "men",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Iowa State",
+    "Name": "Brigham Young",
     "Gender": "men",
     "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Carolina",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Auburn",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tennessee",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Baylor",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Illinois",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Duke",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -99,31 +43,55 @@
     "Name": "Connecticut",
     "Gender": "men",
     "Conf": "Big East",
-    "Conference": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Creighton",
+    "Name": "Iowa State",
     "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Michigan State",
+    "Name": "Tennessee",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Auburn",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Carolina",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Baylor",
+    "Gender": "men",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Illinois",
     "Gender": "men",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Utah",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -131,15 +99,7 @@
     "Name": "Marquette",
     "Gender": "men",
     "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kentucky",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -147,7 +107,31 @@
     "Name": "Kansas",
     "Gender": "men",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Michigan State",
+    "Gender": "men",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Creighton",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Duke",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -155,23 +139,7 @@
     "Name": "Wisconsin",
     "Gender": "men",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oklahoma",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cincinnati",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -179,47 +147,7 @@
     "Name": "New Mexico",
     "Gender": "men",
     "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida Atlantic",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Colorado State",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "TCU",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Xavier",
-    "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Diego State",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -227,31 +155,31 @@
     "Name": "Gonzaga",
     "Gender": "men",
     "Conf": "WCC",
-    "Conference": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "St. John's (NY)",
+    "Name": "Utah",
     "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
+    "Conf": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Iowa",
+    "Name": "Kentucky",
     "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Villanova",
+    "Name": "Oklahoma",
     "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -259,7 +187,39 @@
     "Name": "Colorado",
     "Gender": "men",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "San Diego State",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cincinnati",
+    "Gender": "men",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida Atlantic",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "TCU",
+    "Gender": "men",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -267,167 +227,15 @@
     "Name": "Saint Mary's (CA)",
     "Gender": "men",
     "Conf": "WCC",
-    "Conference": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Indiana State",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Clemson",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Mississippi State",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Dayton",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wake Forest",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas Tech",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Ohio State",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Methodist",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Utah State",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Providence",
+    "Name": "St. John's (NY)",
     "Gender": "men",
     "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas A&M",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Miami (FL)",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Nevada",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Butler",
-    "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Washington State",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Boise State",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Washington",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Pittsburgh",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kansas State",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -435,7 +243,167 @@
     "Name": "Texas",
     "Gender": "men",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wake Forest",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Dayton",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Clemson",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas Tech",
+    "Gender": "men",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Colorado State",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Xavier",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Iowa",
+    "Gender": "men",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Utah State",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Indiana State",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Butler",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Washington State",
+    "Gender": "men",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Villanova",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Boise State",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Methodist",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Providence",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Mississippi State",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Miami (FL)",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Pittsburgh",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas A&M",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -443,31 +411,7 @@
     "Name": "Nebraska",
     "Gender": "men",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Seton Hall",
-    "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Francisco",
-    "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Memphis",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -475,7 +419,15 @@
     "Name": "Central Florida",
     "Gender": "men",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Washington",
+    "Gender": "men",
+    "Conf": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -483,127 +435,7 @@
     "Name": "Virginia Tech",
     "Gender": "men",
     "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oregon",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Princeton",
-    "Gender": "men",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "NC State",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida State",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Virginia",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Grand Canyon",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Texas",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northwestern",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Drake",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Michigan",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern California",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Georgia",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Nevada-Las Vegas",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Syracuse",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Bradley",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -611,23 +443,55 @@
     "Name": "South Carolina",
     "Gender": "men",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Mississippi",
+    "Name": "Nevada",
     "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
+    "Conf": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "UC Irvine",
+    "Name": "Oregon",
     "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Ohio State",
+    "Gender": "men",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Seton Hall",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Virginia",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northwestern",
+    "Gender": "men",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -635,31 +499,47 @@
     "Name": "Maryland",
     "Gender": "men",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "St. Bonaventure",
+    "Name": "Drake",
     "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
+    "Conf": "MVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Louisiana State",
+    "Name": "Bradley",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Kansas State",
+    "Gender": "men",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Mississippi",
     "Gender": "men",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Saint Joseph's",
+    "Name": "Florida State",
     "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -667,23 +547,63 @@
     "Name": "Minnesota",
     "Gender": "men",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Boston College",
+    "Name": "NC State",
     "Gender": "men",
     "Conf": "ACC",
-    "Conference": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Stanford",
+    "Name": "San Francisco",
     "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Grand Canyon",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgia",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Louisiana State",
+    "Gender": "men",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Memphis",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "St. Bonaventure",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -691,39 +611,7 @@
     "Name": "James Madison",
     "Gender": "men",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Richmond",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Massachusetts",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rutgers",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Samford",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -731,111 +619,71 @@
     "Name": "Virginia Commonwealth",
     "Gender": "men",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Penn State",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Arkansas",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Illinois",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Indiana",
-    "Gender": "men",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Arizona State",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "George Mason",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tulane",
+    "Name": "North Texas",
     "Gender": "men",
     "Conf": "AAC",
-    "Conference": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Duquesne",
+    "Name": "UC Irvine",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern California",
+    "Gender": "men",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Richmond",
     "Gender": "men",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Missouri",
+    "Name": "Stanford",
     "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
+    "Conf": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Appalachian State",
+    "Name": "Boston College",
     "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Akron",
+    "Name": "Syracuse",
     "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "McNeese State",
+    "Name": "Massachusetts",
     "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oklahoma State",
-    "Gender": "men",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -843,63 +691,63 @@
     "Name": "Louisiana Tech",
     "Gender": "men",
     "Conf": "CUSA",
-    "Conference": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Georgia Tech",
+    "Name": "Penn State",
     "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Northern Iowa",
+    "Name": "Michigan",
     "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Liberty",
+    "Name": "Princeton",
     "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Loyola (IL)",
+    "Name": "Nevada-Las Vegas",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Indiana",
+    "Gender": "men",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Rutgers",
+    "Gender": "men",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Saint Joseph's",
     "Gender": "men",
     "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Charlotte",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "California",
-    "Gender": "men",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Santa Clara",
-    "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -907,15 +755,95 @@
     "Name": "UCLA",
     "Gender": "men",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Cornell",
+    "Name": "George Mason",
     "Gender": "men",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Samford",
+    "Gender": "men",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Charlotte",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "California",
+    "Gender": "men",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Duquesne",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Akron",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tulane",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Appalachian State",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Illinois",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oklahoma State",
+    "Gender": "men",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "McNeese State",
+    "Gender": "men",
+    "Conf": "Southland",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -923,23 +851,15 @@
     "Name": "South Florida",
     "Gender": "men",
     "Conf": "AAC",
-    "Conference": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "UC San Diego",
+    "Name": "Arkansas",
     "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Weber State",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -947,63 +867,23 @@
     "Name": "West Virginia",
     "Gender": "men",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "College of Charleston",
+    "Name": "Santa Clara",
     "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
+    "Conf": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Seattle",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Notre Dame",
-    "Gender": "men",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "George Washington",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Davidson",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Drexel",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oregon State",
+    "Name": "Arizona State",
     "Gender": "men",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1011,231 +891,63 @@
     "Name": "Yale",
     "Gender": "men",
     "Conf": "Ivy",
-    "Conference": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Toledo",
+    "Name": "Georgia Tech",
     "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Wichita State",
+    "Name": "Loyola (IL)",
     "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Montana",
+    "Name": "Missouri",
     "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "High Point",
+    "Name": "UC San Diego",
     "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
+    "Conf": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Hofstra",
+    "Name": "Cornell",
     "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Oakland",
+    "Name": "Davidson",
     "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Vermont",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tulsa",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Western Carolina",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Stephen F. Austin",
+    "Name": "Seattle",
     "Gender": "men",
     "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Georgetown",
-    "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Eastern Washington",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Loyola Marymount",
-    "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Hawaii",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Murray State",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Delaware",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UNC Greensboro",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC Davis",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Morehead State",
-    "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Troy",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UNC Wilmington",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Belmont",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Denver",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Missouri State",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UAB",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Furman",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "East Carolina",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "St. Thomas",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1243,23 +955,111 @@
     "Name": "Youngstown State",
     "Gender": "men",
     "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Illinois-Chicago",
+    "Name": "Toledo",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Liberty",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Vermont",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northern Iowa",
     "Gender": "men",
     "Conf": "MVC",
-    "Conference": "MVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Winthrop",
+    "Name": "UAB",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Drexel",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Notre Dame",
+    "Gender": "men",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oregon State",
+    "Gender": "men",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Murray State",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "High Point",
     "Gender": "men",
     "Conf": "Big South",
-    "Conference": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Weber State",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "College of Charleston",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oakland",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1267,23 +1067,79 @@
     "Name": "Louisiana",
     "Gender": "men",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Purdue Fort Wayne",
+    "Name": "Stephen F. Austin",
     "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Pennsylvania",
+    "Name": "Wichita State",
     "Gender": "men",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Missouri State",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Loyola Marymount",
+    "Gender": "men",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UNC Wilmington",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Morehead State",
+    "Gender": "men",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "George Washington",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Eastern Washington",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgetown",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1291,111 +1147,7 @@
     "Name": "Louisville",
     "Gender": "men",
     "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wright State",
-    "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "South Dakota State",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Vanderbilt",
-    "Gender": "men",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Massachusetts-Lowell",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fordham",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "California Baptist",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rhode Island",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Lipscomb",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kent State",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Western Kentucky",
-    "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC Santa Barbara",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Jose State",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UT Arlington",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1403,15 +1155,63 @@
     "Name": "Towson",
     "Gender": "men",
     "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Jacksonville State",
+    "Name": "Western Carolina",
     "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UNC Greensboro",
+    "Gender": "men",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Troy",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Hofstra",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Delaware",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Furman",
+    "Gender": "men",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "California Baptist",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1419,111 +1219,55 @@
     "Name": "Colgate",
     "Gender": "men",
     "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Longwood",
+    "Name": "Tulsa",
     "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
+    "Conf": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Monmouth",
+    "Name": "Vanderbilt",
     "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Pepperdine",
-    "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Saint Louis",
-    "Gender": "men",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Ohio",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Arkansas State",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Iona",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Long Beach State",
+    "Name": "UC Davis",
     "Gender": "men",
     "Conf": "Big West",
-    "Conference": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "UNC Asheville",
+    "Name": "Kent State",
     "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
+    "Conf": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Tarleton State",
+    "Name": "UC Santa Barbara",
     "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
+    "Conf": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Chattanooga",
+    "Name": "St. Thomas",
     "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Bryant",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Evansville",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1531,79 +1275,231 @@
     "Name": "Wyoming",
     "Gender": "men",
     "Conf": "MWC",
-    "Conference": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Bowling Green State",
+    "Name": "Ohio",
     "Gender": "men",
     "Conf": "MAC",
-    "Conference": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Georgia State",
+    "Name": "Chattanooga",
     "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Conf": "Southern",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "San Diego",
+    "Name": "Western Kentucky",
     "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
+    "Conf": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Temple",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cleveland State",
-    "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Radford",
+    "Name": "Winthrop",
     "Gender": "men",
     "Conf": "Big South",
-    "Conference": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Utah Valley",
+    "Name": "UT Arlington",
     "Gender": "men",
     "Conf": "WAC",
-    "Conference": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Cal State Northridge",
+    "Name": "East Carolina",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wright State",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Montana",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Fordham",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "South Dakota State",
+    "Gender": "men",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Belmont",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Purdue Fort Wayne",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Hawaii",
     "Gender": "men",
     "Conf": "Big West",
-    "Conference": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Saint Peter's",
+    "Name": "Massachusetts-Lowell",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tarleton State",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Long Beach State",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Illinois-Chicago",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Monmouth",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Iona",
     "Gender": "men",
     "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lipscomb",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Rhode Island",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Arkansas State",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Fresno State",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UNC Asheville",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UTEP",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Rice",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "San Jose State",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Jacksonville State",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1611,7 +1507,87 @@
     "Name": "La Salle",
     "Gender": "men",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Utah Valley",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Pennsylvania",
+    "Gender": "men",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Pepperdine",
+    "Gender": "men",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bryant",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Illinois State",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Longwood",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Evansville",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Gardner-Webb",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northern Colorado",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Sam Houston",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1619,7 +1595,375 @@
     "Name": "New Hampshire",
     "Gender": "men",
     "Conf": "AEC",
-    "Conference": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cleveland State",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Saint Louis",
+    "Gender": "men",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bowling Green State",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Harvard",
+    "Gender": "men",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Temple",
+    "Gender": "men",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "San Diego",
+    "Gender": "men",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Utah",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northern Kentucky",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Marshall",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Green Bay",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Stony Brook",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wofford",
+    "Gender": "men",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Quinnipiac",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oral Roberts",
+    "Gender": "men",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Merrimack",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Air Force",
+    "Gender": "men",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Fairfield",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Stetson",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Abilene Christian",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Radford",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Denver",
+    "Gender": "men",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cal State Northridge",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas A&M-Corpus Christi",
+    "Gender": "men",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Eastern Kentucky",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Omaha",
+    "Gender": "men",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Columbia",
+    "Gender": "men",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cal State Fullerton",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Saint Peter's",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "East Tennessee State",
+    "Gender": "men",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Montana State",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Ball State",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "New Mexico State",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lamar",
+    "Gender": "men",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Miami (OH)",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgia State",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Norfolk State",
+    "Gender": "men",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Mercer",
+    "Gender": "men",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Canisius",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tennessee-Martin",
+    "Gender": "men",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northeastern",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UC Riverside",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maine",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Florida",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "DePaul",
+    "Gender": "men",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Valparaiso",
+    "Gender": "men",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Portland State",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -1627,399 +1971,7 @@
     "Name": "The Citadel",
     "Gender": "men",
     "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Green Bay",
-    "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Harvard",
-    "Gender": "men",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Merrimack",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UTEP",
-    "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wofford",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fresno State",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Stetson",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fairfield",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northern Kentucky",
-    "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Sam Houston",
-    "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Canisius",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Air Force",
-    "Gender": "men",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oral Roberts",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Illinois State",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northeastern",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rice",
-    "Gender": "men",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Quinnipiac",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kennesaw State",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Marshall",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northern Colorado",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "East Tennessee State",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Norfolk State",
-    "Gender": "men",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Gardner-Webb",
-    "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Marist",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Miami (OH)",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "South Alabama",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Utah",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Abilene Christian",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Eastern Kentucky",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Stony Brook",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "SIU Edwardsville",
-    "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Montana State",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Austin Peay",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Omaha",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Columbia",
-    "Gender": "men",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "DePaul",
-    "Gender": "men",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Nicholls State",
-    "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northern Illinois",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cal State Fullerton",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Albany (NY)",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Mount St. Mary's",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Old Dominion",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "New Mexico State",
-    "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida International",
-    "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Lamar",
-    "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas State",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Maine",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Carolina Central",
-    "Gender": "men",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2027,119 +1979,15 @@
     "Name": "Milwaukee",
     "Gender": "men",
     "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Little Rock",
+    "Name": "Mount St. Mary's",
     "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Ball State",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Central Connecticut State",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cal State Bakersfield",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tennessee State",
-    "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Dakota State",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Mississippi",
-    "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Western Michigan",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Mercer",
-    "Gender": "men",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC Riverside",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Alabama",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Portland State",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas A&M-Corpus Christi",
-    "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Valparaiso",
-    "Gender": "men",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "MAAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2147,103 +1995,63 @@
     "Name": "Brown",
     "Gender": "men",
     "Conf": "Ivy",
-    "Conference": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "North Florida",
+    "Name": "Cal State Bakersfield",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Mississippi",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas State",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Alabama",
     "Gender": "men",
     "Conf": "A-Sun",
-    "Conference": "A-Sun",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Western Illinois",
+    "Name": "Austin Peay",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Little Rock",
     "Gender": "men",
     "Conf": "OVC",
-    "Conference": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Utah Tech",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Howard",
-    "Gender": "men",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Robert Morris",
-    "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "American",
-    "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Jackson State",
+    "Name": "Southern",
     "Gender": "men",
     "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tennessee-Martin",
-    "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Alabama State",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Middle Tennessee",
-    "Gender": "men",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Bucknell",
-    "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Idaho State",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2251,31 +2059,15 @@
     "Name": "Florida Gulf Coast",
     "Gender": "men",
     "Conf": "A-Sun",
-    "Conference": "A-Sun",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Coastal Carolina",
+    "Name": "Kennesaw State",
     "Gender": "men",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Navy",
-    "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Lehigh",
-    "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Conf": "A-Sun",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2283,23 +2075,7 @@
     "Name": "UTSA",
     "Gender": "men",
     "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Idaho",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Niagara",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2307,95 +2083,31 @@
     "Name": "Kansas City",
     "Gender": "men",
     "Conf": "Summit",
-    "Conference": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Chicago State",
+    "Name": "North Carolina Central",
     "Gender": "men",
-    "Conf": "Ind",
-    "Conference": "Ind",
+    "Conf": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Sacred Heart",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Campbell",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Portland",
-    "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rider",
-    "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Sacramento State",
-    "Gender": "men",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Boston University",
-    "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southeastern Louisiana",
+    "Name": "Nicholls State",
     "Gender": "men",
     "Conf": "Southland",
-    "Conference": "Southland",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Presbyterian",
+    "Name": "SIU Edwardsville",
     "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Elon",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas Southern",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Conf": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2403,39 +2115,111 @@
     "Name": "Central Michigan",
     "Gender": "men",
     "Conf": "MAC",
-    "Conference": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "South Carolina Upstate",
+    "Name": "North Dakota State",
     "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
+    "Conf": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Eastern Illinois",
+    "Name": "Northern Illinois",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Middle Tennessee",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Old Dominion",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tennessee State",
     "Gender": "men",
     "Conf": "OVC",
-    "Conference": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Queens (NC)",
+    "Name": "Central Connecticut State",
     "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
+    "Conf": "NEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Lafayette",
+    "Name": "Marist",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Western Illinois",
+    "Gender": "men",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Albany (NY)",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "American",
     "Gender": "men",
     "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Robert Morris",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Rider",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Niagara",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2443,167 +2227,151 @@
     "Name": "North Dakota",
     "Gender": "men",
     "Conf": "Summit",
-    "Conference": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Bellarmine",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas-Rio Grande Valley",
-    "Gender": "men",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Binghamton",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Delaware State",
-    "Gender": "men",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas A&M-Commerce",
-    "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "South Dakota",
-    "Gender": "men",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wagner",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "William & Mary",
-    "Gender": "men",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Maryland-Baltimore County",
-    "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Jacksonville",
-    "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "New Orleans",
-    "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cal Poly",
-    "Gender": "men",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Buffalo",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Indiana",
-    "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Eastern Michigan",
-    "Gender": "men",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Le Moyne",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Prairie View",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Grambling",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Charleston Southern",
-    "Gender": "men",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Georgia Southern",
+    "Name": "South Alabama",
     "Gender": "men",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Western Michigan",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida International",
+    "Gender": "men",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Idaho State",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lehigh",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Chicago State",
+    "Gender": "men",
+    "Conf": "Ind",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bucknell",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Howard",
+    "Gender": "men",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Utah Tech",
+    "Gender": "men",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Queens (NC)",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Alabama State",
+    "Gender": "men",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas Southern",
+    "Gender": "men",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southeastern Louisiana",
+    "Gender": "men",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Portland",
+    "Gender": "men",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "South Carolina Upstate",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Presbyterian",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Jackson State",
+    "Gender": "men",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lafayette",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2611,31 +2379,135 @@
     "Name": "Louisiana-Monroe",
     "Gender": "men",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Army",
+    "Name": "Idaho",
     "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Conf": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Bethune-Cookman",
+    "Name": "Sacred Heart",
     "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Conf": "NEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "North Carolina A&T",
+    "Name": "Sacramento State",
+    "Gender": "men",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Campbell",
     "Gender": "men",
     "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Jacksonville",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Navy",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Binghamton",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maryland-Baltimore County",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Elon",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgia Southern",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Boston University",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wagner",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Charleston Southern",
+    "Gender": "men",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bellarmine",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Delaware State",
+    "Gender": "men",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Coastal Carolina",
+    "Gender": "men",
+    "Conf": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2643,23 +2515,79 @@
     "Name": "Northern Arizona",
     "Gender": "men",
     "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Central Arkansas",
+    "Name": "Texas-Rio Grande Valley",
     "Gender": "men",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
+    "Conf": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "NJIT",
+    "Name": "William & Mary",
     "Gender": "men",
-    "Conf": "AEC",
-    "Conference": "AEC",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Eastern Illinois",
+    "Gender": "men",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Le Moyne",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cal Poly",
+    "Gender": "men",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Grambling",
+    "Gender": "men",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bethune-Cookman",
+    "Gender": "men",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas A&M-Commerce",
+    "Gender": "men",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Indiana",
+    "Gender": "men",
+    "Conf": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2667,31 +2595,23 @@
     "Name": "Alcorn State",
     "Gender": "men",
     "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Fairleigh Dickinson",
+    "Name": "Prairie View",
     "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
+    "Conf": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Tennessee Tech",
+    "Name": "South Dakota",
     "Gender": "men",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Dartmouth",
-    "Gender": "men",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
+    "Conf": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2699,23 +2619,31 @@
     "Name": "South Carolina State",
     "Gender": "men",
     "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Loyola (MD)",
+    "Name": "Army",
     "Gender": "men",
     "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Florida A&M",
+    "Name": "Eastern Michigan",
     "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "FDU",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2723,7 +2651,23 @@
     "Name": "Incarnate Word",
     "Gender": "men",
     "Conf": "Southland",
-    "Conference": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "NJIT",
+    "Gender": "men",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Carolina A&T",
+    "Gender": "men",
+    "Conf": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2731,63 +2675,23 @@
     "Name": "Manhattan",
     "Gender": "men",
     "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Saint Francis (PA)",
+    "Name": "Dartmouth",
     "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Arkansas-Pine Bluff",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Houston Christian",
-    "Gender": "men",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Lindenwood",
+    "Name": "Tennessee Tech",
     "Gender": "men",
     "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Pacific",
-    "Gender": "men",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Alabama A&M",
-    "Gender": "men",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Maryland-Eastern Shore",
-    "Gender": "men",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2795,15 +2699,63 @@
     "Name": "Northwestern State",
     "Gender": "men",
     "Conf": "Southland",
-    "Conference": "Southland",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Detroit Mercy",
+    "Name": "Arkansas-Pine Bluff",
     "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Pacific",
+    "Gender": "men",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Buffalo",
+    "Gender": "men",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Central Arkansas",
+    "Gender": "men",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida A&M",
+    "Gender": "men",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Houston Christian",
+    "Gender": "men",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Loyola (MD)",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2811,15 +2763,7 @@
     "Name": "Hampton",
     "Gender": "men",
     "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Holy Cross",
-    "Gender": "men",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2827,55 +2771,63 @@
     "Name": "Morgan State",
     "Gender": "men",
     "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "IUPUI",
+    "Name": "New Orleans",
     "Gender": "men",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "Southland",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Southeast Missouri State",
+    "Name": "Lindenwood",
     "Gender": "men",
     "Conf": "OVC",
-    "Conference": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Siena",
+    "Name": "Alabama A&M",
     "Gender": "men",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Conf": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Coppin State",
+    "Name": "Holy Cross",
+    "Gender": "men",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Saint Francis (PA)",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Detroit Mercy",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maryland-Eastern Shore",
     "Gender": "men",
     "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Stonehill",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Long Island University",
-    "Gender": "men",
-    "Conf": "NEC",
-    "Conference": "NEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2883,7 +2835,55 @@
     "Name": "VMI",
     "Gender": "men",
     "Conf": "Southern",
-    "Conference": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Stonehill",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southeast Missouri State",
+    "Gender": "men",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "IUPUI",
+    "Gender": "men",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Long Island University",
+    "Gender": "men",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Siena",
+    "Gender": "men",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Coppin State",
+    "Gender": "men",
+    "Conf": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2891,7 +2891,7 @@
     "Name": "Mississippi Valley State",
     "Gender": "men",
     "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2899,7 +2899,7 @@
     "Name": "Non D1",
     "Gender": "men",
     "Conf": "D2",
-    "Conference": "D2",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2907,15 +2907,7 @@
     "Name": "South Carolina",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2923,15 +2915,15 @@
     "Name": "Connecticut",
     "Gender": "women",
     "Conf": "Big East",
-    "Conference": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Iowa",
+    "Name": "Texas",
     "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2939,7 +2931,15 @@
     "Name": "Stanford",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Iowa",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2947,7 +2947,7 @@
     "Name": "UCLA",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2955,15 +2955,7 @@
     "Name": "Utah",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kansas State",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2971,15 +2963,7 @@
     "Name": "Notre Dame",
     "Gender": "women",
     "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Ohio State",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2987,7 +2971,15 @@
     "Name": "Louisiana State",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Ohio State",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -2995,23 +2987,15 @@
     "Name": "NC State",
     "Gender": "women",
     "Conf": "ACC",
-    "Conference": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Baylor",
+    "Name": "Kansas State",
     "Gender": "women",
     "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern California",
-    "Gender": "women",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3019,7 +3003,23 @@
     "Name": "Indiana",
     "Gender": "women",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Baylor",
+    "Gender": "women",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern California",
+    "Gender": "women",
+    "Conf": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3027,39 +3027,7 @@
     "Name": "Colorado",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Michigan State",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Duke",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Louisville",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "West Virginia",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3067,15 +3035,23 @@
     "Name": "Gonzaga",
     "Gender": "women",
     "Conf": "WCC",
-    "Conference": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Virginia Tech",
+    "Name": "West Virginia",
     "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Michigan State",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3083,15 +3059,31 @@
     "Name": "Oregon State",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Washington State",
+    "Name": "Duke",
     "Gender": "women",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Louisville",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Virginia Tech",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3099,15 +3091,15 @@
     "Name": "Penn State",
     "Gender": "women",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Maryland",
+    "Name": "Washington State",
     "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Conf": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3115,47 +3107,7 @@
     "Name": "Creighton",
     "Gender": "women",
     "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas A&M",
-    "Gender": "women",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Nebraska",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Minnesota",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida State",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Marquette",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3163,7 +3115,23 @@
     "Name": "North Carolina",
     "Gender": "women",
     "Conf": "ACC",
-    "Conference": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maryland",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas A&M",
+    "Gender": "women",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3171,7 +3139,23 @@
     "Name": "Mississippi State",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Minnesota",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Nebraska",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3179,135 +3163,7 @@
     "Name": "Alabama",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Washington",
-    "Gender": "women",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Iowa State",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "TCU",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Arizona",
-    "Gender": "women",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Green Bay",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Michigan",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Nevada-Las Vegas",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tennessee",
-    "Gender": "women",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kansas",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oklahoma State",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Syracuse",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Miami (FL)",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida",
-    "Gender": "women",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "California",
-    "Gender": "women",
-    "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Arkansas",
-    "Gender": "women",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Illinois",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3315,23 +3171,87 @@
     "Name": "Oklahoma",
     "Gender": "women",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Vanderbilt",
+    "Name": "Iowa State",
+    "Gender": "women",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Marquette",
+    "Gender": "women",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida State",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tennessee",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Princeton",
+    "Name": "Washington",
     "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Miami (FL)",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Syracuse",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Arizona",
+    "Gender": "women",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "TCU",
+    "Gender": "women",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Kansas",
+    "Gender": "women",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3339,31 +3259,39 @@
     "Name": "Auburn",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Drake",
+    "Name": "Nevada-Las Vegas",
     "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Texas Tech",
+    "Name": "Illinois",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Michigan",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oklahoma State",
     "Gender": "women",
     "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Villanova",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3371,63 +3299,63 @@
     "Name": "Mississippi",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Seton Hall",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Columbia",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Missouri",
+    "Name": "Florida",
     "Gender": "women",
     "Conf": "SEC",
-    "Conference": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Virginia",
+    "Name": "Princeton",
     "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Richmond",
+    "Name": "Villanova",
     "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
+    "Conf": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Belmont",
+    "Name": "Vanderbilt",
     "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "SEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "George Mason",
+    "Name": "Arkansas",
     "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "California",
+    "Gender": "women",
+    "Conf": "Pac-12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Green Bay",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3435,7 +3363,71 @@
     "Name": "Middle Tennessee",
     "Gender": "women",
     "Conf": "CUSA",
-    "Conference": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Virginia",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Columbia",
+    "Gender": "women",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas Tech",
+    "Gender": "women",
+    "Conf": "Big 12",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Seton Hall",
+    "Gender": "women",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Missouri",
+    "Gender": "women",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Belmont",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Drake",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Richmond",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3443,23 +3435,15 @@
     "Name": "Georgia Tech",
     "Gender": "women",
     "Conf": "ACC",
-    "Conference": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Florida Gulf Coast",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Davidson",
+    "Name": "George Mason",
     "Gender": "women",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3467,31 +3451,7 @@
     "Name": "Purdue",
     "Gender": "women",
     "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Boston College",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Saint Joseph's",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Stony Brook",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3499,31 +3459,23 @@
     "Name": "South Dakota State",
     "Gender": "women",
     "Conf": "Summit",
-    "Conference": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Georgia",
+    "Name": "Florida Gulf Coast",
     "Gender": "women",
-    "Conf": "SEC",
-    "Conference": "SEC",
+    "Conf": "A-Sun",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Santa Clara",
+    "Name": "Saint Joseph's",
     "Gender": "women",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Houston",
-    "Gender": "women",
-    "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3531,7 +3483,7 @@
     "Name": "Clemson",
     "Gender": "women",
     "Conf": "ACC",
-    "Conference": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3539,31 +3491,7 @@
     "Name": "Central Florida",
     "Gender": "women",
     "Conf": "Big 12",
-    "Conference": "Big 12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Murray State",
-    "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Virginia Commonwealth",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rhode Island",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3571,79 +3499,7 @@
     "Name": "Oregon",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "DePaul",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Toledo",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Colorado State",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Texas",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cleveland State",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "East Carolina",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Harvard",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Eastern Washington",
-    "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Ball State",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3651,47 +3507,31 @@
     "Name": "Cincinnati",
     "Gender": "women",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Grand Canyon",
+    "Name": "Ball State",
     "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
+    "Conf": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "St. John's (NY)",
+    "Name": "Houston",
     "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
+    "Conf": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Rice",
+    "Name": "Boston College",
     "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Georgetown",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fairfield",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Conf": "ACC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3699,15 +3539,79 @@
     "Name": "Brigham Young",
     "Gender": "women",
     "Conf": "Big 12",
-    "Conference": "Big 12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Illinois State",
+    "Name": "Stony Brook",
     "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgia",
+    "Gender": "women",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Davidson",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cleveland State",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Texas",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Rhode Island",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Toledo",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Santa Clara",
+    "Gender": "women",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Virginia Commonwealth",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3715,15 +3619,15 @@
     "Name": "South Florida",
     "Gender": "women",
     "Conf": "AAC",
-    "Conference": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Temple",
+    "Name": "DePaul",
     "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
+    "Conf": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3731,7 +3635,47 @@
     "Name": "Portland",
     "Gender": "women",
     "Conf": "WCC",
-    "Conference": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Eastern Washington",
+    "Gender": "women",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "St. John's (NY)",
+    "Gender": "women",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "East Carolina",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Fairfield",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgetown",
+    "Gender": "women",
+    "Conf": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3739,55 +3683,15 @@
     "Name": "Montana",
     "Gender": "women",
     "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "James Madison",
+    "Name": "Harvard",
     "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wisconsin",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Charlotte",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Marshall",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Jackson State",
-    "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Methodist",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3795,15 +3699,55 @@
     "Name": "Arizona State",
     "Gender": "women",
     "Conf": "Pac-12",
-    "Conference": "Pac-12",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Kent State",
+    "Name": "Grand Canyon",
     "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Temple",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Illinois State",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Colorado State",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Rice",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wisconsin",
+    "Gender": "women",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3811,7 +3755,39 @@
     "Name": "Wyoming",
     "Gender": "women",
     "Conf": "MWC",
-    "Conference": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Murray State",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Methodist",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Marshall",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "James Madison",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3819,15 +3795,15 @@
     "Name": "Tulsa",
     "Gender": "women",
     "Conf": "AAC",
-    "Conference": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Chattanooga",
+    "Name": "Jackson State",
     "Gender": "women",
-    "Conf": "Southern",
-    "Conference": "Southern",
+    "Conf": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -3835,287 +3811,15 @@
     "Name": "Providence",
     "Gender": "women",
     "Conf": "Big East",
-    "Conference": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Southeastern Louisiana",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Maine",
-    "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Montana State",
-    "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Troy",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wake Forest",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC Irvine",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tulane",
+    "Name": "Charlotte",
     "Gender": "women",
     "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kentucky",
-    "Gender": "women",
-    "Conf": "SEC",
-    "Conference": "SEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rutgers",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Louisiana-Monroe",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Hawaii",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Memphis",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Illinois-Chicago",
-    "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "South Dakota",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Dakota State",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Western Kentucky",
-    "Gender": "women",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Butler",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Old Dominion",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UTSA",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Pacific",
-    "Gender": "women",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northern Arizona",
-    "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Lamar",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "California Baptist",
-    "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Mississippi",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Diego State",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Boise State",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UAB",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oral Roberts",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Albany (NY)",
-    "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Missouri State",
-    "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Holy Cross",
-    "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Pittsburgh",
-    "Gender": "women",
-    "Conf": "ACC",
-    "Conference": "ACC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Arkansas State",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cal Poly",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC Santa Barbara",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4123,167 +3827,183 @@
     "Name": "Northern Iowa",
     "Gender": "women",
     "Conf": "MVC",
-    "Conference": "MVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Georgia Southern",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Francisco",
-    "Gender": "women",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Bowling Green State",
+    "Name": "Kent State",
     "Gender": "women",
     "Conf": "MAC",
-    "Conference": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Stephen F. Austin",
+    "Name": "Rutgers",
     "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Norfolk State",
-    "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Purdue Fort Wayne",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Central Arkansas",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Brown",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Abilene Christian",
-    "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Louisiana Tech",
-    "Gender": "women",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "New Mexico State",
-    "Gender": "women",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Monmouth",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Liberty",
-    "Gender": "women",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida International",
-    "Gender": "women",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Saint Mary's (CA)",
-    "Gender": "women",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Vermont",
-    "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Saint Louis",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Appalachian State",
+    "Name": "Troy",
     "Gender": "women",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Idaho",
+    "Name": "Montana State",
     "Gender": "women",
     "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Lipscomb",
+    "Name": "Chattanooga",
     "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northern Arizona",
+    "Gender": "women",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Kentucky",
+    "Gender": "women",
+    "Conf": "SEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maine",
+    "Gender": "women",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Missouri State",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wake Forest",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Dakota State",
+    "Gender": "women",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Memphis",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Butler",
+    "Gender": "women",
+    "Conf": "Big East",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "California Baptist",
+    "Gender": "women",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Mississippi",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Pittsburgh",
+    "Gender": "women",
+    "Conf": "ACC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Hawaii",
+    "Gender": "women",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Old Dominion",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UTSA",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UC Irvine",
+    "Gender": "women",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tulane",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "South Dakota",
+    "Gender": "women",
+    "Conf": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4291,215 +4011,103 @@
     "Name": "Duquesne",
     "Gender": "women",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "William & Mary",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wright State",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Illinois",
+    "Name": "Illinois-Chicago",
     "Gender": "women",
     "Conf": "MVC",
-    "Conference": "MVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Northern Colorado",
+    "Name": "UAB",
     "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Conf": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Texas State",
+    "Name": "San Diego State",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Louisiana-Monroe",
     "Gender": "women",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Arkansas-Pine Bluff",
-    "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "New Mexico",
+    "Name": "Boise State",
     "Gender": "women",
     "Conf": "MWC",
-    "Conference": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "East Tennessee State",
-    "Gender": "women",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Idaho State",
-    "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas A&M-Corpus Christi",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Long Beach State",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Drexel",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Pennsylvania",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UTEP",
+    "Name": "Liberty",
     "Gender": "women",
     "Conf": "CUSA",
-    "Conference": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Loyola Marymount",
+    "Name": "Pacific",
     "Gender": "women",
     "Conf": "WCC",
-    "Conference": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Air Force",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Nevada",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Carolina A&T",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Austin Peay",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Eastern Kentucky",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northwestern",
-    "Gender": "women",
-    "Conf": "Big Ten",
-    "Conference": "Big Ten",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fresno State",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Loyola (IL)",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Delaware",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UT Arlington",
-    "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC San Diego",
+    "Name": "Cal Poly",
     "Gender": "women",
     "Conf": "Big West",
-    "Conference": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Arkansas State",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lamar",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Albany (NY)",
+    "Gender": "women",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Saint Louis",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4507,55 +4115,71 @@
     "Name": "Georgia State",
     "Gender": "women",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "UC Davis",
+    "Name": "New Mexico",
     "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
+    "Conf": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "St. Thomas",
+    "Name": "San Francisco",
+    "Gender": "women",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oral Roberts",
     "Gender": "women",
     "Conf": "Summit",
-    "Conference": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "George Washington",
+    "Name": "Western Kentucky",
     "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
+    "Conf": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Milwaukee",
+    "Name": "Stephen F. Austin",
+    "Gender": "women",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Central Arkansas",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Carolina A&T",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Purdue Fort Wayne",
     "Gender": "women",
     "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southern Indiana",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wichita State",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4563,7 +4187,143 @@
     "Name": "College of Charleston",
     "Gender": "women",
     "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Holy Cross",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Illinois",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Monmouth",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Vermont",
+    "Gender": "women",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Air Force",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Arkansas-Pine Bluff",
+    "Gender": "women",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Norfolk State",
+    "Gender": "women",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Saint Mary's (CA)",
+    "Gender": "women",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Louisiana Tech",
+    "Gender": "women",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Idaho State",
+    "Gender": "women",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida International",
+    "Gender": "women",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UC Santa Barbara",
+    "Gender": "women",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bowling Green State",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Brown",
+    "Gender": "women",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southeastern Louisiana",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wright State",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Appalachian State",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4571,87 +4331,7 @@
     "Name": "Louisiana",
     "Gender": "women",
     "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Mercer",
-    "Gender": "women",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Diego",
-    "Gender": "women",
-    "Conf": "WCC",
-    "Conference": "WCC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tennessee Tech",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Manhattan",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Towson",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fordham",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Little Rock",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UC Riverside",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Morehead State",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Incarnate Word",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4659,95 +4339,175 @@
     "Name": "Utah Tech",
     "Gender": "women",
     "Conf": "WAC",
-    "Conference": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Buffalo",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Tennessee-Martin",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Campbell",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Colgate",
-    "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Dayton",
+    "Name": "Loyola (IL)",
     "Gender": "women",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Boston University",
+    "Name": "Idaho",
     "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Conf": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Nicholls State",
+    "Name": "Northwestern",
     "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
+    "Conf": "Big Ten",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "UNC Greensboro",
+    "Name": "Northern Colorado",
     "Gender": "women",
-    "Conf": "Southern",
-    "Conference": "Southern",
+    "Conf": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Lehigh",
+    "Name": "Eastern Kentucky",
     "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Conf": "A-Sun",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Southern Utah",
+    "Name": "Pennsylvania",
     "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Cal State Fullerton",
+    "Name": "UC Davis",
     "Gender": "women",
     "Conf": "Big West",
-    "Conference": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "William & Mary",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Drexel",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southern Indiana",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Loyola Marymount",
+    "Gender": "women",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas State",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lipscomb",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Nevada",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "New Mexico State",
+    "Gender": "women",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Georgia Southern",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UC San Diego",
+    "Gender": "women",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "East Tennessee State",
+    "Gender": "women",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Austin Peay",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Mercer",
+    "Gender": "women",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "San Diego",
+    "Gender": "women",
+    "Conf": "WCC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -4755,359 +4515,111 @@
     "Name": "Wofford",
     "Gender": "women",
     "Conf": "Southern",
-    "Conference": "Southern",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Akron",
+    "Name": "UT Arlington",
+    "Gender": "women",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Buffalo",
     "Gender": "women",
     "Conf": "MAC",
-    "Conference": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Northwestern State",
+    "Name": "Texas A&M-Corpus Christi",
     "Gender": "women",
     "Conf": "Southland",
-    "Conference": "Southland",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Maryland-Eastern Shore",
-    "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "San Jose State",
-    "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kansas City",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Kennesaw State",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Florida Atlantic",
-    "Gender": "women",
-    "Conf": "AAC",
-    "Conference": "AAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Indiana State",
-    "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Bethune-Cookman",
-    "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Grambling",
-    "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Coastal Carolina",
-    "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Samford",
-    "Gender": "women",
-    "Conf": "Southern",
-    "Conference": "Southern",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Yale",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Detroit Mercy",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Florida",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Dakota",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Siena",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Howard",
-    "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Weber State",
-    "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Western Illinois",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Denver",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cornell",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Oakland",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Sacred Heart",
-    "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Coppin State",
-    "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northeastern",
+    "Name": "Delaware",
     "Gender": "women",
     "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Utah Valley",
+    "Name": "George Washington",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Fresno State",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Milwaukee",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Abilene Christian",
     "Gender": "women",
     "Conf": "WAC",
-    "Conference": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Eastern Illinois",
+    "Name": "Towson",
     "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
+    "Conf": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "South Alabama",
+    "Name": "St. Thomas",
     "Gender": "women",
-    "Conf": "Sun Belt",
-    "Conference": "Sun Belt",
+    "Conf": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Canisius",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Quinnipiac",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Alabama A&M",
-    "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "North Alabama",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Jacksonville State",
+    "Name": "UTEP",
     "Gender": "women",
     "Conf": "CUSA",
-    "Conference": "CUSA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "New Orleans",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Youngstown State",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "La Salle",
+    "Name": "Fordham",
     "Gender": "women",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Stetson",
+    "Name": "Wichita State",
     "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas A&M-Commerce",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Western Michigan",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas-Rio Grande Valley",
-    "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "High Point",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Massachusetts",
-    "Gender": "women",
-    "Conf": "A-10",
-    "Conference": "A-10",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northern Kentucky",
-    "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "AAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5115,103 +4627,335 @@
     "Name": "Southern",
     "Gender": "women",
     "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "American",
-    "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Xavier",
-    "Gender": "women",
-    "Conf": "Big East",
-    "Conference": "Big East",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Northern Illinois",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Le Moyne",
-    "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Sam Houston",
-    "Gender": "women",
-    "Conf": "CUSA",
-    "Conference": "CUSA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Jacksonville",
-    "Gender": "women",
-    "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Southeast Missouri State",
+    "Name": "Tennessee-Martin",
     "Gender": "women",
     "Conf": "OVC",
-    "Conference": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "New Hampshire",
+    "Name": "Long Beach State",
     "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
+    "Conf": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Bucknell",
+    "Name": "UC Riverside",
     "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Conf": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "St. Bonaventure",
+    "Name": "Siena",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Little Rock",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Florida Atlantic",
+    "Gender": "women",
+    "Conf": "AAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Tennessee Tech",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Incarnate Word",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Dayton",
     "Gender": "women",
     "Conf": "A-10",
-    "Conference": "A-10",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Furman",
+    "Name": "Grambling",
     "Gender": "women",
-    "Conf": "Southern",
-    "Conference": "Southern",
+    "Conf": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Hofstra",
+    "Name": "Manhattan",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lehigh",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Campbell",
     "Gender": "women",
     "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Morehead State",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Boston University",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Detroit Mercy",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Coastal Carolina",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cal State Fullerton",
+    "Gender": "women",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maryland-Eastern Shore",
+    "Gender": "women",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Howard",
+    "Gender": "women",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Yale",
+    "Gender": "women",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UNC Greensboro",
+    "Gender": "women",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bethune-Cookman",
+    "Gender": "women",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Indiana State",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Oakland",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Denver",
+    "Gender": "women",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Akron",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Sacred Heart",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Western Illinois",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Kennesaw State",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "San Jose State",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Colgate",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Western Michigan",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Samford",
+    "Gender": "women",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Alabama",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northern Kentucky",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Dakota",
+    "Gender": "women",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Utah Valley",
+    "Gender": "women",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Kansas City",
+    "Gender": "women",
+    "Conf": "Summit",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Jacksonville State",
+    "Gender": "women",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Weber State",
+    "Gender": "women",
+    "Conf": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5219,39 +4963,63 @@
     "Name": "Niagara",
     "Gender": "women",
     "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Pepperdine",
+    "Name": "Cornell",
     "Gender": "women",
-    "Conf": "WCC",
-    "Conference": "WCC",
+    "Conf": "Ivy",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Tarleton State",
+    "Name": "Southern Utah",
     "Gender": "women",
     "Conf": "WAC",
-    "Conference": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Iona",
+    "Name": "Coppin State",
     "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Conf": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Ohio",
+    "Name": "Youngstown State",
     "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Stetson",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Nicholls State",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Eastern Illinois",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5259,31 +5027,159 @@
     "Name": "Binghamton",
     "Gender": "women",
     "Conf": "AEC",
-    "Conference": "AEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Bryant",
+    "Name": "Northwestern State",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Canisius",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Florida",
+    "Gender": "women",
+    "Conf": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Sam Houston",
+    "Gender": "women",
+    "Conf": "CUSA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "La Salle",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Quinnipiac",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Massachusetts",
+    "Gender": "women",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northeastern",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Northern Illinois",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas A&M-Commerce",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "American",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "High Point",
+    "Gender": "women",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "New Hampshire",
     "Gender": "women",
     "Conf": "AEC",
-    "Conference": "AEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "IUPUI",
+    "Name": "Jacksonville",
     "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "A-Sun",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Robert Morris",
+    "Name": "Alabama A&M",
     "Gender": "women",
-    "Conf": "Horizon",
-    "Conference": "Horizon",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Ohio",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "New Orleans",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "South Alabama",
+    "Gender": "women",
+    "Conf": "Sun Belt",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Xavier",
+    "Gender": "women",
+    "Conf": "Big East",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5291,15 +5187,23 @@
     "Name": "Elon",
     "Gender": "women",
     "Conf": "CAA",
-    "Conference": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Portland State",
+    "Name": "Furman",
     "Gender": "women",
-    "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Conf": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bryant",
+    "Gender": "women",
+    "Conf": "AEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5307,23 +5211,39 @@
     "Name": "Loyola (MD)",
     "Gender": "women",
     "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Florida A&M",
+    "Name": "Tarleton State",
     "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Conf": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "NJIT",
+    "Name": "St. Bonaventure",
     "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
+    "Conf": "A-10",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "IUPUI",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Southeast Missouri State",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5331,31 +5251,15 @@
     "Name": "Radford",
     "Gender": "women",
     "Conf": "Big South",
-    "Conference": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Miami (OH)",
+    "Name": "Texas-Rio Grande Valley",
     "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Presbyterian",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "SIU Edwardsville",
-    "Gender": "women",
-    "Conf": "OVC",
-    "Conference": "OVC",
+    "Conf": "WAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5363,119 +5267,39 @@
     "Name": "Cal State Bakersfield",
     "Gender": "women",
     "Conf": "Big West",
-    "Conference": "Big West",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Eastern Michigan",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Central Michigan",
-    "Gender": "women",
-    "Conf": "MAC",
-    "Conference": "MAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Bradley",
-    "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Morgan State",
-    "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Lafayette",
-    "Gender": "women",
-    "Conf": "Patriot",
-    "Conference": "Patriot",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Maryland-Baltimore County",
-    "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Rider",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Omaha",
-    "Gender": "women",
-    "Conf": "Summit",
-    "Conference": "Summit",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Marist",
-    "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Massachusetts-Lowell",
-    "Gender": "women",
-    "Conf": "AEC",
-    "Conference": "AEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Charleston Southern",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Dartmouth",
-    "Gender": "women",
-    "Conf": "Ivy",
-    "Conference": "Ivy",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Seattle",
-    "Gender": "women",
-    "Conf": "WAC",
-    "Conference": "WAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Merrimack",
+    "Name": "Le Moyne",
     "Gender": "women",
     "Conf": "NEC",
-    "Conference": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Hofstra",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bucknell",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Miami (OH)",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5483,15 +5307,71 @@
     "Name": "Tennessee State",
     "Gender": "women",
     "Conf": "OVC",
-    "Conference": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Central Connecticut State",
+    "Name": "Florida A&M",
     "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Pepperdine",
+    "Gender": "women",
+    "Conf": "WCC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Dartmouth",
+    "Gender": "women",
+    "Conf": "Ivy",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Seattle",
+    "Gender": "women",
+    "Conf": "WAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Marist",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Iona",
+    "Gender": "women",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Lafayette",
+    "Gender": "women",
+    "Conf": "Patriot",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Omaha",
+    "Gender": "women",
+    "Conf": "Summit",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5499,39 +5379,7 @@
     "Name": "Bellarmine",
     "Gender": "women",
     "Conf": "A-Sun",
-    "Conference": "A-Sun",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UNC Asheville",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Winthrop",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Fairleigh Dickinson",
-    "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "South Carolina Upstate",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5539,7 +5387,7 @@
     "Name": "Lindenwood",
     "Gender": "women",
     "Conf": "OVC",
-    "Conference": "OVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5547,7 +5395,111 @@
     "Name": "Valparaiso",
     "Gender": "women",
     "Conf": "MVC",
-    "Conference": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Central Michigan",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Maryland-Baltimore County",
+    "Gender": "women",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "SIU Edwardsville",
+    "Gender": "women",
+    "Conf": "OVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Morgan State",
+    "Gender": "women",
+    "Conf": "MEAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Portland State",
+    "Gender": "women",
+    "Conf": "Big Sky",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Eastern Michigan",
+    "Gender": "women",
+    "Conf": "MAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "South Carolina Upstate",
+    "Gender": "women",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "NJIT",
+    "Gender": "women",
+    "Conf": "AEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Bradley",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Robert Morris",
+    "Gender": "women",
+    "Conf": "Horizon",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Presbyterian",
+    "Gender": "women",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Merrimack",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Charleston Southern",
+    "Gender": "women",
+    "Conf": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5555,63 +5507,31 @@
     "Name": "Sacramento State",
     "Gender": "women",
     "Conf": "Big Sky",
-    "Conference": "Big Sky",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Mount St. Mary's",
+    "Name": "Massachusetts-Lowell",
     "Gender": "women",
-    "Conf": "MAAC",
-    "Conference": "MAAC",
+    "Conf": "AEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Utah State",
+    "Name": "UNC Asheville",
     "Gender": "women",
-    "Conf": "MWC",
-    "Conference": "MWC",
+    "Conf": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Alcorn State",
+    "Name": "Winthrop",
     "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Houston Christian",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Hampton",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Cal State Northridge",
-    "Gender": "women",
-    "Conf": "Big West",
-    "Conference": "Big West",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Texas Southern",
-    "Gender": "women",
-    "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Conf": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5619,23 +5539,39 @@
     "Name": "Army",
     "Gender": "women",
     "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Evansville",
+    "Name": "Mount St. Mary's",
     "Gender": "women",
-    "Conf": "MVC",
-    "Conference": "MVC",
+    "Conf": "MAAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "North Carolina Central",
+    "Name": "Alcorn State",
     "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Conf": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "FDU",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Utah State",
+    "Gender": "women",
+    "Conf": "MWC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5643,15 +5579,55 @@
     "Name": "Navy",
     "Gender": "women",
     "Conf": "Patriot",
-    "Conference": "Patriot",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Longwood",
+    "Name": "Rider",
     "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
+    "Conf": "MAAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Hampton",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Central Connecticut State",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Houston Christian",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Cal State Northridge",
+    "Gender": "women",
+    "Conf": "Big West",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "North Carolina Central",
+    "Gender": "women",
+    "Conf": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5659,7 +5635,15 @@
     "Name": "Prairie View",
     "Gender": "women",
     "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Texas Southern",
+    "Gender": "women",
+    "Conf": "SWAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5667,7 +5651,15 @@
     "Name": "Queens (NC)",
     "Gender": "women",
     "Conf": "A-Sun",
-    "Conference": "A-Sun",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Evansville",
+    "Gender": "women",
+    "Conf": "MVC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5675,7 +5667,15 @@
     "Name": "Western Carolina",
     "Gender": "women",
     "Conf": "Southern",
-    "Conference": "Southern",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Longwood",
+    "Gender": "women",
+    "Conf": "Big South",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5683,39 +5683,7 @@
     "Name": "Saint Peter's",
     "Gender": "women",
     "Conf": "MAAC",
-    "Conference": "MAAC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Long Island University",
-    "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "UNC Wilmington",
-    "Gender": "women",
-    "Conf": "CAA",
-    "Conference": "CAA",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Gardner-Webb",
-    "Gender": "women",
-    "Conf": "Big South",
-    "Conference": "Big South",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "South Carolina State",
-    "Gender": "women",
-    "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5723,7 +5691,31 @@
     "Name": "Mississippi Valley State",
     "Gender": "women",
     "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Long Island University",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Gardner-Webb",
+    "Gender": "women",
+    "Conf": "Big South",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "UNC Wilmington",
+    "Gender": "women",
+    "Conf": "CAA",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5731,39 +5723,15 @@
     "Name": "Delaware State",
     "Gender": "women",
     "Conf": "MEAC",
-    "Conference": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
   {
-    "Name": "Stonehill",
+    "Name": "South Carolina State",
     "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "McNeese State",
-    "Gender": "women",
-    "Conf": "Southland",
-    "Conference": "Southland",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Wagner",
-    "Gender": "women",
-    "Conf": "NEC",
-    "Conference": "NEC",
-    "Roster": [],
-    "Games": []
-  },
-  {
-    "Name": "Chicago State",
-    "Gender": "women",
-    "Conf": "Ind",
-    "Conference": "Ind",
+    "Conf": "MEAC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5771,7 +5739,39 @@
     "Name": "Alabama State",
     "Gender": "women",
     "Conf": "SWAC",
-    "Conference": "SWAC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Stonehill",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "McNeese State",
+    "Gender": "women",
+    "Conf": "Southland",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Wagner",
+    "Gender": "women",
+    "Conf": "NEC",
+    "Year": 2024,
+    "Roster": [],
+    "Games": []
+  },
+  {
+    "Name": "Chicago State",
+    "Gender": "women",
+    "Conf": "Ind",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5779,7 +5779,7 @@
     "Name": "Saint Francis (PA)",
     "Gender": "women",
     "Conf": "NEC",
-    "Conference": "NEC",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   },
@@ -5787,7 +5787,7 @@
     "Name": "Non D1",
     "Gender": "women",
     "Conf": "D2",
-    "Conference": "D2",
+    "Year": 2024,
     "Roster": [],
     "Games": []
   }

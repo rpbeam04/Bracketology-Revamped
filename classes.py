@@ -3,22 +3,22 @@ import json
 import pandas as pd
 
 class Team:
-    def __init__(self, name: str, gender: str, conference: str):
+    def __init__(self, name: str, gender: str, conference: str, year: int):
         self.Name = name
         self.Gender = gender
         self.Conf = conference
-        self.Conference = conference
+        self.Year = year
         self.Roster = []
         self.Games = []
         Team.team_list.append(self)
 
     def __str__(self):
-        return f"<{self.Name} ({self.Gender})>"
+        return f"<{self.Name} ({self.Gender}-{self.Year})>"
     
     team_list: list['Team'] = []
 
     @classmethod
-    def search_team(cls, name: str, gender: str):
+    def search_team(cls, name: str, gender: str, year: int = 2024):
         team: Team
         if name == "_":
             return None
@@ -30,7 +30,7 @@ class Team:
         if name in list(aliases.keys()):
             name = aliases[name]
         for team in Team.team_list:
-            if team.Name == name and team.Gender == gender:
+            if team.Name == name and team.Gender == gender and team.Year == year:
                 return team
         print(f"Error (search_team): No {name}, {gender} found.")
         with open('Teams/alias.json', 'r', encoding='utf-8') as f:
@@ -51,8 +51,9 @@ class Team:
             for j,check in enumerate(Team.team_list):
                 if (team.Name == check.Name and 
                     team.Gender == check.Gender and i != j and
+                    team.Year == check.Year and
                     team not in duplicates):
-                    #print(f"Duplicate found: {team.Name} ({team.Gender})")
+                    #print(f"Duplicate found: {team.Name} ({team.Gender}-{team.Year})")
                     duplicates.append(check)
         for team in duplicates:
             Team.team_list.remove(team)
@@ -81,10 +82,11 @@ class Team:
                     del team_data["Roster"]
                 except:
                     pass
-                team = Team(team_data["Name"], team_data["Gender"], team_data["Conference"])
+                team = Team(team_data["Name"], team_data["Gender"], team_data["Conf"], team_data["Year"])
                 del team_data["Name"]
                 del team_data["Gender"]
-                del team_data["Conference"]
+                del team_data["Conf"]
+                del team_data["Year"]
                 for key, val in team_data.items():
                     if key == "Games":
                         setattr(team, key, [])
@@ -94,31 +96,31 @@ class Team:
             print(f"File '{filename}' not found.")
 
     @classmethod
-    def create_teams_from_stats(cls, gender: str = "men", write_to_json: bool = False):
+    def create_teams_from_stats(cls, gender: str = "men", year: int = 2024, write_to_json: bool = False):
         """
         Since write to json will reset all other teams, only do so after creating mens and womens teams.
         """
         try:
-            ratings = pd.read_csv(fr"Stats/{gender.lower()}/ratings.csv")
+            ratings = pd.read_csv(fr"Stats/{year}/{gender.lower()}/ratings.csv")
         except:
             print("Error: No stats files.")
             return None
         for _, row in ratings[["School","Conf"]].iterrows():
-            Team(name = row["School"], gender = gender.lower(), conference = row["Conf"])
-        Team("Non D1",gender.lower(),"D2")
+            Team(name = row["School"], gender = gender.lower(), conference = row["Conf"], year = year)
+        Team("Non D1", gender.lower(), "D2", year)
         if write_to_json:
             Team.write_teams_to_json()
 
     @classmethod
-    def find_teams_in_conference(cls, conference: str, gender: str = "men"):
+    def find_teams_in_conference(cls, conference: str, gender: str = "men", year: int = 2024):
         team: Team
         members: list[Team] = []
         for team in Team.team_list:
             if isinstance(team.Conf, str):
-                if team.Conf == conference and team.Gender == gender:
+                if team.Conf == conference and team.Gender == gender and team.Year == year:
                     members.append(team)
             else:
-                if team.Conf.Name == conference and team.Gender == gender:
+                if team.Conference.Name == conference and team.Gender == gender and team.Year == year:
                     members.append(team)
         return members
     
@@ -129,6 +131,7 @@ class Team:
         Team.team_list = []
 
 class Game:
+    # Note: Games have not yet had multi-season functionality implemented, be careful with that
     def __init__(self, home: Team, away: Team, home_score: int, 
                  away_score: int, gender: str, date: datetime):
         self.Home = home
@@ -216,24 +219,24 @@ class Player:
         return f"{self.Name} ({self.Pos})"
 
 class Conference:
-    def __init__(self, name: str, gender: str):
+    def __init__(self, name: str, gender: str, year: int):
         self.Name = name
         self.Gender = gender
+        self.Year = year
         self.Teams = []
         for team in Team.team_list:
-            if team.Conf == name and team.Gender == gender:
+            if team.Conf == name and team.Gender == gender and team.Year == year:
                 self.Teams.append(team)
-                team.Conf = self
                 team.Conference = self
         Conference.conf_list.append(self)
     
     def __str__(self):
-        return f"Conf: {self.Name}, {self.Gender}"
+        return f"Conf: {self.Name}, {self.Gender}-{self.Year}"
     
     conf_list: list['Conference'] = []
 
     @classmethod
-    def search_conference(cls, name: str, gender: str):
+    def search_conference(cls, name: str, gender: str, year: int):
         conf: Conference
         if name == "_":
             return None
@@ -245,9 +248,9 @@ class Conference:
         if name in list(aliases.keys()):
             name = aliases[name]
         for conf in Conference.conf_list:
-            if conf.Name == name and conf.Gender == gender:
+            if conf.Name == name and conf.Gender == gender and conf.Year == year:
                 return conf
-        print(f"Error (search_conference): No {name}, {gender} found.")
+        print(f"Error (search_conference): No {name}, {gender}, {year} found.")
         with open('Teams/alias.json', 'r', encoding='utf-8') as f:
             alias_data = json.load(f)
         if name not in list(alias_data.keys()):
@@ -277,9 +280,10 @@ class Conference:
             with open(filename, 'r') as json_file:
                 conf_data_list = json.load(json_file)
             for conf_data in conf_data_list:
-                conf = Conference(conf_data["Name"], conf_data["Gender"])
+                conf = Conference(conf_data["Name"], conf_data["Gender"], conf_data["Year"])
                 del conf_data["Name"]
                 del conf_data["Gender"]
+                del conf_data["Year"]
                 for key, val in conf_data.items():
                     if key == "Teams":
                         teams = [Team.search_team(name, conf.Gender) for name in val]
@@ -288,3 +292,15 @@ class Conference:
                         setattr(conf, key, val)
         except FileNotFoundError:
             print(f"File '{filename}' not found.")
+
+    @classmethod
+    def create_conferences_from_stats(cls, gender: str = "men", year: int = 2024, write_to_json: bool = False):
+        try:
+            df = pd.read_csv(fr"Stats/{year}/{gender.lower()}/ratings.csv")
+        except:
+            print("Error creating conferences: no stats.")
+            return None
+        for conf_name in list(df["Conf"].unique()):
+            Conference(conf_name, gender, year)
+        if write_to_json:
+            Conference.write_conferences_to_json()

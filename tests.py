@@ -8,13 +8,13 @@ from pprint import *
 from IPython.display import display
 import os
 
-Team.create_teams_from_json()
+genders = ["men", "women"]
 
-acc = Conference("ACC", "men")
-big_ten = Conference("Big Ten", "women")
-print(len(big_ten.Teams))
-print(Team.search_team("Northwestern", "women").Conf)
-print(Conference.conf_list)
+Team.create_teams_from_json()
+Conference.create_conferences_from_json()
+for gender in genders:
+    fetch.fetch_rpi_rankings(gender=gender)
+    fetch.fetch_rpi_rankings(gender=gender)
 
 # tests = ["Miami (FL) (9)", "Miami (FL)","Miami (16)", "Miami"]
 # for text in tests:

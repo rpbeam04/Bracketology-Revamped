@@ -156,7 +156,7 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
             df = df.drop(df.index[0])
         for i, item in enumerate(header):
             if item.startswith("Unnamed"):
-                header[i] = header2[i]
+                header[i] = header2[i].replace(" ","_")
             elif item.startswith("Overall"):
                 header[i] = header2[i].replace("%","_Pct").replace("-","_")
             elif item.startswith("SRS"):
@@ -176,7 +176,7 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
             elif item.startswith("Opponent"):
                 header[i] = f'Opp_{header2[i].replace("%","_Pct").replace("/","per")}'
             elif item.startswith("School Advanced"):
-                header[i] = f'Opp_{header2[i].replace("%","_Pct").replace("/","per")}'
+                header[i] = f'{header2[i].replace("%","_Pct").replace("/","per")}'
             else:
                 header[i] = f"{header[i]}_{header2[i]}"
         df.columns = [str(h) for h in header]
@@ -217,11 +217,15 @@ def fetch_rpi_rankings(year: int = 2024, gender: str = "men"):
     if gender == "women":
         gender_flag = "w"
     url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/rpi-live"
+    if year < 2021:
+        url = url.replace("rpi-live","nitty-live")
     rpi_ranks = scrape_tables_from_url(url)[0]
     rpi_ranks = rpi_ranks.drop(columns= ["RPI Delta"])
     rpi_ranks = rpi_ranks[rpi_ranks["Team"] != "Team"]
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
-    rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: Team.search_team(x, gender).Name)
+    rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: Team.search_team(x, gender, year).Name)
+    rpi_ranks.columns = [str(h.replace(" ","_")) for h in list(rpi_ranks.columns)]
+    rpi_ranks = rpi_ranks.apply(pd.to_numeric, errors='ignore')
     rpi_ranks = rpi_ranks.reset_index(drop=True)
     file_path = fr"Metrics/{year}/{gender}"
     if not os.path.exists(file_path):
@@ -230,19 +234,33 @@ def fetch_rpi_rankings(year: int = 2024, gender: str = "men"):
     return rpi_ranks
 
 def fetch_net_rankings(year: int = 2024, gender: str = "men"):
+    if year < 2019:
+        print("Warning: NET rankings began in the 2018-19 season, year 2019.")
+        return None
+    if year < 2021 and gender == "women":
+        print("Warning: Women's NET rankings began in the 2020-21 season, year 2021.")
+        return None
     gender_flag = ""
     if gender.lower() == "women":
         gender_flag = "w"
     url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/net"
+    if year < 2021:
+        url += "-nitty"
     net_ranks = scrape_tables_from_url(url)[0]
     net_ranks = net_ranks.drop(columns= ["NET Delta"])
-    net_ranks['Team'] = net_ranks['Team'].apply(lambda x: Team.search_team(x, gender).Name)
+    net_ranks['Team'] = net_ranks['Team'].apply(lambda x: Team.search_team(x, gender, year).Name)
+    net_ranks.columns = [str(h.replace(" ","_")) for h in list(net_ranks.columns)]
+    net_ranks = net_ranks.apply(pd.to_numeric, errors='ignore')
     file_path = fr"Metrics/{year}/{gender.lower()}"
     if not os.path.exists(file_path):
         os.makedirs(file_path)
     net_ranks.to_csv(fr"{file_path}/NET.csv", index=False)
     # Conference NET
     url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/net-conference"
+    if year < 2021:
+        url = url.replace("net-conference","conferencenet")
     net_conf = scrape_tables_from_url(url)[0]
+    net_conf.columns = [str(h.replace(" ","_")) for h in list(net_conf.columns)]
+    net_conf = net_conf.apply(pd.to_numeric, errors='ignore')
     net_conf.to_csv(fr"{file_path}/NET-conf.csv", index=False)
     return net_ranks, net_conf
