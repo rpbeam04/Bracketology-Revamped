@@ -124,10 +124,16 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
     """
     if not refresh_override:
         try:
-            with open(fr"Stats/{gender.lower()}/cache.txt","r") as f:
+            with open(fr"Stats/{season}/{gender.lower()}/cache.txt","r") as f:
                 cache = datetime.datetime.fromisoformat(f.read())
                 now = datetime.datetime.today()
             if cache.day == now.day and ((cache.hour < 8 and now.hour < 8) or (cache.hour > 8 and now.hour > 8)):
+                print("Loading stats on file.")
+                tables = {}
+                for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
+                    tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}", index_col=0)
+                return tables
+            elif season < 2024:
                 print("Loading stats on file.")
                 tables = {}
                 for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
@@ -186,6 +192,18 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
             df = df.drop(columns = "nan")
         except:
             pass
+        for i,_ in df.iterrows():
+            team = df.loc[i,"School"]
+            team: str
+            if team.endswith("NCAA"):
+                df.at[i,"School"] = team.removesuffix("NCAA")[0:-1]
+            if team == "FDU":
+                df.at[i,"School"] = "Fairleigh Dickinson"
+            try:
+                if df.loc[i,"Conf"].startswith("MAC"):
+                    df.at[i,"Conf"] = "MAC"
+            except:
+                pass
         df = df.drop(columns = [col for col in list(df.columns) if "Unnamed" in col])
         df = df.reset_index(drop = True)
         tables[key] = df
@@ -212,15 +230,26 @@ def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, mon
         games += fetch_games_on_date(date, refresh)
         time.sleep(sleep)
 
-def fetch_rpi_rankings(year: int = 2024, gender: str = "men"):
+def fetch_rpi_rankings(year: int = 2024, gender: str = "men", refresh_override: bool = False):
+    if not refresh_override:
+        try:
+            rpi_ranks = pd.read_csv(fr"Metrics/{year}/{gender.lower()}/RPI.csv")
+            print("RPI found locally.")
+            return rpi_ranks
+        except:
+            pass
     gender_flag = ""
     if gender == "women":
         gender_flag = "w"
     url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/rpi-live"
     if year < 2021:
         url = url.replace("rpi-live","nitty-live")
-    rpi_ranks = scrape_tables_from_url(url)[0]
-    rpi_ranks = rpi_ranks.drop(columns= ["RPI Delta"])
+    rpi_ranks = scrape_tables_from_url(url)[-1]
+    try:
+        rpi_ranks = rpi_ranks.drop(columns= ["RPI Delta"])
+    except:
+        pass
+    rpi_ranks = rpi_ranks.dropna(axis=1, how='all')
     rpi_ranks = rpi_ranks[rpi_ranks["Team"] != "Team"]
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: Team.search_team(x, gender, year).Name)
@@ -233,7 +262,15 @@ def fetch_rpi_rankings(year: int = 2024, gender: str = "men"):
     rpi_ranks.to_csv(fr"{file_path}/RPI.csv", index=False)
     return rpi_ranks
 
-def fetch_net_rankings(year: int = 2024, gender: str = "men"):
+def fetch_net_rankings(year: int = 2024, gender: str = "men", refresh_override: bool = False):
+    if not refresh_override:
+        try:
+            net_ranks = pd.read_csv(fr"Metrics/{year}/{gender.lower()}/NET.csv")
+            net_conf = pd.read_csv(fr"Metrics/{year}/{gender.lower()}/NET-conf.csv")
+            print("NET found locally.")
+            return net_ranks, net_conf
+        except:
+            pass
     if year < 2019:
         print("Warning: NET rankings began in the 2018-19 season, year 2019.")
         return None
@@ -246,8 +283,15 @@ def fetch_net_rankings(year: int = 2024, gender: str = "men"):
     url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/net"
     if year < 2021:
         url += "-nitty"
-    net_ranks = scrape_tables_from_url(url)[0]
-    net_ranks = net_ranks.drop(columns= ["NET Delta"])
+    net_ranks = scrape_tables_from_url(url)[-1]
+    try:
+        net_ranks = net_ranks.drop(columns= ["NET Delta"])
+    except:
+        pass
+    net_ranks = net_ranks.dropna(axis=1, how='all')
+    if year < 2021:
+        net_ranks = net_ranks[net_ranks["Team"] != "Team"]
+        net_ranks['Team'] = net_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
     net_ranks['Team'] = net_ranks['Team'].apply(lambda x: Team.search_team(x, gender, year).Name)
     net_ranks.columns = [str(h.replace(" ","_")) for h in list(net_ranks.columns)]
     net_ranks = net_ranks.apply(pd.to_numeric, errors='ignore')
@@ -259,8 +303,9 @@ def fetch_net_rankings(year: int = 2024, gender: str = "men"):
     url = fr"https://www.warrennolan.com/basketball{gender_flag}/{year}/net-conference"
     if year < 2021:
         url = url.replace("net-conference","conferencenet")
-    net_conf = scrape_tables_from_url(url)[0]
-    net_conf.columns = [str(h.replace(" ","_")) for h in list(net_conf.columns)]
+    net_conf = scrape_tables_from_url(url)[-1]
+    net_conf = net_conf.dropna(axis=1, how='all')
+    net_conf.columns = [str(h.replace(" ","_").removesuffix(".1")) for h in list(net_conf.columns)]
     net_conf = net_conf.apply(pd.to_numeric, errors='ignore')
     net_conf.to_csv(fr"{file_path}/NET-conf.csv", index=False)
     return net_ranks, net_conf
