@@ -204,6 +204,7 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
                     df.at[i,"Conf"] = "MAC"
             except:
                 pass
+        df = df[(df['W'] != 0) | (df['L'] != 0)]
         df = df.drop(columns = [col for col in list(df.columns) if "Unnamed" in col])
         df = df.reset_index(drop = True)
         tables[key] = df
@@ -250,8 +251,11 @@ def fetch_rpi_rankings(year: int = 2024, gender: str = "men", refresh_override: 
     except:
         pass
     rpi_ranks = rpi_ranks.dropna(axis=1, how='all')
+    rpi_ranks = rpi_ranks[rpi_ranks["Record"] != "0 - 0"]
+    rpi_ranks = rpi_ranks[rpi_ranks["Record"] != "0-0"]
     rpi_ranks = rpi_ranks[rpi_ranks["Team"] != "Team"]
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
+    rpi_ranks['Team'] = rpi_ranks[rpi_ranks["Team"] != 'freestar.config.enabled_slots.push({ placementName: "warrennolan_incontent_1", slotId: "warrennolan_incontent_1" });']
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: Team.search_team(x, gender, year).Name)
     rpi_ranks.columns = [str(h.replace(" ","_")) for h in list(rpi_ranks.columns)]
     rpi_ranks = rpi_ranks.apply(pd.to_numeric, errors='ignore')
@@ -289,6 +293,8 @@ def fetch_net_rankings(year: int = 2024, gender: str = "men", refresh_override: 
     except:
         pass
     net_ranks = net_ranks.dropna(axis=1, how='all')
+    net_ranks = net_ranks[net_ranks["Record"] != "0 - 0"]
+    net_ranks = net_ranks[net_ranks["Record"] != "0-0"]
     if year < 2021:
         net_ranks = net_ranks[net_ranks["Team"] != "Team"]
         net_ranks['Team'] = net_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
