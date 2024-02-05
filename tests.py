@@ -8,22 +8,38 @@ from pprint import *
 from IPython.display import display
 import os
 import time
+import data
 
-Team.clear_teams()
-genders = ["women","men"]
-years = [2021,2022,2023,2024]
-for gender in genders:
-    if gender == "men":
-        years.insert(0,2019)
-    for year in years:
-        fetch.fetch_team_stats(year, gender)
-        Team.create_teams_from_stats(gender, year)
-        Conference.create_conferences_from_stats(gender, year)
-        fetch.fetch_net_rankings(year, gender)
-        fetch.fetch_rpi_rankings(year, gender)
-Team.clean_duplicates()
-Team.write_teams_to_json()
-Conference.write_conferences_to_json()
+Team.create_teams_from_json()
+Conference.create_conferences_from_json()
+data.populate_team_stats(2024, "men")
+data.populate_conference_metrics(2024, "men")
+data.populate_team_metrics(2024, "men")
+
+to_diffs = {}
+for team in Team.filtered_team_list("men", 2024, True):
+    to_diffs[team.Name] = -team.per_game("TOV") + team.per_game("Opp_TOV")
+to_diffs = dict(sorted(to_diffs.items(), key = lambda x: x[1], reverse=True))
+for i, ele in enumerate(list(to_diffs.items())):
+    print(i+1,ele[0],round(ele[1],2))
+
+# # FULL OBJECT SOURCING
+# Team.clear_teams()
+# genders = ["women","men"]
+# years = [2021,2022,2023,2024]
+# for gender in genders:
+#     if gender == "men":
+#         years.insert(0,2019)
+#     for year in years:
+#         refr = False
+#         fetch.fetch_team_stats(year, gender, refresh_override=refr)
+#         Team.create_teams_from_stats(gender, year)
+#         Conference.create_conferences_from_stats(gender, year)
+#         fetch.fetch_net_rankings(year, gender)
+#         fetch.fetch_rpi_rankings(year, gender)
+# Team.clean_duplicates()
+# Team.write_teams_to_json()
+# Conference.write_conferences_to_json()
 
 # df = pd.read_csv("test2021.csv")
 # df2 = pd.read_csv("Stats/2021/men/school-stats.csv")

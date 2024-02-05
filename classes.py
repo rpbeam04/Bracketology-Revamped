@@ -17,6 +17,84 @@ class Team:
     
     team_list: list['Team'] = []
 
+    def per_game(self, stat: str):
+        try:
+            games = self.G
+            stat = getattr(self, stat)
+            return stat/games
+        except:
+            print("Error (per game): make sure stats loaded.")
+            return None
+
+    def stat_rank(self, stat: str, per_game: bool = False, descend: bool = True):
+        team_stat = {}
+        gender = self.Gender
+        year = self.Year
+        for team in [team for team in Team.team_list if team.Name != "Non D1"]:
+            if team.Year == year and team.Gender == gender.lower():
+                statv = getattr(team, stat)
+                if per_game:
+                    statv = team.per_game(stat)
+                team_stat[team.Name] = statv
+        team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
+        return list(team_stat.keys()).index(self.Name)+1
+
+    def stat_rank_p6(self, stat: str, per_game: bool = False, descend: bool = True):
+        team_stat = {}
+        gender = self.Gender
+        year = self.Year
+        for team in [team for team in Team.team_list if team.Name != "Non D1"]:
+            if team.Conf in ["ACC","SEC","Big Ten","Pac-12","Big 12","Big East"] and team.Year == year and team.Gender == gender.lower():
+                statv = getattr(team, stat)
+                if per_game:
+                    statv = team.per_game(stat)
+                team_stat[team.Name] = statv
+        team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
+        return list(team_stat.keys()).index(self.Name)+1
+
+    @classmethod
+    def filtered_team_list(cls, gender: str | list[str], year: int | list[int], power_6: bool = False, non_d1: bool = False):
+        if isinstance(gender, str):
+            gender = [gender]
+        if isinstance(year, int):
+            year = [year]
+        if non_d1:
+            tl = [team for team in Team.team_list if team.Gender in gender and team.Year in year]
+        else:
+            tl = [team for team in Team.team_list if team.Gender in gender and team.Year in year and team.Name != "Non D1"]
+        if power_6:
+            return [team for team in tl if team.Conf in ["ACC","SEC","Big Ten","Pac-12","Big 12","Big East"]]
+        else:
+            return tl
+
+    @classmethod
+    def stat_rankings(cls, stat: str, gender: str, year: int, per_game: bool = False, descend: bool = True):
+        team_stat = {}
+        for team in [team for team in Team.team_list if team.Name != "Non D1"]:
+            if team.Year == year and team.Gender == gender.lower():
+                statv = getattr(team, stat)
+                if per_game:
+                    statv = team.per_game(stat)
+                team_stat[team.Name] = statv
+        team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
+        for i, key in enumerate(list(team_stat.keys())):
+            team_stat[key] = i+1
+        return team_stat
+    
+    @classmethod
+    def stat_rankings_p6(cls, stat: str, gender: str, year: int, per_game: bool = False, descend: bool = True):
+        team_stat = {}
+        for team in [team for team in Team.team_list if team.Name != "Non D1"]:
+            if team.Conf in ["ACC","SEC","Big Ten","Pac-12","Big 12","Big East"] and team.Year == year and team.Gender == gender.lower():
+                statv = getattr(team, stat)
+                if per_game:
+                    statv = team.per_game(stat)
+                team_stat[team.Name] = statv
+        team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
+        for i, key in enumerate(list(team_stat.keys())):
+            team_stat[key] = i+1
+        return team_stat
+
     @classmethod
     def search_team(cls, name: str, gender: str, year: int = 2024):
         team: Team
@@ -32,7 +110,7 @@ class Team:
         for team in Team.team_list:
             if team.Name == name and team.Gender == gender and team.Year == year:
                 return team
-        print(f"Error (search_team): No {name}, {gender} found.")
+        print(f"Error (search_team): No {name}, {gender}, {year} found.")
         with open('Teams/alias.json', 'r', encoding='utf-8') as f:
             alias_data = json.load(f)
         if name not in list(alias_data.keys()):
@@ -288,7 +366,7 @@ class Conference:
                 del conf_data["Year"]
                 for key, val in conf_data.items():
                     if key == "Teams":
-                        teams = [Team.search_team(name, conf.Gender) for name in val]
+                        teams = [Team.search_team(name, conf.Gender, conf.Year) for name in val]
                         setattr(conf, key, teams)
                     else:
                         setattr(conf, key, val)
@@ -306,3 +384,15 @@ class Conference:
             Conference(conf_name, gender, year)
         if write_to_json:
             Conference.write_conferences_to_json()
+
+    @classmethod
+    def conf_stat_rankings(cls, conf: str, gender: str, year: int, stat: str, descend: bool = True):
+        team_stat = {}
+        conf = Conference.search_conference(conf, gender, year)
+        for team in Team.team_list:
+            if team.Conference == conf:
+                team_stat[team.Name] = getattr(team, stat)
+        team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
+        for i, key in enumerate(list(team_stat.keys())):
+            team_stat[key] = i+1
+        return team_stat

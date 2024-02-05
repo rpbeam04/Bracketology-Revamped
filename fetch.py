@@ -127,17 +127,18 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
             with open(fr"Stats/{season}/{gender.lower()}/cache.txt","r") as f:
                 cache = datetime.datetime.fromisoformat(f.read())
                 now = datetime.datetime.today()
-            if cache.day == now.day and ((cache.hour < 8 and now.hour < 8) or (cache.hour > 8 and now.hour > 8)):
+            if True:
+            #if cache.day == now.day and ((cache.hour < 8 and now.hour < 8) or (cache.hour > 8 and now.hour > 8)):
                 print("Loading stats on file.")
                 tables = {}
-                for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
-                    tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}", index_col=0)
+                for file in [file for file in os.listdir(fr"Stats/{season}/{gender.lower()}") if file.endswith(".csv")]:
+                    tables[file.removesuffix(".csv")] = pd.read_csv(fr"Stats/{season}/{gender.lower()}/{file}", index_col=0)
                 return tables
             elif season < 2024:
                 print("Loading stats on file.")
                 tables = {}
-                for file in [file for file in os.listdir("Stats") if file.endswith(".csv")]:
-                    tables[file.removesuffix(".csv")] = pd.read_csv(f"Stats/{file}", index_col=0)
+                for file in [file for file in os.listdir(fr"Stats/{season}/{gender.lower()}") if file.endswith(".csv")]:
+                    tables[file.removesuffix(".csv")] = pd.read_csv(fr"Stats/{season}/{gender.lower()}/{file}", index_col=0)
                 return tables
         except:
             pass
