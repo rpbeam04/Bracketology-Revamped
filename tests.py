@@ -20,7 +20,6 @@ for gender in genders:
         Team.create_teams_from_stats(gender, year)
         Conference.create_conferences_from_stats(gender, year)
         fetch.fetch_net_rankings(year, gender)
-        time.sleep(2)
         fetch.fetch_rpi_rankings(year, gender)
 Team.clean_duplicates()
 Team.write_teams_to_json()

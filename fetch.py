@@ -254,8 +254,8 @@ def fetch_rpi_rankings(year: int = 2024, gender: str = "men", refresh_override: 
     rpi_ranks = rpi_ranks[rpi_ranks["Record"] != "0 - 0"]
     rpi_ranks = rpi_ranks[rpi_ranks["Record"] != "0-0"]
     rpi_ranks = rpi_ranks[rpi_ranks["Team"] != "Team"]
+    rpi_ranks = rpi_ranks[~rpi_ranks["Team"].str.startswith("freestar.config")]
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: x.split('  ')[0].strip())
-    rpi_ranks['Team'] = rpi_ranks[rpi_ranks["Team"] != 'freestar.config.enabled_slots.push({ placementName: "warrennolan_incontent_1", slotId: "warrennolan_incontent_1" });']
     rpi_ranks['Team'] = rpi_ranks['Team'].apply(lambda x: Team.search_team(x, gender, year).Name)
     rpi_ranks.columns = [str(h.replace(" ","_")) for h in list(rpi_ranks.columns)]
     rpi_ranks = rpi_ranks.apply(pd.to_numeric, errors='ignore')

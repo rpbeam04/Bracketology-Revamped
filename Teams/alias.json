@@ -561,6 +561,5 @@
   "Northeast": "NEC",
   "Saint Francis (NY)": "St. Francis (NY)",
   "Dixie State": "Utah Tech",
-  "Houston Baptist": "Houston Christian",
-  "freestar.config.enabled_slots.push({ placementName: \"warrennolan_incontent_1\", slotId: \"warrennolan_incontent_1\" });": "_"
+  "Houston Baptist": "Houston Christian"
 }

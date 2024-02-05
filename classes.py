@@ -66,6 +66,8 @@ class Team:
         for team in cls.team_list:
             team_dict = {}
             for attr, value in vars(team).items():
+                if isinstance(value, Conference):
+                    continue
                 if not callable(value) and not attr.startswith("__"):
                     team_dict[attr] = value
             team_data.append(team_dict)

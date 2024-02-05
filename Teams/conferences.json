@@ -1,595 +1,1734 @@
 [
   {
-    "Name": "Big 12",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Houston",
-      "Brigham Young",
-      "Iowa State",
-      "Baylor",
-      "Kansas",
-      "Oklahoma",
-      "Cincinnati",
-      "TCU",
-      "Texas",
-      "Texas Tech",
-      "Central Florida",
-      "Kansas State",
-      "Oklahoma State",
-      "West Virginia"
-    ]
-  },
-  {
     "Name": "Pac-12",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "Arizona",
-      "Utah",
-      "Colorado",
-      "Washington State",
-      "Washington",
-      "Oregon",
-      "Southern California",
       "Stanford",
       "UCLA",
-      "California",
+      "Oregon",
+      "Arizona",
+      "Oregon State",
+      "Washington State",
+      "Colorado",
+      "Southern California",
+      "Washington",
       "Arizona State",
-      "Oregon State"
-    ]
-  },
-  {
-    "Name": "Big Ten",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Purdue",
-      "Illinois",
-      "Michigan State",
-      "Wisconsin",
-      "Iowa",
-      "Nebraska",
-      "Ohio State",
-      "Northwestern",
-      "Maryland",
-      "Minnesota",
-      "Penn State",
-      "Michigan",
-      "Indiana",
-      "Rutgers"
-    ]
-  },
-  {
-    "Name": "SEC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Alabama",
-      "Tennessee",
-      "Auburn",
-      "Kentucky",
-      "Florida",
-      "Mississippi State",
-      "Texas A&M",
-      "South Carolina",
-      "Mississippi",
-      "Georgia",
-      "Louisiana State",
-      "Arkansas",
-      "Missouri",
-      "Vanderbilt"
+      "Utah",
+      "California"
     ]
   },
   {
     "Name": "Big East",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
       "Connecticut",
       "Marquette",
+      "Seton Hall",
+      "DePaul",
+      "Villanova",
       "Creighton",
       "St. John's (NY)",
-      "Xavier",
-      "Butler",
-      "Villanova",
       "Providence",
-      "Seton Hall",
       "Georgetown",
-      "DePaul"
+      "Xavier",
+      "Butler"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Baylor",
+      "Oklahoma State",
+      "Texas",
+      "Iowa State",
+      "West Virginia",
+      "Oklahoma",
+      "Kansas State",
+      "Kansas",
+      "TCU",
+      "Texas Tech"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Maryland",
+      "Indiana",
+      "Michigan",
+      "Rutgers",
+      "Ohio State",
+      "Iowa",
+      "Northwestern",
+      "Michigan State",
+      "Nebraska",
+      "Penn State",
+      "Purdue",
+      "Minnesota",
+      "Illinois",
+      "Wisconsin"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "South Carolina",
+      "Georgia",
+      "Tennessee",
+      "Texas A&M",
+      "Kentucky",
+      "Arkansas",
+      "Alabama",
+      "Mississippi",
+      "Missouri",
+      "Mississippi State",
+      "Louisiana State",
+      "Florida",
+      "Auburn",
+      "Vanderbilt"
     ]
   },
   {
     "Name": "ACC",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "North Carolina",
-      "Duke",
-      "Wake Forest",
-      "Clemson",
-      "Miami (FL)",
-      "Pittsburgh",
-      "Virginia Tech",
-      "Virginia",
-      "Florida State",
+      "Louisville",
       "NC State",
-      "Boston College",
-      "Syracuse",
       "Georgia Tech",
+      "Virginia Tech",
+      "North Carolina",
+      "Syracuse",
+      "Florida State",
       "Notre Dame",
-      "Louisville"
-    ]
-  },
-  {
-    "Name": "MWC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "New Mexico",
-      "San Diego State",
-      "Colorado State",
-      "Utah State",
-      "Boise State",
-      "Nevada",
-      "Nevada-Las Vegas",
-      "Wyoming",
-      "Fresno State",
-      "San Jose State",
-      "Air Force"
+      "Wake Forest",
+      "Duke",
+      "Miami (FL)",
+      "Clemson",
+      "Boston College",
+      "Pittsburgh",
+      "Virginia"
     ]
   },
   {
     "Name": "WCC",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
       "Gonzaga",
-      "Saint Mary's (CA)",
+      "Brigham Young",
       "San Francisco",
-      "Santa Clara",
-      "Loyola Marymount",
-      "Pepperdine",
       "San Diego",
+      "Pacific",
+      "Santa Clara",
       "Portland",
-      "Pacific"
-    ]
-  },
-  {
-    "Name": "AAC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Florida Atlantic",
-      "Southern Methodist",
-      "Memphis",
-      "North Texas",
-      "Charlotte",
-      "Tulane",
-      "South Florida",
-      "UAB",
-      "Wichita State",
-      "Tulsa",
-      "East Carolina",
-      "Rice",
-      "Temple",
-      "UTSA"
-    ]
-  },
-  {
-    "Name": "A-10",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Dayton",
-      "St. Bonaventure",
-      "Virginia Commonwealth",
-      "Richmond",
-      "Massachusetts",
-      "Saint Joseph's",
-      "George Mason",
-      "Duquesne",
-      "Loyola (IL)",
-      "Davidson",
-      "George Washington",
-      "Fordham",
-      "Rhode Island",
-      "La Salle",
-      "Saint Louis"
+      "Loyola Marymount",
+      "Saint Mary's (CA)",
+      "Pepperdine"
     ]
   },
   {
     "Name": "MVC",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "Indiana State",
-      "Drake",
-      "Bradley",
-      "Southern Illinois",
-      "Northern Iowa",
-      "Murray State",
       "Missouri State",
-      "Belmont",
-      "Illinois-Chicago",
+      "Drake",
+      "Northern Iowa",
       "Illinois State",
-      "Evansville",
-      "Valparaiso"
+      "Bradley",
+      "Valparaiso",
+      "Loyola (IL)",
+      "Southern Illinois",
+      "Indiana State",
+      "Evansville"
     ]
   },
   {
-    "Name": "WAC",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "AAC",
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "Grand Canyon",
-      "Seattle",
+      "South Florida",
+      "Central Florida",
+      "Tulane",
+      "Houston",
+      "Temple",
+      "Cincinnati",
+      "East Carolina",
+      "Wichita State",
+      "Tulsa",
+      "Memphis",
+      "Southern Methodist"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
       "Stephen F. Austin",
-      "California Baptist",
-      "UT Arlington",
-      "Tarleton State",
-      "Utah Valley",
-      "Southern Utah",
+      "Sam Houston",
+      "Southeastern Louisiana",
       "Abilene Christian",
-      "Utah Tech",
-      "Texas-Rio Grande Valley"
+      "Lamar",
+      "Central Arkansas",
+      "Houston Christian",
+      "Nicholls State",
+      "Incarnate Word",
+      "Texas A&M-Corpus Christi",
+      "New Orleans",
+      "McNeese State",
+      "Northwestern State"
     ]
   },
   {
-    "Name": "Sun Belt",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "Summit",
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "James Madison",
-      "Appalachian State",
-      "Louisiana",
-      "Troy",
-      "Arkansas State",
-      "Marshall",
-      "Georgia State",
-      "Southern Mississippi",
-      "Texas State",
-      "Old Dominion",
-      "South Alabama",
-      "Louisiana-Monroe",
-      "Georgia Southern",
-      "Coastal Carolina"
+      "South Dakota",
+      "South Dakota State",
+      "North Dakota State",
+      "Omaha",
+      "Kansas City",
+      "Denver",
+      "Western Illinois",
+      "North Dakota",
+      "Oral Roberts"
     ]
   },
   {
-    "Name": "Big West",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "A-Sun",
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "UC Irvine",
-      "UC San Diego",
-      "UC Davis",
-      "UC Santa Barbara",
-      "Hawaii",
-      "Long Beach State",
-      "Cal State Northridge",
-      "Cal State Fullerton",
-      "UC Riverside",
-      "Cal State Bakersfield",
-      "Cal Poly"
+      "Florida Gulf Coast",
+      "Liberty",
+      "North Florida",
+      "Stetson",
+      "North Alabama",
+      "Lipscomb",
+      "Kennesaw State",
+      "Jacksonville",
+      "Bellarmine"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "IUPUI",
+      "Milwaukee",
+      "Wright State",
+      "Green Bay",
+      "Northern Kentucky",
+      "Cleveland State",
+      "Youngstown State",
+      "Oakland",
+      "Robert Morris",
+      "Illinois-Chicago",
+      "Detroit Mercy",
+      "Purdue Fort Wayne"
     ]
   },
   {
     "Name": "CUSA",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2021,
     "Teams": [
-      "Louisiana Tech",
-      "Liberty",
-      "Western Kentucky",
-      "UTEP",
-      "Jacksonville State",
-      "Sam Houston",
-      "New Mexico State",
+      "Rice",
       "Middle Tennessee",
-      "Florida International"
+      "Charlotte",
+      "North Texas",
+      "Old Dominion",
+      "UTEP",
+      "Louisiana Tech",
+      "Marshall",
+      "Florida Atlantic",
+      "Western Kentucky",
+      "UAB",
+      "Florida International",
+      "Southern Mississippi",
+      "UTSA"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "New Mexico",
+      "Fresno State",
+      "Colorado State",
+      "Wyoming",
+      "Nevada-Las Vegas",
+      "Boise State",
+      "Nevada",
+      "San Jose State",
+      "Air Force",
+      "San Diego State",
+      "Utah State"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Bucknell",
+      "Lehigh",
+      "Boston University",
+      "Lafayette",
+      "American",
+      "Holy Cross",
+      "Navy",
+      "Army",
+      "Loyola (MD)",
+      "Colgate"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Bowling Green State",
+      "Central Michigan",
+      "Ohio",
+      "Buffalo",
+      "Eastern Michigan",
+      "Northern Illinois",
+      "Ball State",
+      "Toledo",
+      "Kent State",
+      "Western Michigan",
+      "Akron",
+      "Miami (OH)"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Belmont",
+      "Tennessee-Martin",
+      "Jacksonville State",
+      "Tennessee Tech",
+      "Southeast Missouri State",
+      "Murray State",
+      "Austin Peay",
+      "Eastern Illinois",
+      "Eastern Kentucky",
+      "Morehead State",
+      "SIU Edwardsville",
+      "Tennessee State"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "UC Davis",
+      "Long Beach State",
+      "Cal Poly",
+      "UC Irvine",
+      "Hawaii",
+      "Cal State Bakersfield",
+      "UC Santa Barbara",
+      "UC Riverside",
+      "UC San Diego",
+      "Cal State Fullerton"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Delaware",
+      "James Madison",
+      "Drexel",
+      "Towson",
+      "Elon",
+      "Northeastern",
+      "William & Mary",
+      "Hofstra",
+      "College of Charleston",
+      "UNC Wilmington"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Idaho State",
+      "Montana State",
+      "Idaho",
+      "Northern Arizona",
+      "Northern Colorado",
+      "Southern Utah",
+      "Montana",
+      "Portland State",
+      "Sacramento State",
+      "Eastern Washington",
+      "Weber State"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Saint Louis",
+      "Dayton",
+      "Massachusetts",
+      "Virginia Commonwealth",
+      "Rhode Island",
+      "Fordham",
+      "Richmond",
+      "George Washington",
+      "Saint Joseph's",
+      "Davidson",
+      "La Salle",
+      "Duquesne",
+      "St. Bonaventure",
+      "George Mason"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "California Baptist",
+      "Grand Canyon",
+      "Utah Valley",
+      "New Mexico State",
+      "Seattle",
+      "Tarleton State",
+      "Texas-Rio Grande Valley",
+      "Chicago State",
+      "Utah Tech"
+    ]
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Troy",
+      "Louisiana",
+      "UT Arlington",
+      "Little Rock",
+      "Texas State",
+      "Georgia State",
+      "Appalachian State",
+      "Georgia Southern",
+      "Arkansas State",
+      "South Alabama",
+      "Coastal Carolina",
+      "Louisiana-Monroe"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Maine",
+      "Stony Brook",
+      "Massachusetts-Lowell",
+      "Vermont",
+      "Albany (NY)",
+      "Binghamton",
+      "NJIT",
+      "Maryland-Baltimore County",
+      "New Hampshire",
+      "Hartford"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Mercer",
+      "Samford",
+      "Chattanooga",
+      "Wofford",
+      "Furman",
+      "UNC Greensboro",
+      "East Tennessee State",
+      "Western Carolina"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Jackson State",
+      "Alabama State",
+      "Southern",
+      "Alabama A&M",
+      "Grambling",
+      "Texas Southern",
+      "Alcorn State",
+      "Prairie View",
+      "Arkansas-Pine Bluff",
+      "Mississippi Valley State"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "North Carolina A&T",
+      "Howard",
+      "Morgan State",
+      "Norfolk State",
+      "Delaware State",
+      "North Carolina Central",
+      "Coppin State",
+      "South Carolina State"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Marist",
+      "Quinnipiac",
+      "Fairfield",
+      "Manhattan",
+      "Saint Peter's",
+      "Rider",
+      "Iona",
+      "Niagara",
+      "Siena",
+      "Monmouth",
+      "Canisius"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "Mount St. Mary's",
+      "Saint Francis (PA)",
+      "Fairleigh Dickinson",
+      "Wagner",
+      "Sacred Heart",
+      "Merrimack",
+      "Long Island University",
+      "St. Francis (NY)",
+      "Central Connecticut State",
+      "Bryant"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "women",
+    "Year": 2021,
+    "Teams": [
+      "High Point",
+      "Campbell",
+      "Longwood",
+      "Presbyterian",
+      "Gardner-Webb",
+      "Radford",
+      "UNC Asheville",
+      "Hampton",
+      "South Carolina Upstate",
+      "Charleston Southern",
+      "Winthrop"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "South Carolina",
+      "Tennessee",
+      "Louisiana State",
+      "Mississippi",
+      "Georgia",
+      "Arkansas",
+      "Kentucky",
+      "Texas A&M",
+      "Florida",
+      "Alabama",
+      "Missouri",
+      "Mississippi State",
+      "Vanderbilt",
+      "Auburn"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "NC State",
+      "Louisville",
+      "North Carolina",
+      "Notre Dame",
+      "Virginia Tech",
+      "Georgia Tech",
+      "Miami (FL)",
+      "Boston College",
+      "Duke",
+      "Florida State",
+      "Wake Forest",
+      "Pittsburgh",
+      "Syracuse",
+      "Clemson",
+      "Virginia"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Stanford",
+      "Oregon",
+      "Arizona",
+      "Utah",
+      "Colorado",
+      "UCLA",
+      "Arizona State",
+      "Oregon State",
+      "Washington State",
+      "Southern California",
+      "California",
+      "Washington"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Connecticut",
+      "Creighton",
+      "DePaul",
+      "Marquette",
+      "Villanova",
+      "Seton Hall",
+      "St. John's (NY)",
+      "Providence",
+      "Georgetown",
+      "Xavier",
+      "Butler"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Texas",
+      "Baylor",
+      "Iowa State",
+      "Oklahoma",
+      "Kansas",
+      "Kansas State",
+      "West Virginia",
+      "Texas Tech",
+      "Oklahoma State",
+      "TCU"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Iowa",
+      "Maryland",
+      "Indiana",
+      "Michigan",
+      "Nebraska",
+      "Ohio State",
+      "Northwestern",
+      "Michigan State",
+      "Purdue",
+      "Minnesota",
+      "Rutgers",
+      "Penn State",
+      "Wisconsin",
+      "Illinois"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Brigham Young",
+      "Gonzaga",
+      "Portland",
+      "San Diego",
+      "San Francisco",
+      "Saint Mary's (CA)",
+      "Santa Clara",
+      "Loyola Marymount",
+      "Pacific",
+      "Pepperdine"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Central Florida",
+      "South Florida",
+      "Tulane",
+      "Houston",
+      "Southern Methodist",
+      "Tulsa",
+      "Temple",
+      "Wichita State",
+      "Memphis",
+      "East Carolina",
+      "Cincinnati"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "South Dakota State",
+      "South Dakota",
+      "Kansas City",
+      "Oral Roberts",
+      "North Dakota State",
+      "North Dakota",
+      "Western Illinois",
+      "Omaha",
+      "Denver",
+      "St. Thomas"
     ]
   },
   {
     "Name": "Ivy",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2022,
     "Teams": [
       "Princeton",
+      "Columbia",
+      "Harvard",
+      "Pennsylvania",
       "Yale",
       "Cornell",
-      "Pennsylvania",
-      "Harvard",
-      "Columbia",
       "Brown",
       "Dartmouth"
     ]
   },
   {
-    "Name": "Southern",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "MVC",
+    "Gender": "women",
+    "Year": 2022,
     "Teams": [
-      "Samford",
-      "Western Carolina",
-      "UNC Greensboro",
-      "Furman",
-      "Chattanooga",
-      "Wofford",
-      "East Tennessee State",
-      "Mercer",
-      "The Citadel",
-      "VMI"
-    ]
-  },
-  {
-    "Name": "MAC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Akron",
-      "Toledo",
-      "Kent State",
-      "Ohio",
-      "Bowling Green State",
-      "Ball State",
-      "Miami (OH)",
-      "Central Michigan",
-      "Northern Illinois",
-      "Western Michigan",
-      "Eastern Michigan",
-      "Buffalo"
-    ]
-  },
-  {
-    "Name": "Southland",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "McNeese State",
-      "Texas A&M-Corpus Christi",
-      "Lamar",
-      "Nicholls State",
-      "Southeastern Louisiana",
-      "Texas A&M-Commerce",
-      "Incarnate Word",
-      "Northwestern State",
-      "Houston Christian",
-      "New Orleans"
-    ]
-  },
-  {
-    "Name": "Horizon",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Youngstown State",
-      "Oakland",
-      "Wright State",
-      "Purdue Fort Wayne",
-      "Cleveland State",
-      "Northern Kentucky",
-      "Green Bay",
-      "Milwaukee",
-      "Robert Morris",
-      "Detroit Mercy",
-      "IUPUI"
-    ]
-  },
-  {
-    "Name": "AEC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Vermont",
-      "Massachusetts-Lowell",
-      "Bryant",
-      "New Hampshire",
-      "Maine",
-      "Albany (NY)",
-      "Binghamton",
-      "Maryland-Baltimore County",
-      "NJIT"
-    ]
-  },
-  {
-    "Name": "CAA",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Drexel",
-      "College of Charleston",
-      "UNC Wilmington",
-      "Towson",
-      "Hofstra",
-      "Delaware",
-      "Monmouth",
-      "Stony Brook",
-      "Northeastern",
-      "Campbell",
-      "Elon",
-      "William & Mary",
-      "North Carolina A&T",
-      "Hampton"
-    ]
-  },
-  {
-    "Name": "Big South",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "High Point",
-      "Winthrop",
-      "UNC Asheville",
-      "Longwood",
-      "Gardner-Webb",
-      "Radford",
-      "South Carolina Upstate",
-      "Presbyterian",
-      "Charleston Southern"
-    ]
-  },
-  {
-    "Name": "Big Sky",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Weber State",
-      "Eastern Washington",
-      "Montana",
-      "Northern Colorado",
-      "Montana State",
-      "Portland State",
-      "Idaho State",
-      "Idaho",
-      "Sacramento State",
-      "Northern Arizona"
-    ]
-  },
-  {
-    "Name": "OVC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Morehead State",
-      "Tennessee-Martin",
-      "Little Rock",
-      "SIU Edwardsville",
-      "Tennessee State",
-      "Western Illinois",
-      "Eastern Illinois",
-      "Southern Indiana",
-      "Tennessee Tech",
-      "Lindenwood",
-      "Southeast Missouri State"
-    ]
-  },
-  {
-    "Name": "Patriot",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Colgate",
-      "American",
-      "Lehigh",
-      "Bucknell",
-      "Lafayette",
-      "Navy",
-      "Boston University",
-      "Army",
-      "Loyola (MD)",
-      "Holy Cross"
-    ]
-  },
-  {
-    "Name": "Summit",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "St. Thomas",
-      "South Dakota State",
-      "Oral Roberts",
-      "Denver",
-      "Omaha",
-      "Kansas City",
-      "North Dakota State",
-      "North Dakota",
-      "South Dakota"
-    ]
-  },
-  {
-    "Name": "MAAC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Iona",
-      "Quinnipiac",
-      "Fairfield",
-      "Saint Peter's",
-      "Canisius",
-      "Mount St. Mary's",
-      "Marist",
-      "Rider",
-      "Niagara",
-      "Manhattan",
-      "Siena"
+      "Missouri State",
+      "Northern Iowa",
+      "Drake",
+      "Southern Illinois",
+      "Loyola (IL)",
+      "Illinois State",
+      "Indiana State",
+      "Valparaiso",
+      "Bradley",
+      "Evansville"
     ]
   },
   {
     "Name": "A-Sun",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2022,
     "Teams": [
-      "Lipscomb",
-      "Stetson",
-      "Eastern Kentucky",
-      "North Florida",
-      "North Alabama",
-      "Austin Peay",
       "Florida Gulf Coast",
-      "Kennesaw State",
-      "Queens (NC)",
+      "Liberty",
+      "Stetson",
+      "Jacksonville State",
+      "North Florida",
       "Jacksonville",
-      "Bellarmine",
-      "Central Arkansas"
+      "Eastern Kentucky",
+      "Kennesaw State",
+      "North Alabama",
+      "Lipscomb",
+      "Central Arkansas",
+      "Bellarmine"
     ]
   },
   {
-    "Name": "NEC",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "A-10",
+    "Gender": "women",
+    "Year": 2022,
     "Teams": [
-      "Merrimack",
-      "Central Connecticut State",
-      "Sacred Heart",
-      "Wagner",
-      "Le Moyne",
-      "FDU",
-      "Saint Francis (PA)",
-      "Stonehill",
-      "Long Island University"
+      "Dayton",
+      "Massachusetts",
+      "Rhode Island",
+      "Fordham",
+      "Virginia Commonwealth",
+      "Davidson",
+      "Richmond",
+      "Saint Joseph's",
+      "La Salle",
+      "Duquesne",
+      "Saint Louis",
+      "George Washington",
+      "George Mason",
+      "St. Bonaventure"
     ]
   },
   {
-    "Name": "MEAC",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "OVC",
+    "Gender": "women",
+    "Year": 2022,
     "Teams": [
-      "Norfolk State",
-      "North Carolina Central",
-      "Howard",
-      "Delaware State",
-      "South Carolina State",
-      "Morgan State",
-      "Maryland-Eastern Shore",
-      "Coppin State"
+      "Belmont",
+      "Murray State",
+      "Tennessee Tech",
+      "Austin Peay",
+      "Eastern Illinois",
+      "Tennessee-Martin",
+      "SIU Edwardsville",
+      "Tennessee State",
+      "Southeast Missouri State",
+      "Morehead State"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Buffalo",
+      "Toledo",
+      "Ball State",
+      "Kent State",
+      "Bowling Green State",
+      "Ohio",
+      "Akron",
+      "Western Michigan",
+      "Northern Illinois",
+      "Miami (OH)",
+      "Eastern Michigan",
+      "Central Michigan"
+    ]
+  },
+  {
+    "Name": "CUSA",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Middle Tennessee",
+      "Charlotte",
+      "Old Dominion",
+      "North Texas",
+      "Louisiana Tech",
+      "Western Kentucky",
+      "Marshall",
+      "Rice",
+      "UAB",
+      "UTEP",
+      "Southern Mississippi",
+      "Florida International",
+      "Florida Atlantic",
+      "UTSA"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Stephen F. Austin",
+      "California Baptist",
+      "Utah Valley",
+      "Grand Canyon",
+      "Abilene Christian",
+      "Lamar",
+      "Texas-Rio Grande Valley",
+      "New Mexico State",
+      "Sam Houston",
+      "Tarleton State",
+      "Seattle",
+      "Utah Tech",
+      "Chicago State"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "IUPUI",
+      "Green Bay",
+      "Cleveland State",
+      "Northern Kentucky",
+      "Youngstown State",
+      "Milwaukee",
+      "Oakland",
+      "Robert Morris",
+      "Purdue Fort Wayne",
+      "Wright State",
+      "Illinois-Chicago",
+      "Detroit Mercy"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Nevada-Las Vegas",
+      "New Mexico",
+      "Wyoming",
+      "Colorado State",
+      "Air Force",
+      "Nevada",
+      "San Diego State",
+      "Fresno State",
+      "Boise State",
+      "Utah State",
+      "San Jose State"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Towson",
+      "Drexel",
+      "Delaware",
+      "James Madison",
+      "College of Charleston",
+      "Elon",
+      "Northeastern",
+      "William & Mary",
+      "Hofstra",
+      "UNC Wilmington"
     ]
   },
   {
     "Name": "SWAC",
-    "Gender": "men",
-    "Year": 2024,
+    "Gender": "women",
+    "Year": 2022,
     "Teams": [
-      "Southern",
-      "Alabama State",
-      "Texas Southern",
       "Jackson State",
-      "Grambling",
-      "Bethune-Cookman",
-      "Alcorn State",
-      "Prairie View",
+      "Southern",
       "Arkansas-Pine Bluff",
-      "Florida A&M",
       "Alabama A&M",
+      "Alabama State",
+      "Grambling",
+      "Texas Southern",
+      "Prairie View",
+      "Bethune-Cookman",
+      "Mississippi Valley State",
+      "Florida A&M",
+      "Alcorn State"
+    ]
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Troy",
+      "UT Arlington",
+      "Louisiana",
+      "Little Rock",
+      "Georgia Southern",
+      "Arkansas State",
+      "Coastal Carolina",
+      "Appalachian State",
+      "Texas State",
+      "Georgia State",
+      "South Alabama",
+      "Louisiana-Monroe"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "UC Davis",
+      "Long Beach State",
+      "UC Irvine",
+      "Hawaii",
+      "UC Santa Barbara",
+      "UC Riverside",
+      "UC San Diego",
+      "Cal State Fullerton",
+      "Cal State Northridge",
+      "Cal State Bakersfield",
+      "Cal Poly"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Bucknell",
+      "Lehigh",
+      "Boston University",
+      "American",
+      "Holy Cross",
+      "Army",
+      "Lafayette",
+      "Navy",
+      "Loyola (MD)",
+      "Colgate"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Fairfield",
+      "Quinnipiac",
+      "Manhattan",
+      "Niagara",
+      "Monmouth",
+      "Iona",
+      "Saint Peter's",
+      "Siena",
+      "Rider",
+      "Marist",
+      "Canisius"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Stony Brook",
+      "Vermont",
+      "Albany (NY)",
+      "Maine",
+      "Binghamton",
+      "Massachusetts-Lowell",
+      "NJIT",
+      "New Hampshire",
+      "Maryland-Baltimore County",
+      "Hartford"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Mercer",
+      "Wofford",
+      "Furman",
+      "Samford",
+      "UNC Greensboro",
+      "Chattanooga",
+      "East Tennessee State",
+      "Western Carolina"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Montana",
+      "Idaho State",
+      "Montana State",
+      "Northern Arizona",
+      "Southern Utah",
+      "Northern Colorado",
+      "Idaho",
+      "Sacramento State",
+      "Weber State",
+      "Eastern Washington",
+      "Portland State"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Longwood",
+      "Campbell",
+      "North Carolina A&T",
+      "South Carolina Upstate",
+      "High Point",
+      "Gardner-Webb",
+      "Hampton",
+      "Presbyterian",
+      "UNC Asheville",
+      "Radford",
+      "Winthrop",
+      "Charleston Southern"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Southeastern Louisiana",
+      "Texas A&M-Corpus Christi",
+      "Houston Christian",
+      "Incarnate Word",
+      "McNeese State",
+      "Northwestern State",
+      "New Orleans",
+      "Nicholls State"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Norfolk State",
+      "Howard",
+      "Morgan State",
+      "Coppin State",
+      "Maryland-Eastern Shore",
+      "North Carolina Central",
+      "South Carolina State",
+      "Delaware State"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "women",
+    "Year": 2022,
+    "Teams": [
+      "Fairleigh Dickinson",
+      "St. Francis (NY)",
+      "Mount St. Mary's",
+      "Wagner",
+      "Long Island University",
+      "Merrimack",
+      "Sacred Heart",
+      "Saint Francis (PA)",
+      "Bryant",
+      "Central Connecticut State"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "South Carolina",
+      "Louisiana State",
+      "Tennessee",
+      "Mississippi",
+      "Mississippi State",
+      "Georgia",
+      "Alabama",
+      "Arkansas",
+      "Missouri",
+      "Auburn",
+      "Kentucky",
+      "Florida",
+      "Texas A&M",
+      "Vanderbilt"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Connecticut",
+      "Villanova",
+      "Creighton",
+      "Marquette",
+      "DePaul",
+      "St. John's (NY)",
+      "Seton Hall",
+      "Georgetown",
+      "Butler",
+      "Providence",
+      "Xavier"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Stanford",
+      "Utah",
+      "Oregon",
+      "UCLA",
+      "Colorado",
+      "Arizona",
+      "Southern California",
+      "Washington State",
+      "Oregon State",
+      "Washington",
+      "California",
+      "Arizona State"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Indiana",
+      "Iowa",
+      "Maryland",
+      "Ohio State",
+      "Michigan",
+      "Michigan State",
+      "Nebraska",
+      "Illinois",
+      "Purdue",
+      "Penn State",
+      "Minnesota",
+      "Wisconsin",
+      "Northwestern",
+      "Rutgers"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Notre Dame",
+      "Virginia Tech",
+      "Duke",
+      "Florida State",
+      "Louisville",
+      "NC State",
+      "North Carolina",
+      "Miami (FL)",
+      "Syracuse",
+      "Virginia",
+      "Clemson",
+      "Georgia Tech",
+      "Wake Forest",
+      "Boston College",
+      "Pittsburgh"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Texas",
+      "Iowa State",
+      "Kansas",
+      "Baylor",
+      "Oklahoma",
+      "Oklahoma State",
+      "Kansas State",
+      "West Virginia",
+      "Texas Tech",
+      "TCU"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "South Dakota State",
+      "North Dakota State",
+      "North Dakota",
+      "Oral Roberts",
+      "South Dakota",
+      "St. Thomas",
+      "Omaha",
+      "Denver",
+      "Western Illinois",
+      "Kansas City"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "South Florida",
+      "Memphis",
+      "Houston",
+      "Southern Methodist",
+      "East Carolina",
+      "Tulane",
+      "Wichita State",
+      "Tulsa",
+      "Temple",
+      "Central Florida",
+      "Cincinnati"
+    ]
+  },
+  {
+    "Name": "CUSA",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Middle Tennessee",
+      "Rice",
+      "UTEP",
+      "Western Kentucky",
+      "Louisiana Tech",
+      "UTSA",
+      "UAB",
+      "North Texas",
+      "Charlotte",
+      "Florida International",
+      "Florida Atlantic"
+    ]
+  },
+  {
+    "Name": "A-Sun",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Florida Gulf Coast",
+      "Liberty",
+      "Austin Peay",
+      "Jacksonville State",
+      "Lipscomb",
+      "Eastern Kentucky",
+      "North Alabama",
+      "Kennesaw State",
+      "Jacksonville",
+      "Stetson",
+      "Bellarmine",
+      "Central Arkansas",
+      "North Florida",
+      "Queens (NC)"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Gonzaga",
+      "Portland",
+      "Brigham Young",
+      "San Diego",
+      "San Francisco",
+      "Santa Clara",
+      "Pacific",
+      "Saint Mary's (CA)",
+      "Pepperdine",
+      "Loyola Marymount"
+    ]
+  },
+  {
+    "Name": "Ivy",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Columbia",
+      "Princeton",
+      "Harvard",
+      "Pennsylvania",
+      "Yale",
+      "Brown",
+      "Cornell",
+      "Dartmouth"
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Drake",
+      "Northern Iowa",
+      "Belmont",
+      "Illinois State",
+      "Missouri State",
+      "Murray State",
+      "Southern Illinois",
+      "Illinois-Chicago",
+      "Indiana State",
+      "Valparaiso",
+      "Evansville",
+      "Bradley"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Nevada-Las Vegas",
+      "Colorado State",
+      "San Diego State",
+      "Wyoming",
+      "New Mexico",
+      "Air Force",
+      "Boise State",
+      "Nevada",
+      "Fresno State",
+      "San Jose State",
+      "Utah State"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Massachusetts",
+      "Rhode Island",
+      "Fordham",
+      "Richmond",
+      "Saint Joseph's",
+      "Saint Louis",
+      "Duquesne",
+      "George Washington",
+      "Davidson",
+      "La Salle",
+      "George Mason",
+      "Dayton",
+      "Virginia Commonwealth",
+      "Loyola (IL)",
+      "St. Bonaventure"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Bowling Green State",
+      "Toledo",
+      "Ball State",
+      "Kent State",
+      "Akron",
+      "Northern Illinois",
+      "Buffalo",
+      "Eastern Michigan",
+      "Western Michigan",
+      "Miami (OH)",
+      "Central Michigan",
+      "Ohio"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Stephen F. Austin",
+      "California Baptist",
+      "Southern Utah",
+      "Grand Canyon",
+      "New Mexico State",
+      "UT Arlington",
+      "Abilene Christian",
+      "Utah Tech",
+      "Sam Houston",
+      "Texas-Rio Grande Valley",
+      "Tarleton State",
+      "Seattle",
+      "Utah Valley"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Cleveland State",
+      "Green Bay",
+      "Northern Kentucky",
+      "Youngstown State",
+      "IUPUI",
+      "Milwaukee",
+      "Purdue Fort Wayne",
+      "Oakland",
+      "Robert Morris",
+      "Wright State",
+      "Detroit Mercy"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Sacramento State",
+      "Montana State",
+      "Northern Arizona",
+      "Eastern Washington",
+      "Montana",
+      "Idaho",
+      "Idaho State",
+      "Portland State",
+      "Northern Colorado",
+      "Weber State"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Jackson State",
+      "Southern",
+      "Grambling",
+      "Arkansas-Pine Bluff",
+      "Bethune-Cookman",
+      "Prairie View",
+      "Alabama State",
+      "Alcorn State",
+      "Alabama A&M",
+      "Florida A&M",
+      "Texas Southern",
       "Mississippi Valley State"
     ]
   },
   {
-    "Name": "Ind",
-    "Gender": "men",
-    "Year": 2024,
+    "Name": "Sun Belt",
+    "Gender": "women",
+    "Year": 2023,
     "Teams": [
-      "Chicago State"
+      "James Madison",
+      "Troy",
+      "Old Dominion",
+      "Texas State",
+      "Marshall",
+      "Southern Mississippi",
+      "Louisiana",
+      "Georgia Southern",
+      "Coastal Carolina",
+      "Appalachian State",
+      "Georgia State",
+      "Arkansas State",
+      "Louisiana-Monroe",
+      "South Alabama"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "UC Irvine",
+      "Long Beach State",
+      "Hawaii",
+      "UC Santa Barbara",
+      "UC Davis",
+      "Cal State Fullerton",
+      "UC San Diego",
+      "Cal Poly",
+      "Cal State Northridge",
+      "UC Riverside",
+      "Cal State Bakersfield"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Boston University",
+      "Holy Cross",
+      "Lehigh",
+      "Colgate",
+      "Bucknell",
+      "Army",
+      "American",
+      "Loyola (MD)",
+      "Lafayette",
+      "Navy"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Drexel",
+      "Northeastern",
+      "Towson",
+      "Stony Brook",
+      "Delaware",
+      "Monmouth",
+      "North Carolina A&T",
+      "William & Mary",
+      "Hampton",
+      "Elon",
+      "College of Charleston",
+      "Hofstra",
+      "UNC Wilmington"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Fairleigh Dickinson",
+      "Sacred Heart",
+      "Wagner",
+      "Merrimack",
+      "St. Francis (NY)",
+      "Stonehill",
+      "Long Island University",
+      "Central Connecticut State",
+      "Saint Francis (PA)"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Gardner-Webb",
+      "High Point",
+      "Campbell",
+      "Radford",
+      "Presbyterian",
+      "UNC Asheville",
+      "Longwood",
+      "South Carolina Upstate",
+      "Winthrop",
+      "Charleston Southern"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Chattanooga",
+      "East Tennessee State",
+      "Wofford",
+      "Mercer",
+      "Samford",
+      "UNC Greensboro",
+      "Furman",
+      "Western Carolina"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Quinnipiac",
+      "Iona",
+      "Siena",
+      "Fairfield",
+      "Niagara",
+      "Manhattan",
+      "Marist",
+      "Mount St. Mary's",
+      "Canisius",
+      "Rider",
+      "Saint Peter's"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Vermont",
+      "Albany (NY)",
+      "Maine",
+      "Binghamton",
+      "Maryland-Baltimore County",
+      "NJIT",
+      "Massachusetts-Lowell",
+      "Bryant",
+      "New Hampshire"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Southeastern Louisiana",
+      "Texas A&M-Corpus Christi",
+      "Lamar",
+      "Texas A&M-Commerce",
+      "Incarnate Word",
+      "Houston Christian",
+      "McNeese State",
+      "New Orleans",
+      "Northwestern State",
+      "Nicholls State"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Norfolk State",
+      "Howard",
+      "Morgan State",
+      "Coppin State",
+      "Maryland-Eastern Shore",
+      "North Carolina Central",
+      "Delaware State",
+      "South Carolina State"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Tennessee Tech",
+      "Little Rock",
+      "Eastern Illinois",
+      "Tennessee-Martin",
+      "Southeast Missouri State",
+      "Southern Indiana",
+      "Tennessee State",
+      "SIU Edwardsville",
+      "Morehead State",
+      "Lindenwood"
+    ]
+  },
+  {
+    "Name": "Ind",
+    "Gender": "women",
+    "Year": 2023,
+    "Teams": [
+      "Chicago State",
+      "Hartford"
     ]
   },
   {
@@ -1178,6 +2317,2972 @@
   {
     "Name": "Ind",
     "Gender": "women",
+    "Year": 2024,
+    "Teams": [
+      "Chicago State"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Gonzaga",
+      "Saint Mary's (CA)",
+      "San Francisco",
+      "Brigham Young",
+      "San Diego",
+      "Loyola Marymount",
+      "Pepperdine",
+      "Santa Clara",
+      "Pacific",
+      "Portland"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Duke",
+      "Virginia",
+      "North Carolina",
+      "Virginia Tech",
+      "Florida State",
+      "Louisville",
+      "NC State",
+      "Clemson",
+      "Syracuse",
+      "Miami (FL)",
+      "Notre Dame",
+      "Pittsburgh",
+      "Georgia Tech",
+      "Boston College",
+      "Wake Forest"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Michigan State",
+      "Michigan",
+      "Purdue",
+      "Wisconsin",
+      "Maryland",
+      "Nebraska",
+      "Iowa",
+      "Ohio State",
+      "Indiana",
+      "Penn State",
+      "Minnesota",
+      "Northwestern",
+      "Illinois",
+      "Rutgers"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Texas Tech",
+      "Kansas",
+      "Iowa State",
+      "Texas",
+      "Kansas State",
+      "Oklahoma",
+      "TCU",
+      "Baylor",
+      "Oklahoma State",
+      "West Virginia"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Tennessee",
+      "Kentucky",
+      "Auburn",
+      "Louisiana State",
+      "Mississippi State",
+      "Florida",
+      "Mississippi",
+      "Arkansas",
+      "Alabama",
+      "Missouri",
+      "South Carolina",
+      "Texas A&M",
+      "Georgia",
+      "Vanderbilt"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Houston",
+      "Cincinnati",
+      "Central Florida",
+      "Memphis",
+      "Temple",
+      "Wichita State",
+      "Connecticut",
+      "South Florida",
+      "Southern Methodist",
+      "Tulsa",
+      "East Carolina",
+      "Tulane"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Nevada",
+      "Utah State",
+      "Fresno State",
+      "San Diego State",
+      "Boise State",
+      "Nevada-Las Vegas",
+      "Colorado State",
+      "New Mexico",
+      "Air Force",
+      "Wyoming",
+      "San Jose State"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Buffalo",
+      "Toledo",
+      "Akron",
+      "Bowling Green State",
+      "Ball State",
+      "Central Michigan",
+      "Northern Illinois",
+      "Kent State",
+      "Miami (OH)",
+      "Eastern Michigan",
+      "Ohio",
+      "Western Michigan"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Marquette",
+      "Villanova",
+      "Creighton",
+      "Seton Hall",
+      "Xavier",
+      "Butler",
+      "Providence",
+      "St. John's (NY)",
+      "Georgetown",
+      "DePaul"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Oregon",
+      "Washington",
+      "Arizona State",
+      "Colorado",
+      "Arizona",
+      "Southern California",
+      "Oregon State",
+      "UCLA",
+      "Utah",
+      "Stanford",
+      "Washington State",
+      "California"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Wofford",
+      "Furman",
+      "East Tennessee State",
+      "UNC Greensboro",
+      "Samford",
+      "Mercer",
+      "Chattanooga",
+      "The Citadel",
+      "Western Carolina",
+      "VMI"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Virginia Commonwealth",
+      "Dayton",
+      "Davidson",
+      "Saint Louis",
+      "St. Bonaventure",
+      "Rhode Island",
+      "George Mason",
+      "Duquesne",
+      "Saint Joseph's",
+      "Richmond",
+      "Massachusetts",
+      "La Salle",
+      "Fordham",
+      "George Washington"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "New Mexico State",
+      "Grand Canyon",
+      "Utah Valley",
+      "Seattle",
+      "Texas-Rio Grande Valley",
+      "California Baptist",
+      "Cal State Bakersfield",
+      "Kansas City",
+      "Chicago State"
+    ]
+  },
+  {
+    "Name": "A-Sun",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Lipscomb",
+      "Liberty",
+      "North Florida",
+      "NJIT",
+      "Florida Gulf Coast",
+      "Jacksonville",
+      "North Alabama",
+      "Stetson",
+      "Kennesaw State"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Belmont",
+      "Murray State",
+      "Jacksonville State",
+      "Austin Peay",
+      "Eastern Kentucky",
+      "Morehead State",
+      "Tennessee-Martin",
+      "Southeast Missouri State",
+      "Tennessee State",
+      "Eastern Illinois",
+      "SIU Edwardsville",
+      "Tennessee Tech"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "South Dakota State",
+      "Omaha",
+      "Purdue Fort Wayne",
+      "North Dakota State",
+      "South Dakota",
+      "North Dakota",
+      "Oral Roberts",
+      "Western Illinois",
+      "Denver"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "UC Irvine",
+      "Hawaii",
+      "UC Santa Barbara",
+      "Cal State Fullerton",
+      "Long Beach State",
+      "UC Davis",
+      "Cal State Northridge",
+      "UC Riverside",
+      "Cal Poly"
+    ]
+  },
+  {
+    "Name": "Ivy",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Yale",
+      "Pennsylvania",
+      "Harvard",
+      "Brown",
+      "Princeton",
+      "Columbia",
+      "Dartmouth",
+      "Cornell"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Vermont",
+      "Stony Brook",
+      "Hartford",
+      "Maryland-Baltimore County",
+      "Massachusetts-Lowell",
+      "Albany (NY)",
+      "Binghamton",
+      "Maine",
+      "New Hampshire"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Hofstra",
+      "Northeastern",
+      "College of Charleston",
+      "William & Mary",
+      "Drexel",
+      "Delaware",
+      "UNC Wilmington",
+      "Towson",
+      "James Madison",
+      "Elon"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Northern Kentucky",
+      "Wright State",
+      "Green Bay",
+      "Oakland",
+      "IUPUI",
+      "Illinois-Chicago",
+      "Detroit Mercy",
+      "Youngstown State",
+      "Cleveland State",
+      "Milwaukee"
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Loyola (IL)",
+      "Drake",
+      "Southern Illinois",
+      "Bradley",
+      "Missouri State",
+      "Northern Iowa",
+      "Illinois State",
+      "Indiana State",
+      "Valparaiso",
+      "Evansville"
+    ]
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Georgia Southern",
+      "Georgia State",
+      "Texas State",
+      "Louisiana-Monroe",
+      "Coastal Carolina",
+      "UT Arlington",
+      "Louisiana",
+      "Appalachian State",
+      "South Alabama",
+      "Little Rock",
+      "Troy",
+      "Arkansas State"
+    ]
+  },
+  {
+    "Name": "CUSA",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Old Dominion",
+      "Western Kentucky",
+      "Southern Mississippi",
+      "Louisiana Tech",
+      "UTSA",
+      "UAB",
+      "North Texas",
+      "Marshall",
+      "Florida Atlantic",
+      "Florida International",
+      "Middle Tennessee",
+      "Rice",
+      "UTEP",
+      "Charlotte"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Montana",
+      "Northern Colorado",
+      "Weber State",
+      "Eastern Washington",
+      "Montana State",
+      "Sacramento State",
+      "Southern Utah",
+      "Portland State",
+      "Northern Arizona",
+      "Idaho State",
+      "Idaho"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Radford",
+      "Charleston Southern",
+      "Gardner-Webb",
+      "Winthrop",
+      "Hampton",
+      "Presbyterian",
+      "Campbell",
+      "High Point",
+      "Longwood",
+      "South Carolina Upstate",
+      "UNC Asheville"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Colgate",
+      "Bucknell",
+      "Lehigh",
+      "American",
+      "Holy Cross",
+      "Boston University",
+      "Army",
+      "Loyola (MD)",
+      "Navy",
+      "Lafayette"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Abilene Christian",
+      "Sam Houston",
+      "Lamar",
+      "Southeastern Louisiana",
+      "New Orleans",
+      "Texas A&M-Corpus Christi",
+      "Houston Christian",
+      "Stephen F. Austin",
+      "Central Arkansas",
+      "Nicholls State",
+      "McNeese State",
+      "Northwestern State",
+      "Incarnate Word"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Iona",
+      "Rider",
+      "Quinnipiac",
+      "Siena",
+      "Canisius",
+      "Marist",
+      "Fairfield",
+      "Monmouth",
+      "Niagara",
+      "Saint Peter's",
+      "Manhattan"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Texas Southern",
+      "Prairie View",
+      "Grambling",
+      "Arkansas-Pine Bluff",
+      "Jackson State",
+      "Alabama State",
+      "Southern",
+      "Alabama A&M",
+      "Alcorn State",
+      "Mississippi Valley State"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Fairleigh Dickinson",
+      "Sacred Heart",
+      "Saint Francis (PA)",
+      "Long Island University",
+      "Robert Morris",
+      "St. Francis (NY)",
+      "Wagner",
+      "Central Connecticut State",
+      "Mount St. Mary's",
+      "Bryant"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "men",
+    "Year": 2019,
+    "Teams": [
+      "Norfolk State",
+      "North Carolina A&T",
+      "North Carolina Central",
+      "Bethune-Cookman",
+      "Howard",
+      "Florida A&M",
+      "Morgan State",
+      "South Carolina State",
+      "Coppin State",
+      "Savannah State",
+      "Maryland-Eastern Shore",
+      "Delaware State"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Gonzaga",
+      "Brigham Young",
+      "Saint Mary's (CA)",
+      "San Francisco",
+      "Pepperdine",
+      "Loyola Marymount",
+      "Pacific",
+      "Santa Clara",
+      "San Diego",
+      "Portland"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Baylor",
+      "Texas Tech",
+      "Texas",
+      "West Virginia",
+      "Kansas",
+      "Oklahoma State",
+      "Oklahoma",
+      "TCU",
+      "Kansas State",
+      "Iowa State"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Illinois",
+      "Michigan",
+      "Iowa",
+      "Ohio State",
+      "Wisconsin",
+      "Purdue",
+      "Rutgers",
+      "Maryland",
+      "Penn State",
+      "Indiana",
+      "Minnesota",
+      "Michigan State",
+      "Northwestern",
+      "Nebraska"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Houston",
+      "Memphis",
+      "Southern Methodist",
+      "Wichita State",
+      "Central Florida",
+      "Tulsa",
+      "Cincinnati",
+      "Temple",
+      "Tulane",
+      "East Carolina",
+      "South Florida"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Southern California",
+      "Colorado",
+      "UCLA",
+      "Oregon",
+      "Arizona",
+      "Utah",
+      "Oregon State",
+      "Stanford",
+      "Washington State",
+      "Arizona State",
+      "California",
+      "Washington"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Alabama",
+      "Arkansas",
+      "Tennessee",
+      "Louisiana State",
+      "Florida",
+      "Missouri",
+      "Kentucky",
+      "Mississippi",
+      "Auburn",
+      "Mississippi State",
+      "Georgia",
+      "Vanderbilt",
+      "South Carolina",
+      "Texas A&M"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Villanova",
+      "Creighton",
+      "Connecticut",
+      "Seton Hall",
+      "Xavier",
+      "Georgetown",
+      "St. John's (NY)",
+      "Providence",
+      "Marquette",
+      "Butler",
+      "DePaul"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Florida State",
+      "Virginia",
+      "North Carolina",
+      "Syracuse",
+      "Duke",
+      "Georgia Tech",
+      "Virginia Tech",
+      "Clemson",
+      "Louisville",
+      "NC State",
+      "Pittsburgh",
+      "Notre Dame",
+      "Miami (FL)",
+      "Wake Forest",
+      "Boston College"
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Loyola (IL)",
+      "Drake",
+      "Missouri State",
+      "Indiana State",
+      "Bradley",
+      "Northern Iowa",
+      "Southern Illinois",
+      "Valparaiso",
+      "Evansville",
+      "Illinois State"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "San Diego State",
+      "Utah State",
+      "Boise State",
+      "Colorado State",
+      "Nevada",
+      "Wyoming",
+      "Nevada-Las Vegas",
+      "Fresno State",
+      "New Mexico",
+      "Air Force",
+      "San Jose State"
+    ]
+  },
+  {
+    "Name": "Patriot (North)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Colgate",
+      "Army",
+      "Boston University",
+      "Holy Cross"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "St. Bonaventure",
+      "Saint Louis",
+      "Virginia Commonwealth",
+      "Richmond",
+      "Davidson",
+      "Dayton",
+      "Rhode Island",
+      "Massachusetts",
+      "Duquesne",
+      "George Mason",
+      "La Salle",
+      "Saint Joseph's",
+      "George Washington",
+      "Fordham"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "UC Santa Barbara",
+      "UC Riverside",
+      "UC Irvine",
+      "Cal State Bakersfield",
+      "Hawaii",
+      "UC Davis",
+      "Cal State Fullerton",
+      "UC San Diego",
+      "Long Beach State",
+      "Cal State Northridge",
+      "Cal Poly"
+    ]
+  },
+  {
+    "Name": "CUSA (West)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "North Texas",
+      "Louisiana Tech",
+      "UAB",
+      "UTEP",
+      "UTSA",
+      "Rice",
+      "Southern Mississippi"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Wright State",
+      "Detroit Mercy",
+      "Cleveland State",
+      "Northern Kentucky",
+      "Milwaukee",
+      "Oakland",
+      "Youngstown State",
+      "Green Bay",
+      "IUPUI",
+      "Illinois-Chicago",
+      "Purdue Fort Wayne",
+      "Robert Morris"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Toledo",
+      "Buffalo",
+      "Ohio",
+      "Akron",
+      "Kent State",
+      "Bowling Green State",
+      "Ball State",
+      "Miami (OH)",
+      "Western Michigan",
+      "Central Michigan",
+      "Eastern Michigan",
+      "Northern Illinois"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Abilene Christian",
+      "Stephen F. Austin",
+      "Sam Houston",
+      "Nicholls State",
+      "New Orleans",
+      "Lamar",
+      "Northwestern State",
+      "Central Arkansas",
+      "Incarnate Word",
+      "Houston Christian",
+      "Texas A&M-Corpus Christi",
+      "Southeastern Louisiana",
+      "McNeese State"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Furman",
+      "UNC Greensboro",
+      "Wofford",
+      "East Tennessee State",
+      "Mercer",
+      "VMI",
+      "Chattanooga",
+      "The Citadel",
+      "Western Carolina",
+      "Samford"
+    ]
+  },
+  {
+    "Name": "CUSA (East)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Marshall",
+      "Western Kentucky",
+      "Old Dominion",
+      "Florida Atlantic",
+      "Charlotte",
+      "Middle Tennessee",
+      "Florida International"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Grand Canyon",
+      "New Mexico State",
+      "Utah Valley",
+      "Seattle",
+      "California Baptist",
+      "Tarleton State",
+      "Texas-Rio Grande Valley",
+      "Utah Tech",
+      "Chicago State"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Winthrop",
+      "Gardner-Webb",
+      "Radford",
+      "Campbell",
+      "UNC Asheville",
+      "Longwood",
+      "High Point",
+      "Hampton",
+      "South Carolina Upstate",
+      "Presbyterian",
+      "Charleston Southern"
+    ]
+  },
+  {
+    "Name": "A-Sun",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Liberty",
+      "Bellarmine",
+      "Lipscomb",
+      "Stetson",
+      "Florida Gulf Coast",
+      "North Alabama",
+      "Jacksonville",
+      "North Florida",
+      "Kennesaw State"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Eastern Washington",
+      "Weber State",
+      "Southern Utah",
+      "Montana",
+      "Montana State",
+      "Portland State",
+      "Northern Colorado",
+      "Sacramento State",
+      "Idaho State",
+      "Northern Arizona",
+      "Idaho"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Belmont",
+      "Morehead State",
+      "Eastern Kentucky",
+      "Murray State",
+      "Jacksonville State",
+      "Austin Peay",
+      "Southeast Missouri State",
+      "Eastern Illinois",
+      "Tennessee State",
+      "Tennessee Tech",
+      "SIU Edwardsville",
+      "Tennessee-Martin"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "South Dakota State",
+      "Oral Roberts",
+      "North Dakota State",
+      "South Dakota",
+      "Kansas City",
+      "North Dakota",
+      "Western Illinois",
+      "Omaha",
+      "Denver"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Vermont",
+      "Maryland-Baltimore County",
+      "Hartford",
+      "Albany (NY)",
+      "Massachusetts-Lowell",
+      "Stony Brook",
+      "New Hampshire",
+      "NJIT",
+      "Binghamton",
+      "Maine"
+    ]
+  },
+  {
+    "Name": "Patriot (South)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Navy",
+      "Loyola (MD)",
+      "American"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "James Madison",
+      "Drexel",
+      "Northeastern",
+      "Hofstra",
+      "College of Charleston",
+      "Delaware",
+      "Elon",
+      "UNC Wilmington",
+      "Towson",
+      "William & Mary"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Iona",
+      "Siena",
+      "Saint Peter's",
+      "Monmouth",
+      "Niagara",
+      "Canisius",
+      "Marist",
+      "Quinnipiac",
+      "Fairfield",
+      "Manhattan",
+      "Rider"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Bryant",
+      "Wagner",
+      "Mount St. Mary's",
+      "Long Island University",
+      "Merrimack",
+      "Fairleigh Dickinson",
+      "St. Francis (NY)",
+      "Saint Francis (PA)",
+      "Sacred Heart",
+      "Central Connecticut State"
+    ]
+  },
+  {
+    "Name": "Sun Belt (East)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Georgia State",
+      "Coastal Carolina",
+      "Appalachian State",
+      "South Alabama",
+      "Georgia Southern",
+      "Troy"
+    ]
+  },
+  {
+    "Name": "Sun Belt (West)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Texas State",
+      "Louisiana",
+      "Little Rock",
+      "UT Arlington",
+      "Arkansas State",
+      "Louisiana-Monroe"
+    ]
+  },
+  {
+    "Name": "Patriot (Central)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Lafayette",
+      "Bucknell",
+      "Lehigh"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Texas Southern",
+      "Prairie View",
+      "Jackson State",
+      "Southern",
+      "Grambling",
+      "Alabama A&M",
+      "Alcorn State",
+      "Arkansas-Pine Bluff",
+      "Alabama State",
+      "Mississippi Valley State"
+    ]
+  },
+  {
+    "Name": "MEAC (Northern)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Norfolk State",
+      "Morgan State",
+      "Coppin State",
+      "Howard",
+      "Delaware State"
+    ]
+  },
+  {
+    "Name": "MEAC (Southern)",
+    "Gender": "men",
+    "Year": 2021,
+    "Teams": [
+      "Florida A&M",
+      "North Carolina A&T",
+      "North Carolina Central",
+      "South Carolina State"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Gonzaga",
+      "Saint Mary's (CA)",
+      "San Francisco",
+      "Brigham Young",
+      "Santa Clara",
+      "Portland",
+      "Loyola Marymount",
+      "San Diego",
+      "Pepperdine",
+      "Pacific"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Arizona",
+      "UCLA",
+      "Washington State",
+      "Southern California",
+      "Oregon",
+      "Colorado",
+      "Arizona State",
+      "Stanford",
+      "Utah",
+      "Washington",
+      "California",
+      "Oregon State"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Houston",
+      "Memphis",
+      "Southern Methodist",
+      "Wichita State",
+      "Cincinnati",
+      "Tulane",
+      "Central Florida",
+      "Temple",
+      "Tulsa",
+      "East Carolina",
+      "South Florida"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Kansas",
+      "Baylor",
+      "Texas Tech",
+      "Texas",
+      "Oklahoma",
+      "TCU",
+      "Oklahoma State",
+      "Iowa State",
+      "Kansas State",
+      "West Virginia"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Kentucky",
+      "Tennessee",
+      "Auburn",
+      "Louisiana State",
+      "Arkansas",
+      "Alabama",
+      "Texas A&M",
+      "Florida",
+      "Mississippi State",
+      "Vanderbilt",
+      "South Carolina",
+      "Mississippi",
+      "Missouri",
+      "Georgia"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Duke",
+      "North Carolina",
+      "Virginia Tech",
+      "Wake Forest",
+      "Notre Dame",
+      "Miami (FL)",
+      "Syracuse",
+      "Clemson",
+      "Virginia",
+      "Florida State",
+      "Louisville",
+      "Boston College",
+      "NC State",
+      "Georgia Tech",
+      "Pittsburgh"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Villanova",
+      "Connecticut",
+      "Xavier",
+      "Providence",
+      "Seton Hall",
+      "St. John's (NY)",
+      "Marquette",
+      "Creighton",
+      "DePaul",
+      "Butler",
+      "Georgetown"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Purdue",
+      "Iowa",
+      "Illinois",
+      "Michigan",
+      "Ohio State",
+      "Michigan State",
+      "Wisconsin",
+      "Indiana",
+      "Maryland",
+      "Northwestern",
+      "Rutgers",
+      "Penn State",
+      "Minnesota",
+      "Nebraska"
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Loyola (IL)",
+      "Missouri State",
+      "Drake",
+      "Bradley",
+      "Northern Iowa",
+      "Southern Illinois",
+      "Illinois State",
+      "Valparaiso",
+      "Indiana State",
+      "Evansville"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "San Diego State",
+      "Boise State",
+      "Colorado State",
+      "Utah State",
+      "Wyoming",
+      "Fresno State",
+      "Nevada-Las Vegas",
+      "Nevada",
+      "New Mexico",
+      "Air Force",
+      "San Jose State"
+    ]
+  },
+  {
+    "Name": "CUSA (West)",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "UAB",
+      "North Texas",
+      "Louisiana Tech",
+      "UTEP",
+      "Rice",
+      "UTSA",
+      "Southern Mississippi"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Davidson",
+      "Dayton",
+      "Saint Louis",
+      "Virginia Commonwealth",
+      "St. Bonaventure",
+      "Richmond",
+      "George Mason",
+      "Rhode Island",
+      "Saint Joseph's",
+      "Massachusetts",
+      "Fordham",
+      "La Salle",
+      "George Washington",
+      "Duquesne"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Murray State",
+      "Belmont",
+      "Morehead State",
+      "Southeast Missouri State",
+      "Tennessee Tech",
+      "Tennessee State",
+      "Austin Peay",
+      "SIU Edwardsville",
+      "Tennessee-Martin",
+      "Eastern Illinois"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Vermont",
+      "Maryland-Baltimore County",
+      "New Hampshire",
+      "Stony Brook",
+      "Massachusetts-Lowell",
+      "Albany (NY)",
+      "Hartford",
+      "Binghamton",
+      "NJIT",
+      "Maine"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "New Mexico State",
+      "Grand Canyon",
+      "Stephen F. Austin",
+      "Utah Valley",
+      "Abilene Christian",
+      "Seattle",
+      "Sam Houston",
+      "Tarleton State",
+      "California Baptist",
+      "Utah Tech",
+      "Texas-Rio Grande Valley",
+      "Chicago State",
+      "Lamar"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "South Dakota State",
+      "Oral Roberts",
+      "North Dakota State",
+      "South Dakota",
+      "Kansas City",
+      "Western Illinois",
+      "Denver",
+      "St. Thomas",
+      "North Dakota",
+      "Omaha"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Towson",
+      "Hofstra",
+      "College of Charleston",
+      "Delaware",
+      "Drexel",
+      "UNC Wilmington",
+      "James Madison",
+      "Northeastern",
+      "Elon",
+      "William & Mary"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Toledo",
+      "Buffalo",
+      "Ohio",
+      "Akron",
+      "Kent State",
+      "Miami (OH)",
+      "Ball State",
+      "Bowling Green State",
+      "Northern Illinois",
+      "Eastern Michigan",
+      "Central Michigan",
+      "Western Michigan"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Furman",
+      "Chattanooga",
+      "Wofford",
+      "UNC Greensboro",
+      "VMI",
+      "East Tennessee State",
+      "Samford",
+      "Mercer",
+      "The Citadel",
+      "Western Carolina"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Iona",
+      "Saint Peter's",
+      "Monmouth",
+      "Niagara",
+      "Fairfield",
+      "Marist",
+      "Quinnipiac",
+      "Rider",
+      "Siena",
+      "Canisius",
+      "Manhattan"
+    ]
+  },
+  {
+    "Name": "CUSA (East)",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Middle Tennessee",
+      "Western Kentucky",
+      "Florida Atlantic",
+      "Old Dominion",
+      "Charlotte",
+      "Marshall",
+      "Florida International"
+    ]
+  },
+  {
+    "Name": "Ivy",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Princeton",
+      "Yale",
+      "Brown",
+      "Cornell",
+      "Pennsylvania",
+      "Dartmouth",
+      "Harvard",
+      "Columbia"
+    ]
+  },
+  {
+    "Name": "A-Sun (East)",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Liberty",
+      "Jacksonville",
+      "Florida Gulf Coast",
+      "Kennesaw State",
+      "North Florida",
+      "Stetson"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "UC Irvine",
+      "UC Santa Barbara",
+      "Cal State Fullerton",
+      "Hawaii",
+      "Long Beach State",
+      "UC Riverside",
+      "UC Davis",
+      "UC San Diego",
+      "Cal State Bakersfield",
+      "Cal Poly",
+      "Cal State Northridge"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Colgate",
+      "Navy",
+      "Boston University",
+      "Loyola (MD)",
+      "Army",
+      "Lehigh",
+      "Lafayette",
+      "Bucknell",
+      "American",
+      "Holy Cross"
+    ]
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Coastal Carolina",
+      "South Alabama",
+      "Texas State",
+      "Georgia State",
+      "Appalachian State",
+      "Louisiana",
+      "Arkansas State",
+      "Troy",
+      "UT Arlington",
+      "Georgia Southern",
+      "Louisiana-Monroe",
+      "Little Rock"
+    ]
+  },
+  {
+    "Name": "A-Sun (West)",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Jacksonville State",
+      "Bellarmine",
+      "Eastern Kentucky",
+      "Lipscomb",
+      "North Alabama",
+      "Central Arkansas"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Montana State",
+      "Southern Utah",
+      "Weber State",
+      "Northern Colorado",
+      "Eastern Washington",
+      "Montana",
+      "Portland State",
+      "Sacramento State",
+      "Idaho",
+      "Northern Arizona",
+      "Idaho State"
+    ]
+  },
+  {
+    "Name": "Big South (North)",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Longwood",
+      "Campbell",
+      "High Point",
+      "Radford",
+      "North Carolina A&T",
+      "Hampton"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Wagner",
+      "Bryant",
+      "Long Island University",
+      "Mount St. Mary's",
+      "Merrimack",
+      "Sacred Heart",
+      "St. Francis (NY)",
+      "Saint Francis (PA)",
+      "Central Connecticut State",
+      "Fairleigh Dickinson"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Oakland",
+      "Cleveland State",
+      "Wright State",
+      "Northern Kentucky",
+      "Purdue Fort Wayne",
+      "Youngstown State",
+      "Detroit Mercy",
+      "Illinois-Chicago",
+      "Robert Morris",
+      "Milwaukee",
+      "Green Bay",
+      "IUPUI"
+    ]
+  },
+  {
+    "Name": "Big South (South)",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Winthrop",
+      "Gardner-Webb",
+      "UNC Asheville",
+      "Presbyterian",
+      "South Carolina Upstate",
+      "Charleston Southern"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Texas Southern",
+      "Southern",
+      "Alcorn State",
+      "Jackson State",
+      "Prairie View",
+      "Alabama State",
+      "Florida A&M",
+      "Grambling",
+      "Alabama A&M",
+      "Bethune-Cookman",
+      "Arkansas-Pine Bluff",
+      "Mississippi Valley State"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Nicholls State",
+      "Texas A&M-Corpus Christi",
+      "New Orleans",
+      "Southeastern Louisiana",
+      "McNeese State",
+      "Northwestern State",
+      "Houston Christian",
+      "Incarnate Word"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "men",
+    "Year": 2022,
+    "Teams": [
+      "Norfolk State",
+      "Howard",
+      "North Carolina Central",
+      "Morgan State",
+      "Coppin State",
+      "South Carolina State",
+      "Maryland-Eastern Shore",
+      "Delaware State"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Alabama",
+      "Tennessee",
+      "Arkansas",
+      "Kentucky",
+      "Auburn",
+      "Texas A&M",
+      "Mississippi State",
+      "Missouri",
+      "Florida",
+      "Vanderbilt",
+      "Mississippi",
+      "Louisiana State",
+      "Georgia",
+      "South Carolina"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Connecticut",
+      "Creighton",
+      "Marquette",
+      "Xavier",
+      "Providence",
+      "Seton Hall",
+      "Villanova",
+      "St. John's (NY)",
+      "Butler",
+      "DePaul",
+      "Georgetown"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Houston",
+      "Memphis",
+      "Cincinnati",
+      "Central Florida",
+      "Wichita State",
+      "Tulane",
+      "Temple",
+      "South Florida",
+      "Southern Methodist",
+      "East Carolina",
+      "Tulsa"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "UCLA",
+      "Arizona",
+      "Oregon",
+      "Southern California",
+      "Utah",
+      "Arizona State",
+      "Colorado",
+      "Washington State",
+      "Stanford",
+      "Washington",
+      "Oregon State",
+      "California"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Texas",
+      "Kansas",
+      "Baylor",
+      "West Virginia",
+      "Kansas State",
+      "TCU",
+      "Iowa State",
+      "Oklahoma State",
+      "Texas Tech",
+      "Oklahoma"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Gonzaga",
+      "Saint Mary's (CA)",
+      "Brigham Young",
+      "Santa Clara",
+      "San Francisco",
+      "Loyola Marymount",
+      "Portland",
+      "Pepperdine",
+      "Pacific",
+      "San Diego"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Purdue",
+      "Indiana",
+      "Illinois",
+      "Maryland",
+      "Rutgers",
+      "Michigan State",
+      "Iowa",
+      "Northwestern",
+      "Penn State",
+      "Ohio State",
+      "Michigan",
+      "Wisconsin",
+      "Nebraska",
+      "Minnesota"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Duke",
+      "Miami (FL)",
+      "Virginia",
+      "North Carolina",
+      "NC State",
+      "Pittsburgh",
+      "Clemson",
+      "Virginia Tech",
+      "Wake Forest",
+      "Syracuse",
+      "Notre Dame",
+      "Georgia Tech",
+      "Boston College",
+      "Florida State",
+      "Louisville"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "San Diego State",
+      "Utah State",
+      "Boise State",
+      "New Mexico",
+      "Nevada",
+      "Nevada-Las Vegas",
+      "Colorado State",
+      "San Jose State",
+      "Fresno State",
+      "Wyoming",
+      "Air Force"
+    ]
+  },
+  {
+    "Name": "CUSA",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Florida Atlantic",
+      "UAB",
+      "North Texas",
+      "Charlotte",
+      "Middle Tennessee",
+      "Louisiana Tech",
+      "UTEP",
+      "Western Kentucky",
+      "Rice",
+      "Florida International",
+      "UTSA"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Virginia Commonwealth",
+      "Dayton",
+      "Saint Louis",
+      "Duquesne",
+      "Fordham",
+      "Davidson",
+      "George Mason",
+      "Richmond",
+      "Saint Joseph's",
+      "St. Bonaventure",
+      "Massachusetts",
+      "George Washington",
+      "La Salle",
+      "Rhode Island",
+      "Loyola (IL)"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Oral Roberts",
+      "South Dakota State",
+      "St. Thomas",
+      "North Dakota State",
+      "Western Illinois",
+      "North Dakota",
+      "Denver",
+      "Kansas City",
+      "South Dakota",
+      "Omaha"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Utah Valley",
+      "Sam Houston",
+      "Grand Canyon",
+      "Southern Utah",
+      "Seattle",
+      "Stephen F. Austin",
+      "California Baptist",
+      "Utah Tech",
+      "Tarleton State",
+      "New Mexico State",
+      "Abilene Christian",
+      "UT Arlington",
+      "Texas-Rio Grande Valley"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "College of Charleston",
+      "Hofstra",
+      "Towson",
+      "UNC Wilmington",
+      "Drexel",
+      "Delaware",
+      "Northeastern",
+      "William & Mary",
+      "North Carolina A&T",
+      "Stony Brook",
+      "Elon",
+      "Hampton",
+      "Monmouth"
+    ]
+  },
+  {
+    "Name": "A-Sun",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Liberty",
+      "Kennesaw State",
+      "Eastern Kentucky",
+      "Lipscomb",
+      "Florida Gulf Coast",
+      "Stetson",
+      "Queens (NC)",
+      "Jacksonville",
+      "Jacksonville State",
+      "North Florida",
+      "Bellarmine",
+      "North Alabama",
+      "Austin Peay",
+      "Central Arkansas"
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Drake",
+      "Bradley",
+      "Indiana State",
+      "Belmont",
+      "Southern Illinois",
+      "Missouri State",
+      "Northern Iowa",
+      "Murray State",
+      "Illinois State",
+      "Valparaiso",
+      "Illinois-Chicago",
+      "Evansville"
+    ]
+  },
+  {
+    "Name": "Ivy",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Yale",
+      "Princeton",
+      "Pennsylvania",
+      "Cornell",
+      "Harvard",
+      "Brown",
+      "Dartmouth",
+      "Columbia"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Iona",
+      "Quinnipiac",
+      "Siena",
+      "Rider",
+      "Niagara",
+      "Fairfield",
+      "Canisius",
+      "Mount St. Mary's",
+      "Marist",
+      "Manhattan",
+      "Saint Peter's"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Kent State",
+      "Toledo",
+      "Akron",
+      "Ohio",
+      "Ball State",
+      "Buffalo",
+      "Northern Illinois",
+      "Miami (OH)",
+      "Bowling Green State",
+      "Western Michigan",
+      "Eastern Michigan",
+      "Central Michigan"
+    ]
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Marshall",
+      "James Madison",
+      "Louisiana",
+      "South Alabama",
+      "Southern Mississippi",
+      "Troy",
+      "Old Dominion",
+      "Appalachian State",
+      "Texas State",
+      "Georgia Southern",
+      "Georgia State",
+      "Arkansas State",
+      "Louisiana-Monroe",
+      "Coastal Carolina"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Furman",
+      "UNC Greensboro",
+      "Samford",
+      "Chattanooga",
+      "Wofford",
+      "Mercer",
+      "East Tennessee State",
+      "Western Carolina",
+      "The Citadel",
+      "VMI"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "UC Irvine",
+      "UC Santa Barbara",
+      "Hawaii",
+      "Cal State Fullerton",
+      "UC Riverside",
+      "UC Davis",
+      "Long Beach State",
+      "UC San Diego",
+      "Cal Poly",
+      "Cal State Bakersfield",
+      "Cal State Northridge"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Colgate",
+      "Navy",
+      "Army",
+      "Lafayette",
+      "Boston University",
+      "American",
+      "Lehigh",
+      "Bucknell",
+      "Loyola (MD)",
+      "Holy Cross"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Montana State",
+      "Eastern Washington",
+      "Montana",
+      "Weber State",
+      "Northern Arizona",
+      "Sacramento State",
+      "Northern Colorado",
+      "Portland State",
+      "Idaho State",
+      "Idaho"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Youngstown State",
+      "Northern Kentucky",
+      "Wright State",
+      "Cleveland State",
+      "Detroit Mercy",
+      "Milwaukee",
+      "Purdue Fort Wayne",
+      "Robert Morris",
+      "Oakland",
+      "IUPUI",
+      "Green Bay"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Vermont",
+      "Massachusetts-Lowell",
+      "Bryant",
+      "Maryland-Baltimore County",
+      "Maine",
+      "New Hampshire",
+      "Binghamton",
+      "NJIT",
+      "Albany (NY)"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "UNC Asheville",
+      "Longwood",
+      "Radford",
+      "Gardner-Webb",
+      "Campbell",
+      "Winthrop",
+      "South Carolina Upstate",
+      "Charleston Southern",
+      "High Point",
+      "Presbyterian"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Texas A&M-Corpus Christi",
+      "Northwestern State",
+      "Southeastern Louisiana",
+      "Nicholls State",
+      "Texas A&M-Commerce",
+      "McNeese State",
+      "New Orleans",
+      "Incarnate Word",
+      "Houston Christian",
+      "Lamar"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "North Carolina Central",
+      "Norfolk State",
+      "Howard",
+      "Maryland-Eastern Shore",
+      "Morgan State",
+      "Coppin State",
+      "South Carolina State",
+      "Delaware State"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Grambling",
+      "Southern",
+      "Alcorn State",
+      "Prairie View",
+      "Texas Southern",
+      "Alabama A&M",
+      "Jackson State",
+      "Arkansas-Pine Bluff",
+      "Alabama State",
+      "Bethune-Cookman",
+      "Florida A&M",
+      "Mississippi Valley State"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "SIU Edwardsville",
+      "Morehead State",
+      "Southeast Missouri State",
+      "Tennessee-Martin",
+      "Southern Indiana",
+      "Tennessee State",
+      "Tennessee Tech",
+      "Little Rock",
+      "Eastern Illinois",
+      "Lindenwood"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Fairleigh Dickinson",
+      "Merrimack",
+      "Wagner",
+      "Sacred Heart",
+      "Stonehill",
+      "Saint Francis (PA)",
+      "Central Connecticut State",
+      "St. Francis (NY)",
+      "Long Island University"
+    ]
+  },
+  {
+    "Name": "Ind",
+    "Gender": "men",
+    "Year": 2023,
+    "Teams": [
+      "Chicago State",
+      "Hartford"
+    ]
+  },
+  {
+    "Name": "Big 12",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Houston",
+      "Brigham Young",
+      "Iowa State",
+      "Baylor",
+      "Kansas",
+      "Oklahoma",
+      "Cincinnati",
+      "TCU",
+      "Texas",
+      "Texas Tech",
+      "Central Florida",
+      "Kansas State",
+      "Oklahoma State",
+      "West Virginia"
+    ]
+  },
+  {
+    "Name": "Pac-12",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Arizona",
+      "Utah",
+      "Colorado",
+      "Washington State",
+      "Washington",
+      "Oregon",
+      "Southern California",
+      "Stanford",
+      "UCLA",
+      "California",
+      "Arizona State",
+      "Oregon State"
+    ]
+  },
+  {
+    "Name": "Big Ten",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Purdue",
+      "Illinois",
+      "Michigan State",
+      "Wisconsin",
+      "Iowa",
+      "Nebraska",
+      "Ohio State",
+      "Northwestern",
+      "Maryland",
+      "Minnesota",
+      "Penn State",
+      "Michigan",
+      "Indiana",
+      "Rutgers"
+    ]
+  },
+  {
+    "Name": "SEC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Alabama",
+      "Tennessee",
+      "Auburn",
+      "Kentucky",
+      "Florida",
+      "Mississippi State",
+      "Texas A&M",
+      "South Carolina",
+      "Mississippi",
+      "Georgia",
+      "Louisiana State",
+      "Arkansas",
+      "Missouri",
+      "Vanderbilt"
+    ]
+  },
+  {
+    "Name": "Big East",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Connecticut",
+      "Marquette",
+      "Creighton",
+      "St. John's (NY)",
+      "Xavier",
+      "Butler",
+      "Villanova",
+      "Providence",
+      "Seton Hall",
+      "Georgetown",
+      "DePaul"
+    ]
+  },
+  {
+    "Name": "ACC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "North Carolina",
+      "Duke",
+      "Wake Forest",
+      "Clemson",
+      "Miami (FL)",
+      "Pittsburgh",
+      "Virginia Tech",
+      "Virginia",
+      "Florida State",
+      "NC State",
+      "Boston College",
+      "Syracuse",
+      "Georgia Tech",
+      "Notre Dame",
+      "Louisville"
+    ]
+  },
+  {
+    "Name": "MWC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "New Mexico",
+      "San Diego State",
+      "Colorado State",
+      "Utah State",
+      "Boise State",
+      "Nevada",
+      "Nevada-Las Vegas",
+      "Wyoming",
+      "Fresno State",
+      "San Jose State",
+      "Air Force"
+    ]
+  },
+  {
+    "Name": "WCC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Gonzaga",
+      "Saint Mary's (CA)",
+      "San Francisco",
+      "Santa Clara",
+      "Loyola Marymount",
+      "Pepperdine",
+      "San Diego",
+      "Portland",
+      "Pacific"
+    ]
+  },
+  {
+    "Name": "AAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Florida Atlantic",
+      "Southern Methodist",
+      "Memphis",
+      "North Texas",
+      "Charlotte",
+      "Tulane",
+      "South Florida",
+      "UAB",
+      "Wichita State",
+      "Tulsa",
+      "East Carolina",
+      "Rice",
+      "Temple",
+      "UTSA"
+    ]
+  },
+  {
+    "Name": "A-10",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Dayton",
+      "St. Bonaventure",
+      "Virginia Commonwealth",
+      "Richmond",
+      "Massachusetts",
+      "Saint Joseph's",
+      "George Mason",
+      "Duquesne",
+      "Loyola (IL)",
+      "Davidson",
+      "George Washington",
+      "Fordham",
+      "Rhode Island",
+      "La Salle",
+      "Saint Louis"
+    ]
+  },
+  {
+    "Name": "MVC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Indiana State",
+      "Drake",
+      "Bradley",
+      "Southern Illinois",
+      "Northern Iowa",
+      "Murray State",
+      "Missouri State",
+      "Belmont",
+      "Illinois-Chicago",
+      "Illinois State",
+      "Evansville",
+      "Valparaiso"
+    ]
+  },
+  {
+    "Name": "WAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Grand Canyon",
+      "Seattle",
+      "Stephen F. Austin",
+      "California Baptist",
+      "UT Arlington",
+      "Tarleton State",
+      "Utah Valley",
+      "Southern Utah",
+      "Abilene Christian",
+      "Utah Tech",
+      "Texas-Rio Grande Valley"
+    ]
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "James Madison",
+      "Appalachian State",
+      "Louisiana",
+      "Troy",
+      "Arkansas State",
+      "Marshall",
+      "Georgia State",
+      "Southern Mississippi",
+      "Texas State",
+      "Old Dominion",
+      "South Alabama",
+      "Louisiana-Monroe",
+      "Georgia Southern",
+      "Coastal Carolina"
+    ]
+  },
+  {
+    "Name": "Big West",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "UC Irvine",
+      "UC San Diego",
+      "UC Davis",
+      "UC Santa Barbara",
+      "Hawaii",
+      "Long Beach State",
+      "Cal State Northridge",
+      "Cal State Fullerton",
+      "UC Riverside",
+      "Cal State Bakersfield",
+      "Cal Poly"
+    ]
+  },
+  {
+    "Name": "CUSA",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Louisiana Tech",
+      "Liberty",
+      "Western Kentucky",
+      "UTEP",
+      "Jacksonville State",
+      "Sam Houston",
+      "New Mexico State",
+      "Middle Tennessee",
+      "Florida International"
+    ]
+  },
+  {
+    "Name": "Ivy",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Princeton",
+      "Yale",
+      "Cornell",
+      "Pennsylvania",
+      "Harvard",
+      "Columbia",
+      "Brown",
+      "Dartmouth"
+    ]
+  },
+  {
+    "Name": "Southern",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Samford",
+      "Western Carolina",
+      "UNC Greensboro",
+      "Furman",
+      "Chattanooga",
+      "Wofford",
+      "East Tennessee State",
+      "Mercer",
+      "The Citadel",
+      "VMI"
+    ]
+  },
+  {
+    "Name": "MAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Akron",
+      "Toledo",
+      "Kent State",
+      "Ohio",
+      "Bowling Green State",
+      "Ball State",
+      "Miami (OH)",
+      "Central Michigan",
+      "Northern Illinois",
+      "Western Michigan",
+      "Eastern Michigan",
+      "Buffalo"
+    ]
+  },
+  {
+    "Name": "Southland",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "McNeese State",
+      "Texas A&M-Corpus Christi",
+      "Lamar",
+      "Nicholls State",
+      "Southeastern Louisiana",
+      "Texas A&M-Commerce",
+      "Incarnate Word",
+      "Northwestern State",
+      "Houston Christian",
+      "New Orleans"
+    ]
+  },
+  {
+    "Name": "Horizon",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Youngstown State",
+      "Oakland",
+      "Wright State",
+      "Purdue Fort Wayne",
+      "Cleveland State",
+      "Northern Kentucky",
+      "Green Bay",
+      "Milwaukee",
+      "Robert Morris",
+      "Detroit Mercy",
+      "IUPUI"
+    ]
+  },
+  {
+    "Name": "AEC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Vermont",
+      "Massachusetts-Lowell",
+      "Bryant",
+      "New Hampshire",
+      "Maine",
+      "Albany (NY)",
+      "Binghamton",
+      "Maryland-Baltimore County",
+      "NJIT"
+    ]
+  },
+  {
+    "Name": "CAA",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Drexel",
+      "College of Charleston",
+      "UNC Wilmington",
+      "Towson",
+      "Hofstra",
+      "Delaware",
+      "Monmouth",
+      "Stony Brook",
+      "Northeastern",
+      "Campbell",
+      "Elon",
+      "William & Mary",
+      "North Carolina A&T",
+      "Hampton"
+    ]
+  },
+  {
+    "Name": "Big South",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "High Point",
+      "Winthrop",
+      "UNC Asheville",
+      "Longwood",
+      "Gardner-Webb",
+      "Radford",
+      "South Carolina Upstate",
+      "Presbyterian",
+      "Charleston Southern"
+    ]
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Weber State",
+      "Eastern Washington",
+      "Montana",
+      "Northern Colorado",
+      "Montana State",
+      "Portland State",
+      "Idaho State",
+      "Idaho",
+      "Sacramento State",
+      "Northern Arizona"
+    ]
+  },
+  {
+    "Name": "OVC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Morehead State",
+      "Tennessee-Martin",
+      "Little Rock",
+      "SIU Edwardsville",
+      "Tennessee State",
+      "Western Illinois",
+      "Eastern Illinois",
+      "Southern Indiana",
+      "Tennessee Tech",
+      "Lindenwood",
+      "Southeast Missouri State"
+    ]
+  },
+  {
+    "Name": "Patriot",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Colgate",
+      "American",
+      "Lehigh",
+      "Bucknell",
+      "Lafayette",
+      "Navy",
+      "Boston University",
+      "Army",
+      "Loyola (MD)",
+      "Holy Cross"
+    ]
+  },
+  {
+    "Name": "Summit",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "St. Thomas",
+      "South Dakota State",
+      "Oral Roberts",
+      "Denver",
+      "Omaha",
+      "Kansas City",
+      "North Dakota State",
+      "North Dakota",
+      "South Dakota"
+    ]
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Iona",
+      "Quinnipiac",
+      "Fairfield",
+      "Saint Peter's",
+      "Canisius",
+      "Mount St. Mary's",
+      "Marist",
+      "Rider",
+      "Niagara",
+      "Manhattan",
+      "Siena"
+    ]
+  },
+  {
+    "Name": "A-Sun",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Lipscomb",
+      "Stetson",
+      "Eastern Kentucky",
+      "North Florida",
+      "North Alabama",
+      "Austin Peay",
+      "Florida Gulf Coast",
+      "Kennesaw State",
+      "Queens (NC)",
+      "Jacksonville",
+      "Bellarmine",
+      "Central Arkansas"
+    ]
+  },
+  {
+    "Name": "NEC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Merrimack",
+      "Central Connecticut State",
+      "Sacred Heart",
+      "Wagner",
+      "Le Moyne",
+      "FDU",
+      "Saint Francis (PA)",
+      "Stonehill",
+      "Long Island University"
+    ]
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Norfolk State",
+      "North Carolina Central",
+      "Howard",
+      "Delaware State",
+      "South Carolina State",
+      "Morgan State",
+      "Maryland-Eastern Shore",
+      "Coppin State"
+    ]
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Southern",
+      "Alabama State",
+      "Texas Southern",
+      "Jackson State",
+      "Grambling",
+      "Bethune-Cookman",
+      "Alcorn State",
+      "Prairie View",
+      "Arkansas-Pine Bluff",
+      "Florida A&M",
+      "Alabama A&M",
+      "Mississippi Valley State"
+    ]
+  },
+  {
+    "Name": "Ind",
+    "Gender": "men",
     "Year": 2024,
     "Teams": [
       "Chicago State"
