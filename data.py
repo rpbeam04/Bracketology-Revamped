@@ -2,6 +2,7 @@ import pandas as pd
 from classes import *
 import fetch
 from pprint import *
+import os
 
 def populate_team_stats(year: int, gender: str):
     tables = list(fetch.fetch_team_stats(year, gender).values())
@@ -69,5 +70,61 @@ def populate_tournament_data(year: int, gender: str):
             if item not in ["School", "Conference"]:
                 setattr(team, item, row[item])
 
-def team_training_data():
-    pass
+def team_training_data(year: int, gender: str):
+    n_teams = pd.read_csv(fr"Stats/{year}/{gender.lower()}/school-stats.csv").shape[0]    
+    # ML Data Points
+    # Adj_NRtg
+    # NC_Rec to percent
+    # NC_SOS_RPI
+    # NET_Rank
+    # Pre_Tourn_Record to percent
+    # Q1_RPI to pct
+    # Q3_RPI + Q4_RPI to pct
+    # SOS
+    # NC_WP (Conf)
+    header = ["Seed","Name","Adj_NRtg","NC_Rec","NC_SOS_RPI","NET_Rank",
+              "Record","Q1","Q2","Q34","SOS","NC_WP"]
+    rows = []
+    for team in Team.filtered_team_list(gender, year):
+        if hasattr(team, "Seed"):
+            row = []
+            for h in header:
+                if h == "NC_Rec":
+                    row.append(team.rec_to_pct("NC_Rec"))
+                elif h == "Record":
+                    row.append(team.rec_to_pct("Pre_Tourn_Record"))
+                elif h == "Q1":
+                    row.append(team.rec_to_pct("Q1_RPI"))
+                elif h == "Q2":
+                    row.append(team.rec_to_pct("Q2_RPI"))
+                elif h == "Q34":
+                    row.append(team.comb_rec_to_pct(["Q3_RPI","Q4_RPI"]))
+                elif h == "NC_WP":
+                    row.append(team.Conference.NC_WP)
+                else:
+                    row.append(getattr(team, h))
+            rows.append(row)
+    data = pd.DataFrame(rows, columns=header)
+    filepath = fr"Model/{year}/{gender.lower()}"
+    if not os.path.exists(filepath):
+        os.makedirs(filepath)
+    data = data.reset_index(drop=True)
+    data.to_csv(fr"{filepath}/training.csv", index=False)
+    return data
+
+def create_full_training():
+    dirs = os.listdir("Model")
+    data = []
+    for d in dirs:
+        if not d.endswith(".csv"):
+            try:
+                data.append(pd.read_csv(fr"Model/{d}/men/training.csv"))
+            except:
+                pass
+            try:
+                data.append(pd.read_csv(fr"Model/{d}/women/training.csv"))
+            except:
+                pass
+    full = pd.concat(data)
+    full.to_csv("Model/full-training.csv", index=False)
+    return full

@@ -1,0 +1,69 @@
+Seed,School,Conference,Pre_Tourn_Record,Overall_Seed,Berth_type
+1,Gonzaga,West Coast,26-0,1,Automatic
+2,Iowa,Big Ten,21-8,7,At-Large
+3,Kansas,Big 12,20-8,12,At-Large
+4,Virginia,ACC,18-6,16,At-Large
+5,Creighton,Big East,20-8,17,At-Large
+6,USC,Pac-12,22-7,21,At-Large
+7,Oregon,Pac-12,20-6,25,At-Large
+8,Oklahoma,Big 12,15-10,32,At-Large
+9,Missouri,SEC,16-9,33,At-Large
+10,VCU,Atlantic 10,19-7,38,At-Large
+11,Wichita State,American,16-5,45,At-Large
+11,Drake,Missouri Valley,25-4,48,At-Large
+12,UC Santa Barbara,Big West,22-4,50,Automatic
+13,Ohio,MAC,16-7,51,Automatic
+14,Eastern Washington,Big Sky,16-7,58,Automatic
+15,Grand Canyon,WAC,17-6,59,Automatic
+16,Norfolk State,MEAC,16-7,67,Automatic
+16,Appalachian State,Sun Belt,17-11,68,Automatic
+1,Michigan,Big Ten,20-4,4,At-Large
+2,Alabama,SEC,24-6,5,Automatic
+3,Texas,Big 12,19-7,11,Automatic
+4,Florida State,ACC,16-6,13,At-Large
+5,Colorado,Pac-12,22-8,20,At-Large
+6,BYU,West Coast,20-6,23,At-Large
+7,UConn,Big East,15-7,26,At-Large
+8,LSU,SEC,18-9,29,At-Large
+9,St. Bonaventure,Atlantic 10,16-4,39,Automatic
+10,Maryland,Big Ten,16-13,36,At-Large
+11,Michigan State,Big Ten,15-12,43,At-Large
+11,UCLA,Pac-12,17-9,44,At-Large
+12,Georgetown,Big East,13-12,47,Automatic
+13,UNC Greensboro,Southern,21-8,54,Automatic
+14,Abilene Christian,Southland,23-4,55,Automatic
+15,Iona,MAAC,12-5,62,Automatic
+16,Mount St. Mary's,Northeast,12-10,65,Automatic
+16,Texas Southern,SWAC,16-8,66,Automatic
+1,Baylor,Big 12,22-2,2,At-Large
+2,Ohio State,Big Ten,21-9,6,At-Large
+3,Arkansas,SEC,22-6,9,At-Large
+4,Purdue,Big Ten,18-9,14,At-Large
+5,Villanova,Big East,16-6,18,At-Large
+6,Texas Tech,Big 12,17-10,22,At-Large
+7,Florida,SEC,14-9,28,At-Large
+8,North Carolina,ACC,18-10,31,At-Large
+9,Wisconsin,Big Ten,17-12,35,At-Large
+10,Virginia Tech,ACC,15-6,37,At-Large
+11,Utah State,Mountain West,20-8,42,At-Large
+12,Winthrop,Big South,23-1,49,Automatic
+13,North Texas,C-USA,17-9,52,Automatic
+14,Colgate,Patriot,14-1,57,Automatic
+15,Oral Roberts,Summit,16-10,61,Automatic
+16,Hartford,America East,15-8,64,Automatic
+1,Illinois,Big Ten,23-6,3,Automatic
+2,Houston,American,24-3,8,Automatic
+3,West Virginia,Big 12,18-9,10,At-Large
+4,Oklahoma State,Big 12,20-8,15,At-Large
+5,Tennessee,SEC,18-8,19,At-Large
+6,San Diego State,Mountain West,23-4,24,Automatic
+7,Clemson,ACC,16-7,27,At-Large
+8,Loyola Chicago,Missouri Valley,24-4,30,Automatic
+9,Georgia Tech,ACC,17-8,34,Automatic
+10,Rutgers,Big Ten,15-11,40,At-Large
+11,Syracuse,ACC,16-9,41,At-Large
+12,Oregon State,Pac-12,17-12,46,Automatic
+13,Liberty,Atlantic Sun,23-5,53,Automatic
+14,Morehead State,Ohio Valley,23-7,56,Automatic
+15,Cleveland State,Horizon,19-7,60,Automatic
+16,Drexel,Colonial,12-7,63,Automatic

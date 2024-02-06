@@ -1,0 +1,65 @@
+Seed,School,Conference,Pre_Tourn_Record,NET,Berth_type
+1,Stanford,Pac-12,25-2,1,Automatic
+2,Louisville,ACC,23-3,6,At-Large
+3,Georgia,SEC,20-6,13,At-Large
+4,Arkansas,SEC,19-8,17,At-Large
+5,Missouri State,Missouri Valley,21-2,20,At-Large
+6,Oregon,Pac-12,13-8,10,At-Large
+7,Northwestern,Big Ten,15-8,31,At-Large
+8,Oklahoma State,Big 12,18-8,27,At-Large
+9,Wake Forest,ACC,12-12,47,At-Large
+10,UCF,American,16-4,38,At-Large
+11,South Dakota,Summit,19-5,32,Automatic
+12,UC Davis,Big West,13-2,71,Automatic
+13,Wright State,Horizon,18-7,80,Automatic
+14,Drexel,Colonial,14-8,106,Automatic
+15,Marist,MAAC,18-3,103,Automatic
+16,Utah Valley,WAC,13-6,216,Automatic
+1,South Carolina,SEC,22-4,4,Automatic
+2,Maryland,Big Ten,24-2,5,Automatic
+3,UCLA,Pac-12,16-5,8,At-Large
+4,West Virginia,Big 12,21-6,24,At-Large
+5,Georgia Tech,ACC,15-8,30,At-Large
+6,Texas,Big 12,18-9,29,At-Large
+7,Alabama,SEC,16-9,33,At-Large
+8,Oregon State,Pac-12,11-7,36,At-Large
+9,Florida State,ACC,10-8,48,At-Large
+10,North Carolina,ACC,13-10,35,At-Large
+11,Bradley,Missouri Valley,17-11,79,Automatic
+12,Stephen F. Austin,Southland,24-2,19,Automatic
+13,Lehigh,Patriot,10-5,75,Automatic
+14,Wyoming,Mountain West,14-9,99,Automatic
+15,Mount St. Mary's,Northeast,17-6,114,Automatic
+16,Mercer,Southern,19-6,146,Automatic
+1,NC State,ACC,20-2,7,Automatic
+2,Texas A&M,SEC,23-2,11,At-Large
+3,Arizona,Pac-12,16-5,15,At-Large
+4,Indiana,Big Ten,18-5,9,At-Large
+5,Gonzaga,WCC,23-3,16,Automatic
+6,Rutgers,Big Ten,14-4,12,At-Large
+7,Iowa State,Big 12,16-10,26,At-Large
+8,South Florida,American,18-3,25,Automatic
+9,Washington State,Pac-12,12-11,45,At-Large
+10,Michigan State,Big Ten,15-8,40,At-Large
+11,BYU,WCC,18-5,50,At-Large
+12,Belmont,Ohio Valley,20-5,63,Automatic
+13,VCU,Atlantic 10,16-10,105,Automatic
+14,Stony Brook,America East,15-5,100,Automatic
+15,Troy,Sun Belt,22-5,115,Automatic
+16,North Carolina A&T,MEAC,14-2,123,Automatic
+1,UConn,Big East,24-1,2,Automatic
+2,Baylor,Big 12,25-2,3,Automatic
+3,Tennessee,SEC,16-7,14,At-Large
+4,Kentucky,SEC,17-8,18,At-Large
+5,Iowa,Big Ten,18-9,23,At-Large
+6,Michigan,Big Ten,14-5,22,At-Large
+7,Virginia Tech,ACC,14-9,28,At-Large
+8,Syracuse,ACC,14-8,43,At-Large
+9,South Dakota State,Summit,21-3,46,At-Large
+10,Marquette,Big East,19-6,34,At-Large
+11,Florida Gulf Coast,ASUN,26-2,41,Automatic
+12,Central Michigan,MAC,18-8,90,Automatic
+13,Idaho State,Big Sky,22-3,84,Automatic
+14,Middle Tennessee,C-USA,17-7,107,Automatic
+15,Jackson State,SWAC,18-5,111,Automatic
+16,High Point,Big South,22-6,180,Automatic

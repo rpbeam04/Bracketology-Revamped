@@ -4,7 +4,7 @@ from datetime import datetime as dt
 import pandas as pd
 import numpy as np
 import random
-from pprint import *
+from pprint import pprint
 from IPython.display import display
 import os
 import time
@@ -13,19 +13,11 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 
-# ML Data Points
-
-
-regions = []
-
 Team.create_teams_from_json()
 Conference.create_conferences_from_json()
-data.populate_tournament_data(2023, "men")
-data.populate_conference_metrics(2023, "men")
-data.populate_team_metrics(2023, "men")
-data.populate_team_stats(2023, "men")
-uva = Team.search_team("Purdue", "men", 2023)
-pprint(uva.__dict__)
+data.team_training_data(2022, "men")
+data.team_training_data(2023, "men")
+data.create_full_training()
 
 # data.populate_team_stats(2024, "men")
 # data.populate_conference_metrics(2024, "men")

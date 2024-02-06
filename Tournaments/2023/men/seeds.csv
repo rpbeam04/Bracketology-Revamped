@@ -1,0 +1,69 @@
+Seed,School,Conference,Pre_Tourn_Record,Overall_Seed,Berth_type,Last_bid
+1,Alabama,SEC,29-5,1,Automatic,2022
+2,Arizona,Pac–12,28-6,7,Automatic,2022
+3,Baylor,Big 12,22-10,9,At large,2022
+4,Virginia,ACC,25-7,16,At large,2021
+5,San Diego State,Mountain West,27-6,17,Automatic,2022
+6,Creighton,Big East,21-12,22,At large,2022
+7,Missouri,SEC,24-9,27,At large,2021
+8,Maryland,Big Ten,21-12,31,At large,2021
+9,West Virginia,Big 12,19-14,34,At large,2021
+10,Utah State,Mountain West,26-8,40,At large,2021
+11,North Carolina State,ACC,23-10,41,At large,2018
+12,Charleston,Colonial,31-3,47,Automatic,2018
+13,Furman,Southern,27-7,53,Automatic,1980
+14,UC Santa Barbara,Big West,27-7,56,Automatic,2021
+15,Princeton,Ivy,21-8,61,Automatic,2017
+16,Texas A&M-Corpus Christi,Southland,23-10,65,Automatic,2022
+16,Southeast Missouri State,Ohio Valley,19-16,67,Automatic,2000
+1,Purdue,Big Ten,29-5,4,Automatic,2022
+2,Marquette,Big East,28-6,8,Automatic,2022
+3,Kansas State,Big 12,23-9,11,At large,2019
+4,Tennessee,SEC,23-10,14,At large,2022
+5,Duke,ACC,26-8,18,Automatic,2022
+6,Kentucky,SEC,21-11,23,At large,2022
+7,Michigan State,Big Ten,19-12,26,At large,2022
+8,Memphis,American,26-8,29,Automatic,2022
+9,Florida Atlantic,C-USA,31-3,33,Automatic,2002
+10,USC,Pac–12,22-10,39,At large,2022
+11,Providence,Big East,21-11,42,At large,2022
+12,Oral Roberts,Summit,30-4,48,Automatic,2021
+13,Louisiana,Sun Belt,26-7,54,Automatic,2014
+14,Montana State,Big Sky,25-9,58,Automatic,2022
+15,Vermont,America East,23-10,59,Automatic,2022
+16,Texas Southern,SWAC,14-20,66,Automatic,2022
+16,Fairleigh Dickinson,Northeast,19-15,68,Automatic,2019
+1,Houston,American,31-3,2,At large,2022
+2,Texas,Big 12,26-8,6,Automatic,2022
+3,Xavier,Big East,25-9,12,At large,2018
+4,Indiana,Big Ten,22-11,15,At large,2022
+5,Miami (FL),ACC,25-7,20,At large,2022
+6,Iowa State,Big 12,19-13,21,At large,2022
+7,Texas A&M,SEC,25-9,25,At large,2018
+8,Iowa,Big Ten,19-13,32,At large,2022
+9,Auburn,SEC,20-12,35,At large,2022
+10,Penn State,Big Ten,22-13,38,At large,2011
+11,Mississippi State,SEC,21-12,43,At large,2019
+11,Pittsburgh,ACC,22-11,44,At large,2016
+12,Drake,Missouri Valley,27-7,49,Automatic,2021
+13,Kent State,MAC,28-6,51,Automatic,2017
+14,Kennesaw State,ASUN,26-8,55,Automatic,Never
+15,Colgate,Patriot,26-8,60,Automatic,2022
+16,Northern Kentucky,Horizon,22-12,63,Automatic,2019
+1,Kansas,Big 12,27-7,3,At large,2022
+2,UCLA,Pac–12,29-5,5,At large,2022
+3,Gonzaga,West Coast,28-5,10,Automatic,2022
+4,UConn,Big East,25-8,13,At large,2022
+5,Saint Mary's,West Coast,26-7,19,At large,2022
+6,Texas Christian,Big 12,21-12,24,At large,2022
+7,Northwestern,Big Ten,21-11,28,At large,2017
+8,Arkansas,SEC,20-13,30,At large,2022
+9,Illinois,Big Ten,20-12,36,At large,2022
+10,Boise State,Mountain West,24-9,37,At large,2022
+11,Arizona State,Pac–12,22-12,45,At large,2019
+11,Nevada,Mountain West,22-10,46,At large,2019
+12,VCU,Atlantic 10,27-7,50,Automatic,2021
+13,Iona,MAAC,27-7,52,Automatic,2021
+14,Grand Canyon,WAC,24-11,57,Automatic,2021
+15,UNC Asheville,Big South,27-7,62,Automatic,2016
+16,Howard,MEAC,22-12,64,Automatic,1992

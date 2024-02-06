@@ -22,6 +22,8 @@ class Team:
         record = record.split("-")
         w = int(record[0].strip())
         l = int(record[1].strip())
+        if w+l <= 0:
+            return 0
         return round(w/(w+l),4)
     
     def comb_rec_to_pct(self, records: list[str]):
@@ -32,6 +34,8 @@ class Team:
             record = record.split("-")
             ws.append(int(record[0].strip()))
             ls.append(int(record[1].strip()))
+        if (sum(ws)+sum(ls)) <= 0:
+            return 0
         return round(sum(ws)/(sum(ws)+sum(ls)),4)
 
     def per_game(self, stat: str):

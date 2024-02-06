@@ -201,8 +201,9 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
             if team == "FDU":
                 df.at[i,"School"] = "Fairleigh Dickinson"
             try:
-                if df.loc[i,"Conf"].startswith("MAC"):
-                    df.at[i,"Conf"] = "MAC"
+                conf = df.at[i,"Conf"]
+                if conf.endswith(")"):
+                    df.at[i,"Conf"] = conf.split("(")[0].strip()
             except:
                 pass
         df = df[(df['W'] != 0) | (df['L'] != 0)]
@@ -312,6 +313,8 @@ def fetch_net_rankings(year: int = 2024, gender: str = "men", refresh_override: 
         url = url.replace("net-conference","conferencenet")
     net_conf = scrape_tables_from_url(url)[-1]
     net_conf = net_conf.dropna(axis=1, how='all')
+    if year == 2021:
+        net_conf = net_conf[net_conf["Conference"] != "Ivy League"]
     net_conf.columns = [str(h.replace(" ","_").removesuffix(".1")) for h in list(net_conf.columns)]
     net_conf = net_conf.apply(pd.to_numeric, errors='ignore')
     net_conf.to_csv(fr"{file_path}/NET-conf.csv", index=False)
@@ -322,7 +325,8 @@ def fetch_tourney_seed_data(year: int, gender: str):
     filepath = fr"Webpages/{year}_{gender.lower()}_tourney.html"
     csvpath = fr"Tournaments/{year}/{gender.lower()}/seeds.csv"
     if os.path.exists(csvpath):
-        return pd.read_csv(csvpath)
+        pass
+        #return pd.read_csv(csvpath)
     if os.path.exists(filepath):
         tables = scrape_tables_from_url(filepath)
     else:
@@ -342,6 +346,7 @@ def fetch_tourney_seed_data(year: int, gender: str):
                     headr.append(col.replace(" ","_"))
             table["Seed"] = table["Seed"].apply(lambda x: int(str(x).strip("*")))
             table["School"] = table["School"].apply(lambda x: x.replace("\u2013","-"))
+            table["Record"] = table["Record"].apply(lambda x: x.replace("\u2013","-"))
             table = table.apply(pd.to_numeric, errors = 'ignore')
             table.columns = headr
             regions.append(table)
