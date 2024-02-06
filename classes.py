@@ -17,6 +17,23 @@ class Team:
     
     team_list: list['Team'] = []
 
+    def rec_to_pct(self, record: str):
+        record = getattr(self, record)
+        record = record.split("-")
+        w = int(record[0].strip())
+        l = int(record[1].strip())
+        return round(w/(w+l),4)
+    
+    def comb_rec_to_pct(self, records: list[str]):
+        ws = []
+        ls = []
+        for record in records:
+            record = getattr(self, record)
+            record = record.split("-")
+            ws.append(int(record[0].strip()))
+            ls.append(int(record[1].strip()))
+        return round(sum(ws)/(sum(ws)+sum(ls)),4)
+
     def per_game(self, stat: str):
         try:
             games = self.G
@@ -78,7 +95,7 @@ class Team:
                 team_stat[team.Name] = statv
         team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
         for i, key in enumerate(list(team_stat.keys())):
-            team_stat[key] = i+1
+            team_stat[key] = (i+1, team_stat[key])
         return team_stat
     
     @classmethod
@@ -92,7 +109,7 @@ class Team:
                 team_stat[team.Name] = statv
         team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
         for i, key in enumerate(list(team_stat.keys())):
-            team_stat[key] = i+1
+            team_stat[key] = (i+1, team_stat[key])
         return team_stat
 
     @classmethod
@@ -385,14 +402,15 @@ class Conference:
         if write_to_json:
             Conference.write_conferences_to_json()
 
-    @classmethod
-    def conf_stat_rankings(cls, conf: str, gender: str, year: int, stat: str, descend: bool = True):
+    def conf_stat_rankings(self, stat: str, per_game: bool = False, descend: bool = True):
         team_stat = {}
-        conf = Conference.search_conference(conf, gender, year)
-        for team in Team.team_list:
-            if team.Conference == conf:
-                team_stat[team.Name] = getattr(team, stat)
+        team: Team
+        for team in self.Teams:
+                if per_game:
+                    team_stat[team.Name] = team.per_game(stat)
+                else:
+                    team_stat[team.Name] = getattr(team, stat)
         team_stat = dict(sorted(team_stat.items(), key=lambda item: item[1], reverse=descend))
         for i, key in enumerate(list(team_stat.keys())):
-            team_stat[key] = i+1
+            team_stat[key] = (i+1, team_stat[key])
         return team_stat

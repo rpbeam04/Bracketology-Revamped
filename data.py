@@ -1,7 +1,6 @@
 import pandas as pd
 from classes import *
 import fetch
-import os
 from pprint import *
 
 def populate_team_stats(year: int, gender: str):
@@ -61,3 +60,14 @@ def populate_conference_metrics(year: int, gender: str):
                 except:
                     val = row[item]
                 setattr(conf, item, val)
+
+def populate_tournament_data(year: int, gender: str):
+    data = fetch.fetch_tourney_seed_data(year, gender)
+    for _, row in data.iterrows():
+        team = Team.search_team(row["School"], gender, year)
+        for item in list(data.columns):
+            if item not in ["School", "Conference"]:
+                setattr(team, item, row[item])
+
+def team_training_data():
+    pass
