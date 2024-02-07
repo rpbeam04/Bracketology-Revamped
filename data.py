@@ -3,6 +3,7 @@ from classes import *
 import fetch
 from pprint import *
 import os
+from sklearn.preprocessing import MinMaxScaler
 
 def populate_team_stats(year: int, gender: str):
     tables = list(fetch.fetch_team_stats(year, gender).values())
@@ -73,15 +74,15 @@ def populate_tournament_data(year: int, gender: str):
 def team_training_data(year: int, gender: str):
     n_teams = pd.read_csv(fr"Stats/{year}/{gender.lower()}/school-stats.csv").shape[0]    
     # ML Data Points
-    # Adj_NRtg
-    # NC_Rec to percent
-    # NC_SOS_RPI
-    # NET_Rank
-    # Pre_Tourn_Record to percent
-    # Q1_RPI to pct
-    # Q3_RPI + Q4_RPI to pct
-    # SOS
-    # NC_WP (Conf)
+    #  Adj_NRtg
+    #  NC_Rec to percent
+    #  NC_SOS_RPI
+    #  NET_Rank
+    #  Pre_Tourn_Record to percent
+    #  Q1_RPI to pct
+    #  Q3_RPI + Q4_RPI to pct
+    #  SOS
+    #  NC_WP (Conf)
     header = ["Seed","Name","Adj_NRtg","NC_Rec","NC_SOS_RPI","NET_Rank",
               "Record","Q1","Q2","Q34","SOS","NC_WP"]
     rows = []
@@ -105,6 +106,15 @@ def team_training_data(year: int, gender: str):
                     row.append(getattr(team, h))
             rows.append(row)
     data = pd.DataFrame(rows, columns=header)
+    data.apply(pd.to_numeric, errors = 'ignore')
+    for col in [col for col in data.columns if col in ["Adj_NRtg","NC_SOS_RPI","NET_Rank","SOS"]]:
+        if col in ["NC_SOS_RPI","NET_Rank"]:
+            data[col] = (n_teams-data[col])/(n_teams-1)
+            data[col] = data[col].apply(lambda x: round(x,4))
+        else:
+            values = data[col].values.reshape(-1, 1)
+            data[col] = MinMaxScaler().fit_transform(values)
+            data[col] = data[col].apply(lambda x: round(x,4))
     filepath = fr"Model/{year}/{gender.lower()}"
     if not os.path.exists(filepath):
         os.makedirs(filepath)

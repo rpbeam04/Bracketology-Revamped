@@ -232,6 +232,7 @@ def fetch_games(start_date: datetime.datetime = datetime.datetime(year=2023, mon
     for date in date_range:
         games += fetch_games_on_date(date, refresh)
         time.sleep(sleep)
+    return games
 
 def fetch_rpi_rankings(year: int = 2024, gender: str = "men", refresh_override: bool = False):
     if not refresh_override:
@@ -325,8 +326,7 @@ def fetch_tourney_seed_data(year: int, gender: str):
     filepath = fr"Webpages/{year}_{gender.lower()}_tourney.html"
     csvpath = fr"Tournaments/{year}/{gender.lower()}/seeds.csv"
     if os.path.exists(csvpath):
-        pass
-        #return pd.read_csv(csvpath)
+        pass #return pd.read_csv(csvpath)
     if os.path.exists(filepath):
         tables = scrape_tables_from_url(filepath)
     else:
