@@ -3,7 +3,7 @@ from classes import *
 import fetch
 from pprint import *
 import os
-from sklearn.preprocessing import MinMaxScaler
+from sklearn.preprocessing import StandardScaler
 
 def populate_team_stats(year: int, gender: str):
     tables = list(fetch.fetch_team_stats(year, gender).values())
@@ -113,7 +113,7 @@ def team_training_data(year: int, gender: str):
             data[col] = data[col].apply(lambda x: round(x,4))
         else:
             values = data[col].values.reshape(-1, 1)
-            data[col] = MinMaxScaler().fit_transform(values)
+            data[col] = StandardScaler().fit_transform(values)
             data[col] = data[col].apply(lambda x: round(x,4))
     filepath = fr"Model/{year}/{gender.lower()}"
     if not os.path.exists(filepath):
