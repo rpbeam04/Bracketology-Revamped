@@ -28,7 +28,7 @@ def populate_team_metrics(year: int, gender: str):
             for item in cols:
                 if item == "Team" or item.endswith(".1") or item.startswith("Unnamed"):
                     continue
-                elif item == "Net_Rank":
+                elif item == "NET_Rank":
                     setattr(team, "NET", row[item])
                 elif item in ["NC_SOS","Q1","Q2","Q3","Q4","SOS"] and "RPI" in cols:
                     try:
@@ -83,7 +83,7 @@ def team_training_data(year: int, gender: str):
     #  Q3_RPI + Q4_RPI to pct
     #  SOS
     #  NC_WP (Conf)
-    header = ["Seed","Name","Adj_NRtg","NC_Rec","NC_SOS_RPI","NET_Rank",
+    header = ["Seed","Name","Adj_NRtg","NC_Rec","NC_SOS_RPI","NET",
               "Record","Q1","Q2","Q34","SOS","NC_WP"]
     rows = []
     for team in Team.filtered_team_list(gender, year):
@@ -102,14 +102,18 @@ def team_training_data(year: int, gender: str):
                     row.append(team.comb_rec_to_pct(["Q3_RPI","Q4_RPI"]))
                 elif h == "NC_WP":
                     row.append(team.Conference.NC_WP)
+                elif h == 'Name':
+                    row.append(f"{team.Name}-{team.Year}")
                 else:
                     row.append(getattr(team, h))
             rows.append(row)
     data = pd.DataFrame(rows, columns=header)
     data.apply(pd.to_numeric, errors = 'ignore')
-    for col in [col for col in data.columns if col in ["Adj_NRtg","NC_SOS_RPI","NET_Rank","SOS"]]:
-        if col in ["NC_SOS_RPI","NET_Rank"]:
+    for col in [col for col in data.columns if col not in ["Seed","Name"]]:
+        if col in ["NC_SOS_RPI","NET"]:
             data[col] = (n_teams-data[col])/(n_teams-1)
+            values = data[col].values.reshape(-1, 1)
+            data[col] = StandardScaler().fit_transform(values)
             data[col] = data[col].apply(lambda x: round(x,4))
         else:
             values = data[col].values.reshape(-1, 1)

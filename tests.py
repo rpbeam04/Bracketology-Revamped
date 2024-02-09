@@ -15,9 +15,21 @@ from tabulate import tabulate
 
 Team.create_teams_from_json()
 Conference.create_conferences_from_json()
-data.team_training_data(2022, "men")
-data.team_training_data(2023, "men")
+for year in [2021,2022,2023]:
+    data.team_training_data(year, "women")
 data.create_full_training()
+
+df = pd.read_csv("Model/full-training.csv").drop(columns=['Name'])
+df = df.groupby('Seed').mean()
+for col in df.columns:
+    if col != 'Name':
+        plt.plot(df[col])
+plt.legend(list(df.columns))
+plt.title("Impact of Metrics on Women's Tournament Seed 2021-2023")
+plt.xlabel("Seed")
+plt.ylabel("Normalized Metric")
+plt.xticks(range(1,17))
+plt.show()
 
 # data.populate_team_stats(2024, "men")
 # data.populate_conference_metrics(2024, "men")
@@ -46,11 +58,18 @@ data.create_full_training()
 #         years.insert(0,2019)
 #     for year in years:
 #         refr = False
+#         if year == 2024:
+#             refr = False
 #         fetch.fetch_team_stats(year, gender, refresh_override=refr)
 #         Team.create_teams_from_stats(gender, year)
 #         Conference.create_conferences_from_stats(gender, year)
-#         fetch.fetch_net_rankings(year, gender)
-#         fetch.fetch_rpi_rankings(year, gender)
+#         fetch.fetch_net_rankings(year, gender, refr)
+#         fetch.fetch_rpi_rankings(year, gender, refr)
+#         data.populate_team_stats(year, gender)
+#         data.populate_team_metrics(year, gender)
+#         data.populate_conference_metrics(year, gender)
+#         if year != 2024:
+#             data.populate_tournament_data(year, gender)
 # Team.clean_duplicates()
 # Team.write_teams_to_json()
 # Conference.write_conferences_to_json()
