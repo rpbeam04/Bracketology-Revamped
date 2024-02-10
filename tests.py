@@ -13,23 +13,23 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 
-Team.create_teams_from_json()
-Conference.create_conferences_from_json()
-for year in [2021,2022,2023]:
-    data.team_training_data(year, "women")
-data.create_full_training()
+df = pd.read_csv("Model/matrix.csv").dropna(subset=['0'])
+df = df[['1','3']].reset_index(drop=True)
+df.columns = ['Team','Seed']
+df['Seed'] = (17-pd.to_numeric(df['Seed']))/16
+pprint(df)
 
-df = pd.read_csv("Model/full-training.csv").drop(columns=['Name'])
-df = df.groupby('Seed').mean()
-for col in df.columns:
-    if col != 'Name':
-        plt.plot(df[col])
-plt.legend(list(df.columns))
-plt.title("Impact of Metrics on Women's Tournament Seed 2021-2023")
-plt.xlabel("Seed")
-plt.ylabel("Normalized Metric")
-plt.xticks(range(1,17))
-plt.show()
+# Team.create_teams_from_json()
+# Conference.create_conferences_from_json()
+# for year in [2021,2022,2023]:
+#     for gender in ['men','women']:
+#         data.team_training_data(year, gender)
+# data.create_full_training()
+
+# df = pd.read_csv("Model/2024/men/training.csv").drop(columns=['Name'])
+# df2 = pd.read_csv("Model/2023/men/training.csv").drop(columns=['Name'])
+# df.describe().to_csv("df1.csv")
+# df2.describe().to_csv("df2.csv")
 
 # data.populate_team_stats(2024, "men")
 # data.populate_conference_metrics(2024, "men")
@@ -49,7 +49,7 @@ plt.show()
 # for i, ele in enumerate(list(to_diffs.items())):
 #     print(i+1,ele[0],round(ele[1],2))
 
-# # FULL OBJECT SOURCING
+# FULL OBJECT SOURCING
 # Team.clear_teams()
 # genders = ["women","men"]
 # years = [2021,2022,2023,2024]
@@ -70,9 +70,15 @@ plt.show()
 #         data.populate_conference_metrics(year, gender)
 #         if year != 2024:
 #             data.populate_tournament_data(year, gender)
+#             if year != 2019:
+#                 data.team_training_data(year, gender)
+#         if year == 2024:
+#             data.team_training_data(year, gender, True)
+#         print(year, gender)
 # Team.clean_duplicates()
 # Team.write_teams_to_json()
 # Conference.write_conferences_to_json()
+# data.create_full_training()
 
 # df = pd.read_csv("test2021.csv")
 # df2 = pd.read_csv("Stats/2021/men/school-stats.csv")

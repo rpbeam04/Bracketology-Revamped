@@ -2218,15 +2218,15 @@
     "Teams": [
       "South Carolina",
       "Louisiana State",
-      "Texas A&M",
       "Mississippi State",
+      "Texas A&M",
       "Alabama",
       "Tennessee",
       "Auburn",
       "Mississippi",
+      "Arkansas",
       "Florida",
       "Vanderbilt",
-      "Arkansas",
       "Missouri",
       "Georgia",
       "Kentucky"
@@ -2267,18 +2267,18 @@
     "Teams": [
       "Texas",
       "Kansas State",
-      "Baylor",
       "West Virginia",
+      "Baylor",
       "Oklahoma",
       "Iowa State",
-      "TCU",
       "Kansas",
       "Oklahoma State",
+      "TCU",
       "Texas Tech",
-      "Central Florida",
+      "Brigham Young",
       "Cincinnati",
-      "Houston",
-      "Brigham Young"
+      "Central Florida",
+      "Houston"
     ],
     "Rank": 2,
     "NC_Rec": "132-29",
@@ -2294,8 +2294,8 @@
       "Stanford",
       "UCLA",
       "Utah",
-      "Southern California",
       "Colorado",
+      "Southern California",
       "Oregon State",
       "Washington State",
       "Washington",
@@ -2321,10 +2321,10 @@
       "Michigan State",
       "Penn State",
       "Maryland",
-      "Minnesota",
       "Nebraska",
-      "Illinois",
+      "Minnesota",
       "Michigan",
+      "Illinois",
       "Purdue",
       "Wisconsin",
       "Rutgers",
@@ -2343,13 +2343,13 @@
     "Teams": [
       "Notre Dame",
       "NC State",
+      "Virginia Tech",
       "Duke",
       "Louisville",
-      "Virginia Tech",
       "North Carolina",
       "Florida State",
-      "Miami (FL)",
       "Syracuse",
+      "Miami (FL)",
       "Virginia",
       "Georgia Tech",
       "Clemson",
@@ -2361,7 +2361,7 @@
     "NC_Rec": "129-48",
     "NC_WP": 0.7288,
     "Conference_Leader": "Notre Dame",
-    "NET": 8
+    "NET": 10
   },
   {
     "Name": "WCC",
@@ -2382,7 +2382,7 @@
     "NC_Rec": "53-57",
     "NC_WP": 0.4818,
     "Conference_Leader": "Gonzaga",
-    "NET": 10
+    "NET": 12
   },
   {
     "Name": "MWC",
@@ -2392,8 +2392,8 @@
       "Nevada-Las Vegas",
       "Colorado State",
       "Wyoming",
-      "San Diego State",
       "Boise State",
+      "San Diego State",
       "New Mexico",
       "Air Force",
       "Nevada",
@@ -2405,7 +2405,7 @@
     "NC_Rec": "65-54",
     "NC_WP": 0.5462,
     "Conference_Leader": "UNLV",
-    "NET": 32
+    "NET": 34
   },
   {
     "Name": "Ivy",
@@ -2425,7 +2425,28 @@
     "NC_Rec": "53-44",
     "NC_WP": 0.5464,
     "Conference_Leader": "Princeton",
-    "NET": 31
+    "NET": 33
+  },
+  {
+    "Name": "CUSA",
+    "Gender": "women",
+    "Year": 2024,
+    "Teams": [
+      "Middle Tennessee",
+      "Liberty",
+      "Western Kentucky",
+      "Florida International",
+      "Louisiana Tech",
+      "New Mexico State",
+      "UTEP",
+      "Jacksonville State",
+      "Sam Houston"
+    ],
+    "Rank": 14,
+    "NC_Rec": "47-63",
+    "NC_WP": 0.4273,
+    "Conference_Leader": "Middle Tennessee",
+    "NET": 41
   },
   {
     "Name": "Horizon",
@@ -2448,28 +2469,34 @@
     "NC_Rec": "45-52",
     "NC_WP": 0.4639,
     "Conference_Leader": "Green Bay",
-    "NET": 40
+    "NET": 43
   },
   {
-    "Name": "CUSA",
+    "Name": "A-10",
     "Gender": "women",
     "Year": 2024,
     "Teams": [
-      "Middle Tennessee",
-      "Liberty",
-      "Western Kentucky",
-      "Louisiana Tech",
-      "Florida International",
-      "New Mexico State",
-      "UTEP",
-      "Jacksonville State",
-      "Sam Houston"
+      "Richmond",
+      "George Mason",
+      "Saint Joseph's",
+      "Davidson",
+      "Virginia Commonwealth",
+      "Rhode Island",
+      "Duquesne",
+      "Saint Louis",
+      "Loyola (IL)",
+      "Fordham",
+      "George Washington",
+      "Dayton",
+      "Massachusetts",
+      "La Salle",
+      "St. Bonaventure"
     ],
-    "Rank": 14,
-    "NC_Rec": "47-63",
-    "NC_WP": 0.4273,
-    "Conference_Leader": "Middle Tennessee",
-    "NET": 46
+    "Rank": 8,
+    "NC_Rec": "94-74",
+    "NC_WP": 0.5595,
+    "Conference_Leader": "Richmond",
+    "NET": 50
   },
   {
     "Name": "MVC",
@@ -2478,9 +2505,9 @@
     "Teams": [
       "Belmont",
       "Drake",
-      "Illinois State",
       "Murray State",
       "Northern Iowa",
+      "Illinois State",
       "Missouri State",
       "Illinois-Chicago",
       "Southern Illinois",
@@ -2493,55 +2520,7 @@
     "NC_Rec": "55-62",
     "NC_WP": 0.4701,
     "Conference_Leader": "Belmont",
-    "NET": 68
-  },
-  {
-    "Name": "A-10",
-    "Gender": "women",
-    "Year": 2024,
-    "Teams": [
-      "Richmond",
-      "George Mason",
-      "Saint Joseph's",
-      "Davidson",
-      "Rhode Island",
-      "Virginia Commonwealth",
-      "Duquesne",
-      "Saint Louis",
-      "Loyola (IL)",
-      "George Washington",
-      "Fordham",
-      "Dayton",
-      "La Salle",
-      "Massachusetts",
-      "St. Bonaventure"
-    ],
-    "Rank": 8,
-    "NC_Rec": "94-74",
-    "NC_WP": 0.5595,
-    "Conference_Leader": "George Mason",
-    "NET": 55
-  },
-  {
-    "Name": "Summit",
-    "Gender": "women",
-    "Year": 2024,
-    "Teams": [
-      "South Dakota State",
-      "North Dakota State",
-      "South Dakota",
-      "Oral Roberts",
-      "St. Thomas",
-      "Denver",
-      "North Dakota",
-      "Kansas City",
-      "Omaha"
-    ],
-    "Rank": 16,
-    "NC_Rec": "42-59",
-    "NC_WP": 0.4158,
-    "Conference_Leader": "South Dakota State",
-    "NET": 60
+    "NET": 67
   },
   {
     "Name": "A-Sun",
@@ -2565,7 +2544,54 @@
     "NC_Rec": "50-82",
     "NC_WP": 0.3788,
     "Conference_Leader": "FGCU",
-    "NET": 62
+    "NET": 60
+  },
+  {
+    "Name": "Summit",
+    "Gender": "women",
+    "Year": 2024,
+    "Teams": [
+      "South Dakota State",
+      "North Dakota State",
+      "South Dakota",
+      "Oral Roberts",
+      "St. Thomas",
+      "Denver",
+      "Kansas City",
+      "North Dakota",
+      "Omaha"
+    ],
+    "Rank": 16,
+    "NC_Rec": "42-59",
+    "NC_WP": 0.4158,
+    "Conference_Leader": "South Dakota State",
+    "NET": 61
+  },
+  {
+    "Name": "CAA",
+    "Gender": "women",
+    "Year": 2024,
+    "Teams": [
+      "Stony Brook",
+      "North Carolina A&T",
+      "College of Charleston",
+      "Monmouth",
+      "William & Mary",
+      "Delaware",
+      "Drexel",
+      "Towson",
+      "Campbell",
+      "Northeastern",
+      "Elon",
+      "Hofstra",
+      "Hampton",
+      "UNC Wilmington"
+    ],
+    "Rank": 21,
+    "NC_Rec": "64-79",
+    "NC_WP": 0.4476,
+    "Conference_Leader": "Stony Brook",
+    "NET": 69
   },
   {
     "Name": "MAC",
@@ -2585,37 +2611,11 @@
       "Central Michigan",
       "Eastern Michigan"
     ],
-    "Rank": 21,
+    "Rank": 20,
     "NC_Rec": "52-62",
     "NC_WP": 0.4561,
-    "Conference_Leader": "Ball State",
-    "NET": 72
-  },
-  {
-    "Name": "CAA",
-    "Gender": "women",
-    "Year": 2024,
-    "Teams": [
-      "Stony Brook",
-      "North Carolina A&T",
-      "College of Charleston",
-      "Monmouth",
-      "William & Mary",
-      "Drexel",
-      "Delaware",
-      "Towson",
-      "Campbell",
-      "Northeastern",
-      "Elon",
-      "Hofstra",
-      "Hampton",
-      "UNC Wilmington"
-    ],
-    "Rank": 20,
-    "NC_Rec": "64-79",
-    "NC_WP": 0.4476,
-    "Conference_Leader": "Stony Brook",
-    "NET": 73
+    "Conference_Leader": "Toledo",
+    "NET": 80
   },
   {
     "Name": "AAC",
@@ -2623,47 +2623,25 @@
     "Year": 2024,
     "Teams": [
       "North Texas",
-      "South Florida",
       "East Carolina",
-      "Temple",
+      "South Florida",
       "Rice",
-      "Southern Methodist",
+      "Temple",
       "Tulsa",
+      "Southern Methodist",
       "Charlotte",
       "Memphis",
-      "UTSA",
-      "Tulane",
       "UAB",
-      "Wichita State",
-      "Florida Atlantic"
+      "Tulane",
+      "UTSA",
+      "Florida Atlantic",
+      "Wichita State"
     ],
     "Rank": 7,
     "NC_Rec": "92-68",
     "NC_WP": 0.575,
     "Conference_Leader": "North Texas",
-    "NET": 83
-  },
-  {
-    "Name": "Big Sky",
-    "Gender": "women",
-    "Year": 2024,
-    "Teams": [
-      "Eastern Washington",
-      "Montana",
-      "Montana State",
-      "Northern Arizona",
-      "Idaho State",
-      "Idaho",
-      "Northern Colorado",
-      "Weber State",
-      "Portland State",
-      "Sacramento State"
-    ],
-    "Rank": 15,
-    "NC_Rec": "45-63",
-    "NC_WP": 0.4167,
-    "Conference_Leader": "Eastern Washington",
-    "NET": 76
+    "NET": 85
   },
   {
     "Name": "MAAC",
@@ -2686,7 +2664,29 @@
     "NC_Rec": "43-55",
     "NC_WP": 0.4388,
     "Conference_Leader": "Fairfield",
-    "NET": 74
+    "NET": 73
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "women",
+    "Year": 2024,
+    "Teams": [
+      "Eastern Washington",
+      "Montana",
+      "Montana State",
+      "Northern Arizona",
+      "Idaho State",
+      "Idaho",
+      "Northern Colorado",
+      "Weber State",
+      "Sacramento State",
+      "Portland State"
+    ],
+    "Rank": 15,
+    "NC_Rec": "45-63",
+    "NC_WP": 0.4167,
+    "Conference_Leader": "Eastern Washington",
+    "NET": 76
   },
   {
     "Name": "WAC",
@@ -2697,19 +2697,19 @@
       "California Baptist",
       "Stephen F. Austin",
       "Utah Tech",
-      "UT Arlington",
       "Abilene Christian",
+      "UT Arlington",
       "Utah Valley",
       "Southern Utah",
-      "Tarleton State",
       "Texas-Rio Grande Valley",
+      "Tarleton State",
       "Seattle"
     ],
     "Rank": 19,
     "NC_Rec": "36-59",
     "NC_WP": 0.3789,
     "Conference_Leader": "Grand Canyon",
-    "NET": 95
+    "NET": 96
   },
   {
     "Name": "Sun Belt",
@@ -2721,13 +2721,13 @@
       "Troy",
       "Southern Mississippi",
       "Old Dominion",
-      "Louisiana-Monroe",
       "Arkansas State",
+      "Louisiana-Monroe",
       "Georgia State",
       "Appalachian State",
-      "Louisiana",
-      "Texas State",
       "Georgia Southern",
+      "Texas State",
+      "Louisiana",
       "Coastal Carolina",
       "South Alabama"
     ],
@@ -2735,7 +2735,7 @@
     "NC_Rec": "75-59",
     "NC_WP": 0.5597,
     "Conference_Leader": "Marshall",
-    "NET": 102
+    "NET": 97
   },
   {
     "Name": "SWAC",
@@ -2759,7 +2759,7 @@
     "NC_Rec": "24-98",
     "NC_WP": 0.1967,
     "Conference_Leader": "Jackson State",
-    "NET": 98
+    "NET": 103
   },
   {
     "Name": "Southern",
@@ -2767,9 +2767,9 @@
     "Year": 2024,
     "Teams": [
       "Chattanooga",
-      "East Tennessee State",
-      "Mercer",
       "Wofford",
+      "Mercer",
+      "East Tennessee State",
       "UNC Greensboro",
       "Samford",
       "Furman",
@@ -2779,7 +2779,7 @@
     "NC_Rec": "50-50",
     "NC_WP": 0.5,
     "Conference_Leader": "Chattanooga",
-    "NET": 105
+    "NET": 99
   },
   {
     "Name": "AEC",
@@ -2793,8 +2793,8 @@
       "New Hampshire",
       "Bryant",
       "Maryland-Baltimore County",
-      "NJIT",
-      "Massachusetts-Lowell"
+      "Massachusetts-Lowell",
+      "NJIT"
     ],
     "Rank": 24,
     "NC_Rec": "47-61",
@@ -2807,11 +2807,11 @@
     "Gender": "women",
     "Year": 2024,
     "Teams": [
-      "Hawaii",
       "UC Irvine",
+      "Hawaii",
       "Cal Poly",
-      "UC Santa Barbara",
       "UC Davis",
+      "UC Santa Barbara",
       "UC San Diego",
       "Long Beach State",
       "UC Riverside",
@@ -2823,7 +2823,7 @@
     "NC_Rec": "36-62",
     "NC_WP": 0.3673,
     "Conference_Leader": "UC Irvine",
-    "NET": 130
+    "NET": 127
   },
   {
     "Name": "Southland",
@@ -2836,8 +2836,8 @@
       "Incarnate Word",
       "Nicholls State",
       "Northwestern State",
-      "Texas A&M-Commerce",
       "New Orleans",
+      "Texas A&M-Commerce",
       "Houston Christian",
       "McNeese State"
     ],
@@ -2845,7 +2845,27 @@
     "NC_Rec": "23-60",
     "NC_WP": 0.2771,
     "Conference_Leader": "Lamar",
-    "NET": 131
+    "NET": 133
+  },
+  {
+    "Name": "MEAC",
+    "Gender": "women",
+    "Year": 2024,
+    "Teams": [
+      "Norfolk State",
+      "Howard",
+      "Maryland-Eastern Shore",
+      "Coppin State",
+      "Morgan State",
+      "North Carolina Central",
+      "Delaware State",
+      "South Carolina State"
+    ],
+    "Rank": 30,
+    "NC_Rec": "30-76",
+    "NC_WP": 0.283,
+    "Conference_Leader": "Norfolk State",
+    "NET": 135
   },
   {
     "Name": "Patriot",
@@ -2870,26 +2890,6 @@
     "NET": 141
   },
   {
-    "Name": "MEAC",
-    "Gender": "women",
-    "Year": 2024,
-    "Teams": [
-      "Norfolk State",
-      "Maryland-Eastern Shore",
-      "Howard",
-      "Coppin State",
-      "Morgan State",
-      "North Carolina Central",
-      "Delaware State",
-      "South Carolina State"
-    ],
-    "Rank": 30,
-    "NC_Rec": "30-76",
-    "NC_WP": 0.283,
-    "Conference_Leader": "Norfolk State",
-    "NET": 143
-  },
-  {
     "Name": "OVC",
     "Gender": "women",
     "Year": 2024,
@@ -2910,7 +2910,7 @@
     "NC_Rec": "24-80",
     "NC_WP": 0.2308,
     "Conference_Leader": "Southern Indiana",
-    "NET": 189
+    "NET": 190
   },
   {
     "Name": "NEC",
@@ -2928,10 +2928,10 @@
       "Saint Francis (PA)"
     ],
     "Rank": 32,
-    "NC_Rec": "17-95",
-    "NC_WP": 0.1518,
+    "NC_Rec": "18-95",
+    "NC_WP": 0.1593,
     "Conference_Leader": "Sacred Heart",
-    "NET": 237
+    "NET": 238
   },
   {
     "Name": "Big South",
@@ -2940,11 +2940,11 @@
     "Teams": [
       "High Point",
       "Radford",
-      "South Carolina Upstate",
-      "Presbyterian",
       "Charleston Southern",
+      "South Carolina Upstate",
       "UNC Asheville",
       "Winthrop",
+      "Presbyterian",
       "Longwood",
       "Gardner-Webb"
     ],
@@ -2952,7 +2952,7 @@
     "NC_Rec": "27-78",
     "NC_WP": 0.2571,
     "Conference_Leader": "Radford",
-    "NET": 280
+    "NET": 276
   },
   {
     "Name": "Ind",
@@ -2962,7 +2962,7 @@
       "Chicago State"
     ],
     "Rank": 33,
-    "NC_Rec": "0-24",
+    "NC_Rec": "0-25",
     "NC_WP": 0.0,
     "Conference_Leader": "Chicago State",
     "NET": 359
@@ -5951,30 +5951,6 @@
     "NET": 1
   },
   {
-    "Name": "Pac-12",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Arizona",
-      "Utah",
-      "Colorado",
-      "Washington State",
-      "Washington",
-      "Oregon",
-      "Southern California",
-      "Stanford",
-      "UCLA",
-      "California",
-      "Arizona State",
-      "Oregon State"
-    ],
-    "Rank": 6,
-    "NC_Rec": "84-45",
-    "NC_WP": 0.6512,
-    "Conference_Leader": "Arizona",
-    "NET": 3
-  },
-  {
     "Name": "Big Ten",
     "Gender": "men",
     "Year": 2024,
@@ -5985,8 +5961,8 @@
       "Wisconsin",
       "Iowa",
       "Nebraska",
-      "Ohio State",
       "Northwestern",
+      "Ohio State",
       "Maryland",
       "Minnesota",
       "Penn State",
@@ -6001,21 +5977,45 @@
     "NET": 2
   },
   {
+    "Name": "Pac-12",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Arizona",
+      "Utah",
+      "Colorado",
+      "Washington State",
+      "Washington",
+      "Oregon",
+      "Stanford",
+      "Southern California",
+      "UCLA",
+      "California",
+      "Arizona State",
+      "Oregon State"
+    ],
+    "Rank": 6,
+    "NC_Rec": "84-45",
+    "NC_WP": 0.6512,
+    "Conference_Leader": "Arizona",
+    "NET": 3
+  },
+  {
     "Name": "SEC",
     "Gender": "men",
     "Year": 2024,
     "Teams": [
       "Alabama",
-      "Tennessee",
       "Auburn",
+      "Tennessee",
       "Kentucky",
       "Florida",
       "Mississippi State",
       "Texas A&M",
       "South Carolina",
       "Mississippi",
-      "Georgia",
       "Louisiana State",
+      "Georgia",
       "Arkansas",
       "Missouri",
       "Vanderbilt"
@@ -6023,7 +6023,7 @@
     "Rank": 3,
     "NC_Rec": "134-47",
     "NC_WP": 0.7403,
-    "Conference_Leader": "Alabama",
+    "Conference_Leader": "Tennessee",
     "NET": 5
   },
   {
@@ -6035,15 +6035,15 @@
       "Marquette",
       "Creighton",
       "St. John's (NY)",
+      "Villanova",
       "Xavier",
       "Butler",
-      "Villanova",
       "Providence",
       "Seton Hall",
       "Georgetown",
       "DePaul"
     ],
-    "Rank": 4,
+    "Rank": 5,
     "NC_Rec": "83-37",
     "NC_WP": 0.6917,
     "Conference_Leader": "Connecticut",
@@ -6058,10 +6058,10 @@
       "Duke",
       "Wake Forest",
       "Clemson",
-      "Miami (FL)",
       "Pittsburgh",
-      "Virginia Tech",
       "Virginia",
+      "Virginia Tech",
+      "Miami (FL)",
       "Florida State",
       "NC State",
       "Boston College",
@@ -6070,11 +6070,11 @@
       "Notre Dame",
       "Louisville"
     ],
-    "Rank": 5,
+    "Rank": 4,
     "NC_Rec": "118-46",
     "NC_WP": 0.7195,
     "Conference_Leader": "North Carolina",
-    "NET": 9
+    "NET": 10
   },
   {
     "Name": "MWC",
@@ -6118,7 +6118,7 @@
     "NC_Rec": "61-58",
     "NC_WP": 0.5126,
     "Conference_Leader": "Saint Mary's College",
-    "NET": 21
+    "NET": 17
   },
   {
     "Name": "AAC",
@@ -6140,11 +6140,11 @@
       "Temple",
       "UTSA"
     ],
-    "Rank": 9,
+    "Rank": 10,
     "NC_Rec": "98-66",
     "NC_WP": 0.5976,
     "Conference_Leader": "FAU",
-    "NET": 25
+    "NET": 28
   },
   {
     "Name": "A-10",
@@ -6162,16 +6162,16 @@
       "Loyola (IL)",
       "Davidson",
       "George Washington",
-      "Fordham",
       "Rhode Island",
-      "La Salle",
-      "Saint Louis"
+      "Fordham",
+      "Saint Louis",
+      "La Salle"
     ],
     "Rank": 8,
     "NC_Rec": "123-60",
     "NC_WP": 0.6721,
     "Conference_Leader": "Dayton",
-    "NET": 17
+    "NET": 16
   },
   {
     "Name": "MVC",
@@ -6187,15 +6187,15 @@
       "Missouri State",
       "Belmont",
       "Illinois-Chicago",
-      "Illinois State",
       "Evansville",
+      "Illinois State",
       "Valparaiso"
     ],
-    "Rank": 10,
+    "Rank": 9,
     "NC_Rec": "73-48",
     "NC_WP": 0.6033,
     "Conference_Leader": "Indiana State",
-    "NET": 23
+    "NET": 22
   },
   {
     "Name": "WAC",
@@ -6218,33 +6218,7 @@
     "NC_Rec": "47-55",
     "NC_WP": 0.4608,
     "Conference_Leader": "Grand Canyon",
-    "NET": 45
-  },
-  {
-    "Name": "Sun Belt",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "James Madison",
-      "Appalachian State",
-      "Louisiana",
-      "Troy",
-      "Arkansas State",
-      "Marshall",
-      "Georgia State",
-      "Southern Mississippi",
-      "Texas State",
-      "Old Dominion",
-      "South Alabama",
-      "Louisiana-Monroe",
-      "Georgia Southern",
-      "Coastal Carolina"
-    ],
-    "Rank": 19,
-    "NC_Rec": "56-86",
-    "NC_WP": 0.3944,
-    "Conference_Leader": "James Madison",
-    "NET": 63
+    "NET": 49
   },
   {
     "Name": "Big West",
@@ -6254,8 +6228,8 @@
       "UC Irvine",
       "UC San Diego",
       "UC Davis",
-      "UC Santa Barbara",
       "Hawaii",
+      "UC Santa Barbara",
       "Long Beach State",
       "Cal State Northridge",
       "Cal State Fullerton",
@@ -6267,7 +6241,33 @@
     "NC_Rec": "51-57",
     "NC_WP": 0.4722,
     "Conference_Leader": "UC Irvine",
-    "NET": 71
+    "NET": 64
+  },
+  {
+    "Name": "Sun Belt",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "James Madison",
+      "Appalachian State",
+      "Troy",
+      "Louisiana",
+      "Arkansas State",
+      "Marshall",
+      "Georgia State",
+      "Texas State",
+      "Southern Mississippi",
+      "South Alabama",
+      "Old Dominion",
+      "Louisiana-Monroe",
+      "Georgia Southern",
+      "Coastal Carolina"
+    ],
+    "Rank": 17,
+    "NC_Rec": "56-86",
+    "NC_WP": 0.3944,
+    "Conference_Leader": "James Madison",
+    "NET": 62
   },
   {
     "Name": "CUSA",
@@ -6277,18 +6277,18 @@
       "Louisiana Tech",
       "Liberty",
       "Western Kentucky",
-      "UTEP",
       "Jacksonville State",
+      "UTEP",
       "Sam Houston",
       "New Mexico State",
-      "Middle Tennessee",
-      "Florida International"
+      "Florida International",
+      "Middle Tennessee"
     ],
     "Rank": 15,
     "NC_Rec": "49-61",
     "NC_WP": 0.4455,
     "Conference_Leader": "Louisiana Tech",
-    "NET": 70
+    "NET": 75
   },
   {
     "Name": "Ivy",
@@ -6308,7 +6308,7 @@
     "NC_Rec": "51-45",
     "NC_WP": 0.5312,
     "Conference_Leader": "Princeton",
-    "NET": 50
+    "NET": 52
   },
   {
     "Name": "Southern",
@@ -6330,7 +6330,7 @@
     "NC_Rec": "54-50",
     "NC_WP": 0.5192,
     "Conference_Leader": "Samford",
-    "NET": 75
+    "NET": 73
   },
   {
     "Name": "MAC",
@@ -6339,13 +6339,13 @@
     "Teams": [
       "Akron",
       "Toledo",
-      "Kent State",
       "Ohio",
+      "Kent State",
       "Bowling Green State",
       "Ball State",
       "Miami (OH)",
-      "Central Michigan",
       "Northern Illinois",
+      "Central Michigan",
       "Western Michigan",
       "Eastern Michigan",
       "Buffalo"
@@ -6354,7 +6354,7 @@
     "NC_Rec": "54-72",
     "NC_WP": 0.4286,
     "Conference_Leader": "Akron",
-    "NET": 89
+    "NET": 86
   },
   {
     "Name": "Southland",
@@ -6369,14 +6369,14 @@
       "Texas A&M-Commerce",
       "Incarnate Word",
       "Northwestern State",
-      "Houston Christian",
-      "New Orleans"
+      "New Orleans",
+      "Houston Christian"
     ],
     "Rank": 27,
     "NC_Rec": "25-74",
     "NC_WP": 0.2525,
     "Conference_Leader": "McNeese",
-    "NET": 72
+    "NET": 69
   },
   {
     "Name": "Horizon",
@@ -6385,10 +6385,10 @@
     "Teams": [
       "Youngstown State",
       "Oakland",
-      "Wright State",
       "Purdue Fort Wayne",
-      "Cleveland State",
+      "Wright State",
       "Northern Kentucky",
+      "Cleveland State",
       "Green Bay",
       "Milwaukee",
       "Robert Morris",
@@ -6399,7 +6399,55 @@
     "NC_Rec": "37-64",
     "NC_WP": 0.3663,
     "Conference_Leader": "Youngstown State",
-    "NET": 105
+    "NET": 113
+  },
+  {
+    "Name": "Big Sky",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Weber State",
+      "Eastern Washington",
+      "Montana",
+      "Northern Colorado",
+      "Montana State",
+      "Portland State",
+      "Idaho State",
+      "Idaho",
+      "Northern Arizona",
+      "Sacramento State"
+    ],
+    "Rank": 21,
+    "NC_Rec": "46-63",
+    "NC_WP": 0.422,
+    "Conference_Leader": "Eastern Washington",
+    "NET": 111
+  },
+  {
+    "Name": "CAA",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "UNC Wilmington",
+      "College of Charleston",
+      "Drexel",
+      "Delaware",
+      "Towson",
+      "Hofstra",
+      "Monmouth",
+      "Stony Brook",
+      "Northeastern",
+      "Campbell",
+      "Elon",
+      "William & Mary",
+      "North Carolina A&T",
+      "Hampton"
+    ],
+    "Rank": 19,
+    "NC_Rec": "72-90",
+    "NC_WP": 0.4444,
+    "Conference_Leader": "UNCW",
+    "NET": 106
   },
   {
     "Name": "AEC",
@@ -6416,37 +6464,11 @@
       "Maryland-Baltimore County",
       "NJIT"
     ],
-    "Rank": 21,
+    "Rank": 22,
     "NC_Rec": "54-58",
     "NC_WP": 0.4821,
     "Conference_Leader": "Vermont",
-    "NET": 101
-  },
-  {
-    "Name": "CAA",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Drexel",
-      "College of Charleston",
-      "UNC Wilmington",
-      "Towson",
-      "Hofstra",
-      "Delaware",
-      "Monmouth",
-      "Stony Brook",
-      "Northeastern",
-      "Campbell",
-      "Elon",
-      "William & Mary",
-      "North Carolina A&T",
-      "Hampton"
-    ],
-    "Rank": 18,
-    "NC_Rec": "72-90",
-    "NC_WP": 0.4444,
-    "Conference_Leader": "Drexel",
-    "NET": 110
+    "NET": 109
   },
   {
     "Name": "Big South",
@@ -6463,32 +6485,10 @@
       "Presbyterian",
       "Charleston Southern"
     ],
-    "Rank": 17,
+    "Rank": 18,
     "NC_Rec": "47-59",
     "NC_WP": 0.4434,
     "Conference_Leader": "High Point",
-    "NET": 108
-  },
-  {
-    "Name": "Big Sky",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Weber State",
-      "Eastern Washington",
-      "Montana",
-      "Northern Colorado",
-      "Montana State",
-      "Portland State",
-      "Idaho State",
-      "Idaho",
-      "Sacramento State",
-      "Northern Arizona"
-    ],
-    "Rank": 22,
-    "NC_Rec": "46-63",
-    "NC_WP": 0.422,
-    "Conference_Leader": "Eastern Washington",
     "NET": 114
   },
   {
@@ -6497,8 +6497,8 @@
     "Year": 2024,
     "Teams": [
       "Morehead State",
-      "Tennessee-Martin",
       "Little Rock",
+      "Tennessee-Martin",
       "SIU Edwardsville",
       "Tennessee State",
       "Western Illinois",
@@ -6512,29 +6512,7 @@
     "NC_Rec": "32-75",
     "NC_WP": 0.2991,
     "Conference_Leader": "Morehead State",
-    "NET": 100
-  },
-  {
-    "Name": "Patriot",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Colgate",
-      "American",
-      "Lehigh",
-      "Bucknell",
-      "Lafayette",
-      "Navy",
-      "Boston University",
-      "Army",
-      "Loyola (MD)",
-      "Holy Cross"
-    ],
-    "Rank": 30,
-    "NC_Rec": "26-89",
-    "NC_WP": 0.2261,
-    "Conference_Leader": "Colgate",
-    "NET": 132
+    "NET": 101
   },
   {
     "Name": "Summit",
@@ -6546,39 +6524,38 @@
       "Oral Roberts",
       "Denver",
       "Omaha",
-      "Kansas City",
-      "North Dakota State",
       "North Dakota",
+      "North Dakota State",
+      "Kansas City",
       "South Dakota"
     ],
     "Rank": 24,
     "NC_Rec": "38-66",
     "NC_WP": 0.3654,
     "Conference_Leader": "Saint Thomas",
-    "NET": 147
+    "NET": 140
   },
   {
-    "Name": "MAAC",
+    "Name": "Patriot",
     "Gender": "men",
     "Year": 2024,
     "Teams": [
-      "Iona",
-      "Quinnipiac",
-      "Fairfield",
-      "Saint Peter's",
-      "Canisius",
-      "Mount St. Mary's",
-      "Marist",
-      "Rider",
-      "Niagara",
-      "Manhattan",
-      "Siena"
+      "Colgate",
+      "American",
+      "Bucknell",
+      "Lehigh",
+      "Lafayette",
+      "Boston University",
+      "Navy",
+      "Army",
+      "Loyola (MD)",
+      "Holy Cross"
     ],
-    "Rank": 25,
-    "NC_Rec": "41-65",
-    "NC_WP": 0.3868,
-    "Conference_Leader": "Quinnipiac",
-    "NET": 150
+    "Rank": 30,
+    "NC_Rec": "26-89",
+    "NC_WP": 0.2261,
+    "Conference_Leader": "Colgate",
+    "NET": 132
   },
   {
     "Name": "A-Sun",
@@ -6588,9 +6565,9 @@
       "Lipscomb",
       "Stetson",
       "Eastern Kentucky",
-      "North Florida",
-      "North Alabama",
       "Austin Peay",
+      "North Alabama",
+      "North Florida",
       "Florida Gulf Coast",
       "Kennesaw State",
       "Queens (NC)",
@@ -6602,7 +6579,30 @@
     "NC_Rec": "47-97",
     "NC_WP": 0.3264,
     "Conference_Leader": "Lipscomb",
-    "NET": 164
+    "NET": 166
+  },
+  {
+    "Name": "MAAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Iona",
+      "Quinnipiac",
+      "Fairfield",
+      "Saint Peter's",
+      "Mount St. Mary's",
+      "Marist",
+      "Canisius",
+      "Niagara",
+      "Rider",
+      "Manhattan",
+      "Siena"
+    ],
+    "Rank": 25,
+    "NC_Rec": "41-65",
+    "NC_WP": 0.3868,
+    "Conference_Leader": "Quinnipiac",
+    "NET": 141
   },
   {
     "Name": "NEC",
@@ -6612,18 +6612,42 @@
       "Merrimack",
       "Central Connecticut State",
       "Sacred Heart",
-      "Wagner",
       "Le Moyne",
+      "Wagner",
       "Fairleigh Dickinson",
       "Saint Francis (PA)",
-      "Stonehill",
-      "Long Island University"
+      "Long Island University",
+      "Stonehill"
     ],
     "Rank": 31,
     "NC_Rec": "27-80",
     "NC_WP": 0.2523,
     "Conference_Leader": "Merrimack",
-    "NET": 192
+    "NET": 195
+  },
+  {
+    "Name": "SWAC",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Southern",
+      "Alabama State",
+      "Texas Southern",
+      "Jackson State",
+      "Grambling",
+      "Bethune-Cookman",
+      "Prairie View",
+      "Alcorn State",
+      "Arkansas-Pine Bluff",
+      "Florida A&M",
+      "Alabama A&M",
+      "Mississippi Valley State"
+    ],
+    "Rank": 32,
+    "NC_Rec": "19-112",
+    "NC_WP": 0.145,
+    "Conference_Leader": "Southern",
+    "NET": 200
   },
   {
     "Name": "MEAC",
@@ -6639,35 +6663,11 @@
       "Maryland-Eastern Shore",
       "Coppin State"
     ],
-    "Rank": 32,
+    "Rank": 33,
     "NC_Rec": "24-80",
     "NC_WP": 0.2308,
     "Conference_Leader": "Norfolk State",
-    "NET": 204
-  },
-  {
-    "Name": "SWAC",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Southern",
-      "Alabama State",
-      "Texas Southern",
-      "Jackson State",
-      "Grambling",
-      "Bethune-Cookman",
-      "Alcorn State",
-      "Prairie View",
-      "Arkansas-Pine Bluff",
-      "Florida A&M",
-      "Alabama A&M",
-      "Mississippi Valley State"
-    ],
-    "Rank": 33,
-    "NC_Rec": "19-112",
-    "NC_WP": 0.145,
-    "Conference_Leader": "Southern",
-    "NET": 209
+    "NET": 223
   },
   {
     "Name": "Ind",
@@ -6680,6 +6680,6 @@
     "NC_Rec": "9-16",
     "NC_WP": 0.36,
     "Conference_Leader": "Chicago State",
-    "NET": 280
+    "NET": 282
   }
 ]

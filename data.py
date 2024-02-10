@@ -71,7 +71,7 @@ def populate_tournament_data(year: int, gender: str):
             if item not in ["School", "Conference"]:
                 setattr(team, item, row[item])
 
-def team_training_data(year: int, gender: str):
+def team_training_data(year: int, gender: str, predictive: bool = False):
     n_teams = pd.read_csv(fr"Stats/{year}/{gender.lower()}/school-stats.csv").shape[0]    
     # ML Data Points
     #  Adj_NRtg
@@ -84,26 +84,36 @@ def team_training_data(year: int, gender: str):
     #  SOS
     #  NC_WP (Conf)
     header = ["Seed","Name","Adj_NRtg","NC_Rec","NC_SOS_RPI","NET",
-              "Record","Q1","Q2","Q34","SOS","NC_WP"]
+              "Record","Q1","Q2","Q34","SOS","Conf_NC_WP"]
     rows = []
+    if predictive:
+        header.remove("Seed")
     for team in Team.filtered_team_list(gender, year):
-        if hasattr(team, "Seed"):
+        if hasattr(team, "Adj_NRtg"):
             row = []
             for h in header:
                 if h == "NC_Rec":
                     row.append(team.rec_to_pct("NC_Rec"))
                 elif h == "Record":
-                    row.append(team.rec_to_pct("Pre_Tourn_Record"))
+                    if hasattr(team, "Pre_Tourn_Record"):
+                        row.append(team.rec_to_pct("Pre_Tourn_Record"))
+                    else:
+                        row.append(team.W_L_Pct)
                 elif h == "Q1":
                     row.append(team.rec_to_pct("Q1_RPI"))
                 elif h == "Q2":
                     row.append(team.rec_to_pct("Q2_RPI"))
                 elif h == "Q34":
                     row.append(team.comb_rec_to_pct(["Q3_RPI","Q4_RPI"]))
-                elif h == "NC_WP":
+                elif h == "Conf_NC_WP":
                     row.append(team.Conference.NC_WP)
                 elif h == 'Name':
-                    row.append(f"{team.Name}-{team.Year}")
+                    row.append(f"{team.Name}{"-"+str(team.Year) if not predictive else ''}")
+                elif h == 'Seed':
+                    if hasattr(team, "Seed"):
+                        row.append((17-team.Seed)/16)
+                    else:
+                        row.append(0)
                 else:
                     row.append(getattr(team, h))
             rows.append(row)
@@ -119,6 +129,8 @@ def team_training_data(year: int, gender: str):
             values = data[col].values.reshape(-1, 1)
             data[col] = StandardScaler().fit_transform(values)
             data[col] = data[col].apply(lambda x: round(x,4))
+    if not predictive:
+        data = data[data['Seed'] > 0]
     filepath = fr"Model/{year}/{gender.lower()}"
     if not os.path.exists(filepath):
         os.makedirs(filepath)
@@ -126,17 +138,19 @@ def team_training_data(year: int, gender: str):
     data.to_csv(fr"{filepath}/training.csv", index=False)
     return data
 
-def create_full_training():
+def create_full_training(current_year: int = 2024, gender: str = None):
     dirs = os.listdir("Model")
     data = []
     for d in dirs:
-        if not d.endswith(".csv"):
+        if not d.endswith(".csv") and int(d) != current_year and int(d) != 2019:
             try:
-                data.append(pd.read_csv(fr"Model/{d}/men/training.csv"))
+                if gender != "women":
+                    data.append(pd.read_csv(fr"Model/{d}/men/training.csv"))
             except:
                 pass
             try:
-                data.append(pd.read_csv(fr"Model/{d}/women/training.csv"))
+                if gender != "men":
+                    data.append(pd.read_csv(fr"Model/{d}/women/training.csv"))
             except:
                 pass
     full = pd.concat(data)

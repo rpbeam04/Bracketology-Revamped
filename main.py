@@ -4,6 +4,7 @@ import fetch
 from classes import Team, Conference, Player, Game
 import data
 import model
+# Module Imports
 from datetime import datetime as dt
 
 # Select season, gender(s)
@@ -41,5 +42,15 @@ if not games:
     fetch.fetch_games(start_games, end_games)
     Game.write_games_to_json()
 if not metrics:
-    fetch.fetch_net_rankings(season, gender, True)
-    fetch.fetch_rpi_rankings(season, gend)
+    for gender in genders:
+        fetch.fetch_net_rankings(season, gender, True)
+        fetch.fetch_rpi_rankings(season, gender, True)
+
+# Loading the neccesary data to the classes
+for gender in genders:
+    data.populate_team_stats(season, gender)
+    data.populate_team_metrics(season, gender)
+    data.populate_conference_metrics(season, gender)
+    if season < 2024:
+        data.populate_tournament_data(season, gender)
+
