@@ -200,6 +200,8 @@ def fetch_team_stats(season: int = 2024, gender: str = "men", refresh_override: 
                 df.at[i,"School"] = team.removesuffix("NCAA")[0:-1]
             if team == "FDU":
                 df.at[i,"School"] = "Fairleigh Dickinson"
+            elif team == "UCF":
+                df.at[i,"School"] = "Central Florida"
             try:
                 conf = df.at[i,"Conf"]
                 if conf.endswith(")"):

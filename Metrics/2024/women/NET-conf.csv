@@ -1,34 +1,34 @@
 Conference,Rank,NC_Rec,NC_WP,Conference_Leader,NET
 Pac-12,1,117-21,0.8478,Stanford,2
 Big 12,2,132-29,0.8199,Texas,4
-SEC,3,150-38,0.7979,South Carolina,1
-ACC,4,129-48,0.7288,Notre Dame,10
+SEC,3,151-38,0.7989,South Carolina,1
+ACC,4,129-48,0.7288,North Carolina State,10
 Big Ten,5,113-41,0.7338,Iowa,5
-Big East,6,80-42,0.6557,Connecticut,3
-American Athletic,7,92-68,0.575,North Texas,85
-Atlantic 10,8,94-74,0.5595,Richmond,50
-West Coast,9,53-57,0.4818,Gonzaga,12
-Sun Belt,10,75-59,0.5597,Marshall,97
-Ivy League,11,53-44,0.5464,Princeton,33
-Mountain West,12,65-54,0.5462,UNLV,34
-Missouri Valley,13,55-62,0.4701,Belmont,67
-Conference USA,14,47-63,0.4273,Middle Tennessee,41
-Big Sky,15,45-63,0.4167,Eastern Washington,76
-The Summit League,16,42-59,0.4158,South Dakota State,61
-Horizon League,17,45-52,0.4639,Green Bay,43
-Big West,18,36-62,0.3673,UC Irvine,127
-Western Athletic,19,36-59,0.3789,Grand Canyon,96
-Mid-American,20,52-62,0.4561,Toledo,80
+Big East,6,80-43,0.6504,Connecticut,3
+American Athletic,7,92-68,0.575,North Texas,83
+Atlantic 10,8,94-74,0.5595,Richmond,52
+West Coast,9,53-57,0.4818,Gonzaga,13
+Sun Belt,10,81-65,0.5548,Marshall,94
+Ivy League,11,53-44,0.5464,Princeton,27
+Mountain West,12,65-54,0.5462,UNLV,36
+Missouri Valley,13,55-62,0.4701,Drake,70
+Conference USA,14,47-63,0.4273,Middle Tennessee,37
+Big Sky,15,45-63,0.4167,Eastern Washington,77
+The Summit League,16,42-59,0.4158,South Dakota State,60
+Horizon League,17,45-52,0.4639,Green Bay,54
+Big West,18,36-62,0.3673,UC Irvine,129
+Mid-American,19,58-68,0.4603,Toledo,72
+Western Athletic,20,36-59,0.3789,Grand Canyon,88
 Coastal Athletic,21,64-79,0.4476,Stony Brook,69
-Southern,22,50-50,0.5,Chattanooga,99
-ASUN,23,50-82,0.3788,FGCU,60
-America East,24,47-61,0.4352,Maine,112
-Southland,25,23-60,0.2771,Lamar,133
-Ohio Valley,26,24-80,0.2308,Southern Indiana,190
-MAAC,27,43-55,0.4388,Fairfield,73
-Patriot League,28,43-58,0.4257,Holy Cross,141
-SWAC,29,24-98,0.1967,Jackson State,103
-MEAC,30,30-76,0.283,Norfolk State,135
-Big South,31,27-78,0.2571,Radford,276
+Southern,21,50-50,0.5,Chattanooga,97
+ASUN,23,50-82,0.3788,FGCU,59
+America East,24,47-61,0.4352,Maine,109
+Southland,25,23-60,0.2771,Lamar,127
+Ohio Valley,26,24-80,0.2308,Southern Indiana,162
+MAAC,27,43-55,0.4388,Fairfield,87
+Patriot League,28,43-58,0.4257,Holy Cross,181
+SWAC,29,24-98,0.1967,Jackson State,99
+MEAC,30,30-76,0.283,Norfolk State,124
+Big South,31,27-78,0.2571,High Point,269
 Northeast,32,18-95,0.1593,Sacred Heart,238
-Independent,33,0-25,0.0,Chicago State,359
+Independent,33,0-25,0.0,Chicago State,358

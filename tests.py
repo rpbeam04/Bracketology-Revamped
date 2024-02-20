@@ -13,18 +13,12 @@ import numpy as np
 import matplotlib.pyplot as plt
 from tabulate import tabulate
 
-df = pd.read_csv("Model/matrix.csv").dropna(subset=['0'])
-df = df[['1','3']].reset_index(drop=True)
-df.columns = ['Team','Seed']
-df['Seed'] = (17-pd.to_numeric(df['Seed']))/16
-pprint(df)
-
-# Team.create_teams_from_json()
-# Conference.create_conferences_from_json()
-# for year in [2021,2022,2023]:
-#     for gender in ['men','women']:
-#         data.team_training_data(year, gender)
-# data.create_full_training()
+Team.create_teams_from_json()
+Conference.create_conferences_from_json()
+for year in [2021,2022,2023]:
+    for gender in ['men','women']:
+        data.team_training_data(year, gender)
+data.create_full_training()
 
 # df = pd.read_csv("Model/2024/men/training.csv").drop(columns=['Name'])
 # df2 = pd.read_csv("Model/2023/men/training.csv").drop(columns=['Name'])
@@ -49,7 +43,7 @@ pprint(df)
 # for i, ele in enumerate(list(to_diffs.items())):
 #     print(i+1,ele[0],round(ele[1],2))
 
-# FULL OBJECT SOURCING
+# # FULL OBJECT SOURCING
 # Team.clear_teams()
 # genders = ["women","men"]
 # years = [2021,2022,2023,2024]
@@ -59,7 +53,8 @@ pprint(df)
 #     for year in years:
 #         refr = False
 #         if year == 2024:
-#             refr = False
+#             refr = True
+#         print(year, gender)
 #         fetch.fetch_team_stats(year, gender, refresh_override=refr)
 #         Team.create_teams_from_stats(gender, year)
 #         Conference.create_conferences_from_stats(gender, year)

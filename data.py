@@ -84,7 +84,7 @@ def team_training_data(year: int, gender: str, predictive: bool = False):
     #  SOS
     #  NC_WP (Conf)
     header = ["Seed","Name","Adj_NRtg","NC_Rec","NC_SOS_RPI","NET",
-              "Record","Q1","Q2","Q34","SOS","Conf_NC_WP"]
+              "Record","Q1","Q2","Q34","Conf_NC_WP"]
     rows = []
     if predictive:
         header.remove("Seed")
