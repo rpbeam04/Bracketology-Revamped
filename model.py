@@ -3,6 +3,7 @@ from sklearn.metrics import mean_squared_error
 import pandas as pd
 from pprint import pprint
 from classes import Team
+import data
 from sklearn.ensemble import ExtraTreesRegressor
 from sklearn.model_selection import train_test_split
 import numpy as np
@@ -18,9 +19,9 @@ def create_model(estimators: int = 175, refresh = False):
     Team.create_teams_from_json()
 
     # Sample data (replace this with your own data)
-    data = pd.read_csv("Model/full-training.csv").drop(columns=["Name"])
-    X = data.drop(columns=['Seed']).to_numpy()
-    y = data["Seed"].to_numpy()
+    _data = pd.read_csv("Model/full-training.csv").drop(columns=["Name"])
+    X = _data.drop(columns=['Seed']).to_numpy()
+    y = _data["Seed"].to_numpy()
 
     extra_trees = ExtraTreesRegressor(n_estimators=estimators, random_state=10)
 
@@ -34,9 +35,9 @@ def create_model(estimators: int = 175, refresh = False):
     
 def evaluate_model(extra_trees: ExtraTreesRegressor):
     # Predict on the test set
-    data = pd.read_csv("Model/2024/men/training.csv")
-    names = data['Name']
-    Xx = data.drop(columns=['Name']).to_numpy()
+    _data = pd.read_csv("Model/2024/men/training.csv")
+    names = _data['Name']
+    Xx = _data.drop(columns=['Name']).to_numpy()
     pred = []
     y_pred = extra_trees.predict(Xx)
     seeds = []
@@ -84,3 +85,21 @@ def evaluate_model(extra_trees: ExtraTreesRegressor):
     print(f"Mean Squared Error:", round(mse,3))
     mse2 = mean_squared_error(y, s_pred)
     print(f"Mean SeedSq Error:", round(mse2,3))
+
+def predict_seeds(predictor: ExtraTreesRegressor, genders: list[str], season: int, refresh_training: bool = True):
+    dfs = []
+    for gender in genders:
+        df = data.team_training_data(season, gender, True, refresh_training)
+        names = df["Name"]
+        X = df.drop(columns=['Name']).to_numpy()
+        y = predictor.predict(X)
+        y = 17 - y*16
+        results = pd.concat([names,pd.DataFrame(y)], axis=1)
+        results.columns = ["Team","Seed"]
+        results["Seed"] = results["Seed"].apply(lambda x: round(x,2))
+        results = results.sort_values(by="Seed")
+        results = results.set_index("Team", drop=True)
+        results.to_csv(fr"Bracket/Seeds/{gender}-pred.csv")
+        team: Team
+        for team in Team.filtered_team_list(gender, season):
+            setattr(team, "Predicted_Seed", results.loc[team.Name, "Seed"])

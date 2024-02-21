@@ -337,6 +337,21 @@ class Conference:
     conf_list: list['Conference'] = []
 
     @classmethod
+    def filtered_conference_list(cls, gender: str | list[str], year: int | list[int], power_6: bool = False, independent: bool = False):
+        if isinstance(gender, str):
+            gender = [gender]
+        if isinstance(year, int):
+            year = [year]
+        if independent:
+            cl = [conf for conf in Conference.conf_list if conf.Gender in gender and conf.Year in year]
+        else:
+            cl = [conf for conf in Conference.conf_list if conf.Gender in gender and conf.Year in year and conf.Name != "Ind"]
+        if power_6:
+            return [conf for conf in cl if conf.Name in ["ACC","SEC","Big Ten","Pac-12","Big 12","Big East"]]
+        else:
+            return cl
+
+    @classmethod
     def search_conference(cls, name: str, gender: str, year: int):
         conf: Conference
         if name == "_":

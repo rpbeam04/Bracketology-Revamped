@@ -19,8 +19,8 @@ Indiana,21-4,17
 Oregon State,21-4,18
 Baylor,19-6,19
 West Virginia,22-3,20
-Michigan State,18-7,21
-Duke,16-9,22
+Duke,16-9,21
+Michigan State,18-7,22
 Louisville,21-6,23
 Creighton,21-4,24
 Washington State,16-11,25
@@ -45,13 +45,13 @@ Kansas,15-10,43
 Illinois,13-12,44
 Miami (FL),16-9,45
 Villanova,16-9,46
-Minnesota,15-11,47
-Mississippi,18-7,48
-Michigan,16-11,49
-TCU,15-9,50
-Saint Joseph's,24-2,51
-Richmond,23-4,52
-Washington,13-12,53
+Mississippi,18-7,47
+Michigan,16-11,48
+TCU,15-9,49
+Saint Joseph's,24-2,50
+Richmond,23-4,51
+Washington,13-12,52
+Minnesota,15-11,53
 Auburn,16-9,54
 Green Bay,20-5,55
 Oklahoma State,12-13,56
@@ -72,8 +72,8 @@ Texas Tech,16-11,70
 Toledo,18-4,71
 Belmont,18-7,72
 Missouri,11-14,73
-Brigham Young,15-12,74
-Ball State,21-3,75
+Ball State,21-3,74
+Brigham Young,15-12,75
 Santa Clara,19-7,76
 Eastern Washington,19-5,77
 Virginia Commonwealth,21-4,78
@@ -87,54 +87,54 @@ Harvard,14-9,85
 Grand Canyon,20-5,86
 North Texas,18-6,87
 Clemson,11-15,88
-St. John's (NY),15-13,89
-Montana,16-7,90
+Montana,16-7,89
+St. John's (NY),15-13,90
 Boston College,11-16,91
 Oregon,11-16,92
 Cincinnati,12-14,93
-Marshall,17-6,94
-Georgia,11-14,95
-Houston,13-12,96
-Colorado State,15-9,97
-Georgetown,17-10,98
+Georgetown,17-10,94
+Marshall,17-6,95
+Georgia,11-14,96
+Houston,13-12,97
+Colorado State,15-9,98
 Chattanooga,20-3,99
 Jackson State,15-6,100
 DePaul,12-16,101
 Temple,15-10,102
-Rice,15-11,103
-Portland,15-10,104
+Portland,15-10,103
+Rice,15-11,104
 Northern Iowa,10-13,105
 East Carolina,14-10,106
 Murray State,14-8,107
 Kent State,13-7,108
 Maine,18-8,109
 Wyoming,13-10,110
-South Florida,15-12,111
-James Madison,17-9,112
-Southern Methodist,13-12,113
-Arizona State,11-15,114
-Missouri State,17-6,115
-Troy,15-10,116
-Illinois State,15-8,117
-Providence,12-15,118
-Wisconsin,13-12,119
+Wisconsin,13-12,111
+South Florida,15-12,112
+James Madison,17-9,113
+Southern Methodist,13-12,114
+Arizona State,11-15,115
+Missouri State,17-6,116
+Troy,15-10,117
+Illinois State,15-8,118
+Providence,12-15,119
 North Dakota State,14-9,120
 Northern Arizona,18-7,121
-Norfolk State,18-5,122
-Tulsa,18-8,123
+Tulsa,18-8,122
+Norfolk State,18-5,123
 Charlotte,14-12,124
 Boise State,15-9,125
 Old Dominion,17-7,126
 Lamar,16-5,127
-Duquesne,17-9,128
+Duquesne,18-9,128
 UC Irvine,16-7,129
 South Dakota,15-9,130
 California Baptist,20-3,131
 Butler,11-13,132
-Montana State,14-12,133
-UTSA,13-11,134
-Vermont,17-9,135
-Memphis,10-15,136
+Memphis,10-15,133
+Montana State,14-12,134
+UTSA,13-11,135
+Vermont,17-9,136
 Albany (NY),21-3,137
 Louisiana-Monroe,14-10,138
 UAB,17-8,139
@@ -145,12 +145,12 @@ College of Charleston,15-6,143
 Liberty,10-14,144
 Central Arkansas,16-8,145
 Hawaii,15-9,146
-North Carolina A&T,14-8,147
+Rutgers,8-20,147
 Wake Forest,4-22,148
-Pacific,13-11,149
-Rutgers,8-20,150
-Cal Poly,13-10,151
-Purdue Fort Wayne,15-10,152
+North Carolina A&T,14-8,149
+Pacific,13-11,150
+Purdue Fort Wayne,15-10,151
+Cal Poly,13-10,152
 Pittsburgh,8-19,153
 Illinois-Chicago,15-10,154
 New Mexico,17-8,155
@@ -159,17 +159,17 @@ Kentucky,10-16,157
 Saint Louis,10-16,158
 Tulane,10-15,159
 Appalachian State,14-12,160
-Monmouth,15-8,161
-Loyola (IL),12-14,162
-Southern Indiana,17-6,163
+Southern Indiana,17-6,161
+Monmouth,15-8,162
+Loyola (IL),12-14,163
 San Francisco,10-14,164
 Brown,13-9,165
 Western Kentucky,14-12,166
 Stephen F. Austin,14-9,167
 Florida International,17-7,168
 Idaho,11-12,169
-Arkansas-Pine Bluff,12-12,170
-Bowling Green State,12-11,171
+Bowling Green State,12-11,170
+Arkansas-Pine Bluff,12-12,171
 Southeastern Louisiana,13-9,172
 Georgia State,13-10,173
 William & Mary,12-11,174
@@ -185,9 +185,9 @@ UC Santa Barbara,14-9,183
 Nevada,13-12,184
 Northern Colorado,10-12,185
 Louisiana Tech,7-17,186
-Drexel,10-12,187
-Southern Illinois,8-16,188
-George Washington,9-16,189
+Southern Illinois,8-16,187
+Drexel,10-12,188
+George Washington,9-17,189
 Austin Peay,11-12,190
 Louisiana,10-12,191
 Wofford,11-9,192
@@ -198,8 +198,8 @@ Siena,13-10,196
 Towson,14-9,197
 Saint Mary's (CA),10-15,198
 Texas State,11-14,199
-Texas A&M-Corpus Christi,13-7,200
-Wright State,13-13,201
+Wright State,13-13,200
+Texas A&M-Corpus Christi,13-7,201
 Tennessee Tech,11-12,202
 Mercer,11-16,203
 Georgia Southern,12-13,204
@@ -209,16 +209,16 @@ Incarnate Word,11-9,207
 Idaho State,9-15,208
 Abilene Christian,8-12,209
 Air Force,10-15,210
-Fresno State,11-14,211
-Campbell,11-11,212
+Northwestern,8-18,211
+Fresno State,11-14,212
 Loyola Marymount,7-15,213
-Northwestern,8-18,214
+Campbell,11-11,214
 UC Riverside,12-11,215
 Southern,10-13,216
 Long Beach State,9-14,217
 UNC Greensboro,13-9,218
-Grambling,13-8,219
-St. Thomas,12-12,220
+St. Thomas,12-12,219
+Grambling,13-8,220
 San Diego,6-18,221
 Wichita State,8-18,222
 Tennessee-Martin,10-14,223
@@ -230,15 +230,15 @@ Colgate,12-11,228
 UC San Diego,8-15,229
 Maryland-Eastern Shore,9-12,230
 Manhattan,16-8,231
-Morehead State,10-13,232
-Boston University,14-9,233
+Boston University,14-9,232
+Morehead State,10-13,233
 Coastal Carolina,7-19,234
 Northern Kentucky,8-16,235
 Sacred Heart,14-9,236
 Howard,9-14,237
 Youngstown State,11-15,238
-Western Michigan,9-13,239
-Western Illinois,12-9,240
+Western Illinois,12-9,239
+Western Michigan,9-13,240
 Akron,9-14,241
 Indiana State,8-15,242
 Dayton,9-15,243
@@ -314,18 +314,18 @@ Northeastern,8-15,312
 Army,9-12,313
 Sacramento State,5-20,314
 Merrimack,10-15,315
-Presbyterian,12-13,316
-Morgan State,5-15,317
-Xavier,1-22,318
+Morgan State,5-15,316
+Xavier,1-22,317
+Presbyterian,12-13,318
 NJIT,9-16,319
 Charleston Southern,8-16,320
 Seattle,3-21,321
 Eastern Michigan,5-17,322
 Fairleigh Dickinson,9-14,323
 Marist,5-19,324
-Lindenwood,5-18,325
-SIU Edwardsville,4-22,326
-Robert Morris,4-20,327
+SIU Edwardsville,4-22,325
+Robert Morris,4-20,326
+Lindenwood,5-18,327
 Alcorn State,6-17,328
 Navy,7-15,329
 UNC Asheville,8-16,330

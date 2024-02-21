@@ -4,6 +4,7 @@ import fetch
 from classes import Team, Conference, Player, Game
 import data
 import model
+import bracket
 # Module Imports
 from datetime import datetime as dt
 import pandas as pd
@@ -15,8 +16,8 @@ genders: list[str] = ["men","women"]
 # Define what already exists in .csv or .json format (True if exists and up to date)
 source_full: bool = False
 stats: bool = True
-teams: bool = False
-conferences: bool = False # teams and conferences must agree
+teams: bool = True
+conferences: bool = True # teams and conferences must agree
 games: bool = True
 metrics: bool = True
 seeds: bool = True
@@ -67,20 +68,18 @@ for gender in genders:
 
 # Preparing, loading, and creating the model
 predictor = model.create_model(refresh = (not predictive_model))
-model.evaluate_model(predictor)
+#model.evaluate_model(predictor)
+model.predict_seeds(predictor, genders, season)
 
-dfs = []
+# Creating the bracket
+men_conference_champions = {
+    "ACC": "Duke",
+    "Big Ten": "Purdue"
+}
+women_conference_champions = {
+    "ACC": "NC State",
+    "Big Ten": "Iowa"
+}
+
 for gender in genders:
-    dfs.append(data.team_training_data(season, gender, True, (not training)))
-for i,df in enumerate(dfs):
-    df: pd.DataFrame
-    names = df["Name"]
-    X = df.drop(columns=['Name']).to_numpy()
-    y = predictor.predict(X)
-    y = 17 - y*16
-    results = pd.concat([names,pd.DataFrame(y)], axis=1)
-    results.columns = ["Team","Seed"]
-    results["Seed"] = results["Seed"].apply(lambda x: round(x,2))
-    results = results.sort_values(by="Seed")
-    results = results.reset_index(drop=True)
-    results.to_csv(fr"Bracket/Seeds/{genders[i]}-pred.csv")
+    bracket.create_bracket(gender, season)

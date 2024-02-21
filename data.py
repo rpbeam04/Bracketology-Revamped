@@ -73,7 +73,7 @@ def populate_tournament_data(year: int, gender: str):
 
 def team_training_data(year: int, gender: str, predictive: bool = False, refresh: bool = False):
     filepath = fr"Model/{year}/{gender.lower()}"
-    if refresh and os.path.exists(fr"{filepath}/training.csv"):
+    if not refresh and os.path.exists(fr"{filepath}/training.csv"):
         data = pd.read_csv(fr"{filepath}/training.csv")
         return data
 

@@ -1,0 +1,68 @@
+16	Wagner	Auto
+16	Norfolk State	Auto
+16	Southern	Auto
+16	St. Thomas	Auto
+16	Quinnipiac	Auto
+16	Lipscomb	Auto
+15	Morehead State	Auto
+15	UNC Asheville	Auto
+15	Colgate	Auto
+15	Oakland	Auto
+14	Vermont	Auto
+14	Weber State	Auto
+14	UNC Wilmington	Auto
+14	Akron	Auto
+13	Samford	Auto
+13	Louisiana Tech	Auto
+13	UC Irvine	Auto
+13	Princeton	Auto
+12	James Madison	Auto
+12	Grand Canyon	Auto
+12	McNeese State	Auto
+12	Northwestern	At-Large
+12	South Carolina	At-Large
+11	Virginia	At-Large
+11	Virginia Tech	At-Large
+11	Cincinnati	At-Large
+11	Southern Methodist	At-Large
+11	Utah	At-Large
+10	Indiana State	Auto
+10	Nevada	At-Large
+10	Florida Atlantic	Auto
+10	Boise State	At-Large
+9	TCU	At-Large
+9	Mississippi State	At-Large
+9	Oklahoma	At-Large
+9	Texas	At-Large
+8	Wake Forest	At-Large
+8	Villanova	At-Large
+8	Washington State	At-Large
+8	Gonzaga	At-Large
+7	Florida	At-Large
+7	Texas Tech	At-Large
+7	Utah State	At-Large
+7	Saint Mary's (CA)	Auto
+6	Michigan State	At-Large
+6	New Mexico	At-Large
+6	Clemson	At-Large
+6	Dayton	Auto
+5	Wisconsin	At-Large
+5	Colorado State	At-Large
+5	San Diego State	Auto
+5	Illinois	At-Large
+4	Baylor	At-Large
+4	Marquette	At-Large
+4	Kentucky	At-Large
+4	Brigham Young	At-Large
+3	Duke	At-Large
+3	North Carolina	Auto
+3	Creighton	At-Large
+3	Tennessee	At-Large
+2	Kansas	At-Large
+2	Alabama	At-Large
+2	Auburn	Auto
+2	Iowa State	At-Large
+1	Connecticut	Auto
+1	Arizona	Auto
+1	Houston	Auto
+1	Purdue	Auto

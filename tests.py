@@ -43,40 +43,6 @@ from tabulate import tabulate
 # for i, ele in enumerate(list(to_diffs.items())):
 #     print(i+1,ele[0],round(ele[1],2))
 
-# FULL OBJECT SOURCING
-Team.clear_teams()
-genders = ["women","men"]
-years = [2021,2022,2023,2024]
-for gender in genders:
-    if gender == "men":
-        years.insert(0,2019)
-    for year in years:
-        refr = False
-        if year == 2024:
-            refr = True
-        print(year, gender)
-        fetch.fetch_team_stats(year, gender, refresh_override=refr)
-        Team.create_teams_from_stats(gender, year)
-        Conference.create_conferences_from_stats(gender, year)
-        fetch.fetch_net_rankings(year, gender, refr)
-        fetch.fetch_rpi_rankings(year, gender, refr)
-        data.populate_team_stats(year, gender)
-        data.populate_team_metrics(year, gender)
-        data.populate_conference_metrics(year, gender)
-        if year != 2024:
-            data.populate_tournament_data(year, gender)
-            if year != 2019:
-                data.team_training_data(year, gender)
-        if year == 2024:
-            data.team_training_data(year, gender, True)
-        print(year, gender)
-Team.clean_duplicates()
-Team.write_teams_to_json()
-Conference.write_conferences_to_json()
-data.create_full_training()
-matrix: pd.DataFrame = fetch.scrape_tables_from_url("http://www.bracketmatrix.com/")[0]
-matrix.to_csv("Model/matrix.csv")
-
 # df = pd.read_csv("test2021.csv")
 # df2 = pd.read_csv("Stats/2021/men/school-stats.csv")
 

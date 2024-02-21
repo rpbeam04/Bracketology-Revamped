@@ -48,8 +48,8 @@
       "Illinois",
       "Michigan State",
       "Wisconsin",
-      "Nebraska",
       "Iowa",
+      "Nebraska",
       "Ohio State",
       "Maryland",
       "Northwestern",
@@ -91,8 +91,8 @@
       "Marquette",
       "Villanova",
       "St. John's (NY)",
-      "Butler",
       "Xavier",
+      "Butler",
       "Providence",
       "Seton Hall",
       "Georgetown",
@@ -106,14 +106,14 @@
     "Teams": [
       "North Carolina",
       "Duke",
-      "Clemson",
       "Wake Forest",
+      "Clemson",
       "Pittsburgh",
       "Virginia Tech",
       "Miami (FL)",
       "Virginia",
-      "NC State",
       "Florida State",
+      "NC State",
       "Boston College",
       "Syracuse",
       "Georgia Tech",
@@ -146,8 +146,8 @@
       "San Diego State",
       "Colorado State",
       "Boise State",
-      "Nevada",
       "Utah State",
+      "Nevada",
       "Nevada-Las Vegas",
       "Wyoming",
       "Fresno State",
@@ -161,18 +161,18 @@
     "Year": 2024,
     "Teams": [
       "Dayton",
-      "Virginia Commonwealth",
       "St. Bonaventure",
       "Richmond",
       "Massachusetts",
+      "Virginia Commonwealth",
       "George Mason",
-      "Loyola (IL)",
       "Duquesne",
+      "Loyola (IL)",
       "Saint Joseph's",
       "Davidson",
       "Rhode Island",
-      "Fordham",
       "George Washington",
+      "Fordham",
       "Saint Louis",
       "La Salle"
     ]
@@ -274,6 +274,21 @@
     ]
   },
   {
+    "Name": "Ivy",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Princeton",
+      "Yale",
+      "Cornell",
+      "Harvard",
+      "Pennsylvania",
+      "Columbia",
+      "Brown",
+      "Dartmouth"
+    ]
+  },
+  {
     "Name": "Southern",
     "Gender": "men",
     "Year": 2024,
@@ -288,21 +303,6 @@
       "Mercer",
       "The Citadel",
       "VMI"
-    ]
-  },
-  {
-    "Name": "Ivy",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Princeton",
-      "Yale",
-      "Cornell",
-      "Harvard",
-      "Pennsylvania",
-      "Columbia",
-      "Brown",
-      "Dartmouth"
     ]
   },
   {
@@ -349,9 +349,9 @@
       "Kent State",
       "Ohio",
       "Bowling Green State",
-      "Miami (OH)",
       "Ball State",
       "Central Michigan",
+      "Miami (OH)",
       "Northern Illinois",
       "Western Michigan",
       "Eastern Michigan",
@@ -447,6 +447,23 @@
     ]
   },
   {
+    "Name": "Patriot",
+    "Gender": "men",
+    "Year": 2024,
+    "Teams": [
+      "Colgate",
+      "American",
+      "Lehigh",
+      "Bucknell",
+      "Lafayette",
+      "Boston University",
+      "Army",
+      "Navy",
+      "Loyola (MD)",
+      "Holy Cross"
+    ]
+  },
+  {
     "Name": "OVC",
     "Gender": "men",
     "Year": 2024,
@@ -462,23 +479,6 @@
       "Tennessee Tech",
       "Southeast Missouri State",
       "Lindenwood"
-    ]
-  },
-  {
-    "Name": "Patriot",
-    "Gender": "men",
-    "Year": 2024,
-    "Teams": [
-      "Colgate",
-      "American",
-      "Lehigh",
-      "Bucknell",
-      "Lafayette",
-      "Boston University",
-      "Army",
-      "Navy",
-      "Loyola (MD)",
-      "Holy Cross"
     ]
   },
   {
@@ -503,8 +503,8 @@
     "Year": 2024,
     "Teams": [
       "Lipscomb",
-      "Stetson",
       "Eastern Kentucky",
+      "Stetson",
       "Austin Peay",
       "North Florida",
       "North Alabama",
@@ -560,8 +560,8 @@
       "Howard",
       "Delaware State",
       "South Carolina State",
-      "Maryland-Eastern Shore",
       "Morgan State",
+      "Maryland-Eastern Shore",
       "Coppin State"
     ]
   },
@@ -624,8 +624,8 @@
       "Villanova",
       "Seton Hall",
       "St. John's (NY)",
-      "DePaul",
       "Georgetown",
+      "DePaul",
       "Butler",
       "Providence",
       "Xavier"
@@ -683,8 +683,8 @@
       "Penn State",
       "Maryland",
       "Nebraska",
-      "Minnesota",
       "Illinois",
+      "Minnesota",
       "Michigan",
       "Purdue",
       "Wisconsin",
@@ -921,8 +921,8 @@
       "North Texas",
       "Temple",
       "East Carolina",
-      "Rice",
       "South Florida",
+      "Rice",
       "Southern Methodist",
       "Tulsa",
       "Charlotte",
