@@ -1,68 +1,78 @@
-16	Wagner	Auto
-16	Norfolk State	Auto
-16	Southern	Auto
-16	St. Thomas	Auto
-16	Quinnipiac	Auto
-16	Lipscomb	Auto
-15	Morehead State	Auto
-15	UNC Asheville	Auto
-15	Colgate	Auto
-15	Oakland	Auto
-14	Vermont	Auto
-14	Weber State	Auto
-14	UNC Wilmington	Auto
-14	Akron	Auto
-13	Samford	Auto
-13	Louisiana Tech	Auto
-13	UC Irvine	Auto
-13	Princeton	Auto
-12	James Madison	Auto
-12	Grand Canyon	Auto
-12	McNeese State	Auto
-12	Northwestern	At-Large
-12	South Carolina	At-Large
-11	Virginia	At-Large
-11	Virginia Tech	At-Large
-11	Cincinnati	At-Large
-11	Southern Methodist	At-Large
-11	Utah	At-Large
-10	Indiana State	Auto
-10	Nevada	At-Large
-10	Florida Atlantic	Auto
-10	Boise State	At-Large
-9	TCU	At-Large
-9	Mississippi State	At-Large
-9	Oklahoma	At-Large
-9	Texas	At-Large
-8	Wake Forest	At-Large
-8	Villanova	At-Large
-8	Washington State	At-Large
-8	Gonzaga	At-Large
-7	Florida	At-Large
-7	Texas Tech	At-Large
-7	Utah State	At-Large
-7	Saint Mary's (CA)	Auto
-6	Michigan State	At-Large
-6	New Mexico	At-Large
-6	Clemson	At-Large
-6	Dayton	Auto
-5	Wisconsin	At-Large
-5	Colorado State	At-Large
-5	San Diego State	Auto
-5	Illinois	At-Large
-4	Baylor	At-Large
-4	Marquette	At-Large
-4	Kentucky	At-Large
-4	Brigham Young	At-Large
-3	Duke	At-Large
-3	North Carolina	Auto
-3	Creighton	At-Large
-3	Tennessee	At-Large
-2	Kansas	At-Large
-2	Alabama	At-Large
-2	Auburn	Auto
-2	Iowa State	At-Large
-1	Connecticut	Auto
-1	Arizona	Auto
-1	Houston	Auto
-1	Purdue	Auto
+1	Purdue	Auto	False
+1	Houston	Auto	False
+1	Arizona	Auto	False
+1	Connecticut	Auto	False
+2	Iowa State	At-Large	False
+2	Auburn	Auto	False
+2	Alabama	At-Large	False
+2	Kansas	At-Large	False
+3	Tennessee	At-Large	False
+3	Creighton	At-Large	False
+3	North Carolina	Auto	False
+3	Duke	At-Large	False
+4	Brigham Young	At-Large	False
+4	Kentucky	At-Large	False
+4	Marquette	At-Large	False
+4	Baylor	At-Large	False
+5	Illinois	At-Large	False
+5	San Diego State	Auto	False
+5	Colorado State	At-Large	False
+5	Wisconsin	At-Large	False
+6	Dayton	Auto	False
+6	Clemson	At-Large	False
+6	New Mexico	At-Large	False
+6	Michigan State	At-Large	False
+7	Saint Mary's (CA)	Auto	False
+7	Utah State	At-Large	False
+7	Texas Tech	At-Large	False
+7	Florida	At-Large	False
+8	Gonzaga	At-Large	False
+8	Washington State	At-Large	False
+8	Villanova	At-Large	False
+8	Wake Forest	At-Large	False
+9	Texas	At-Large	False
+9	Oklahoma	At-Large	False
+9	Mississippi State	At-Large	False
+9	TCU	At-Large	False
+10	Boise State	At-Large	False
+10	Florida Atlantic	Auto	False
+10	Nevada	At-Large	False
+10	Indiana State	Auto	False
+11	Utah	At-Large	False
+11	Southern Methodist	At-Large	False
+11	Cincinnati	At-Large	False
+11	Virginia Tech	At-Large	True
+11	Virginia	At-Large	True
+12	South Carolina	At-Large	True
+12	Northwestern	At-Large	True
+12	McNeese State	Auto	False
+12	Grand Canyon	Auto	False
+12	James Madison	Auto	False
+13	Princeton	Auto	False
+13	UC Irvine	Auto	False
+13	Louisiana Tech	Auto	False
+13	Samford	Auto	False
+14	Akron	Auto	False
+14	UNC Wilmington	Auto	False
+14	Weber State	Auto	False
+14	Vermont	Auto	False
+15	Oakland	Auto	False
+15	Colgate	Auto	False
+15	UNC Asheville	Auto	False
+15	Morehead State	Auto	False
+16	Lipscomb	Auto	False
+16	Quinnipiac	Auto	False
+16	St. Thomas	Auto	True
+16	Southern	Auto	True
+16	Norfolk State	Auto	True
+16	Wagner	Auto	True
+
+First Teams Out
+0	Butler
+1	Nebraska
+2	Texas A&M
+3	Pittsburgh
+4	Colorado
+5	St. John's (NY)
+6	Ohio State
+7	Central Florida

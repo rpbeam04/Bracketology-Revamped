@@ -72,6 +72,10 @@ def create_bracket(gender: str, season: int, conference_champions: list[dict] = 
             bubble_flag = True
             bubble_seed = seed
 
+    field.reverse()
     with open(fr"test-{gender}.txt", "w") as f:
         for team in field:
-            f.write(f"{team.Seed}\t{team.Name}\t{team.Bid}\n")
+            f.write(f"{team.Seed}\t{team.Name}\t{team.Bid}\t{team.First_Four}\n")
+        f.write("\nFirst Teams Out\n")
+        for i,team in enumerate(bubble):
+            f.write(f"{i}\t{team.Name}\n")
