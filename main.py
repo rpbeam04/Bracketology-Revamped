@@ -11,7 +11,7 @@ import pandas as pd
 
 # Select season, gender(s)
 season: int = 2024
-genders: list[str] = ["men","women"]
+genders: list[str] = ["men"]
 
 # Define what already exists in .csv or .json format (True if exists and up to date)
 source_full: bool = False
@@ -19,7 +19,7 @@ stats: bool = True
 teams: bool = True
 conferences: bool = True # teams and conferences must agree
 games: bool = True
-metrics: bool = True
+metrics: bool = False
 seeds: bool = True
 training: bool = True
 predictive_model: bool = True
@@ -72,14 +72,44 @@ predictor = model.create_model(refresh = (not predictive_model))
 model.predict_seeds(predictor, genders, season)
 
 # Creating the bracket
-men_conference_champions = {
-    "ACC": "Duke",
-    "Big Ten": "Purdue"
-}
+men_conference_champions = [
+    {"Pac-12": "Oregon"},
+    {"Big 12": "Iowa State"},
+    {"Big Ten": "Illinois"},
+    {"SEC": "Auburn"},
+    {"Big East": "UConn"},
+    {"ACC": "NC State"},
+    {"WCC": "Saint Mary's (CA)"},
+    {"MWC": "New Mexico"},
+    {"A-10": "VCU"},
+    {"AAC": "UAB"},
+    {"MVC": "Drake"},
+    {"WAC": "Grand Canyon"},
+    {"Sun Belt": "James Madison"},
+    {"Southland": "McNeese State"},
+    {"Ivy": "Yale"},
+    {"Southern": "Samford"},
+    {"Big West": "Long Beach State"},
+    {"CUSA": "Western Kentucky"},
+    {"MAC": "Akron"},
+    {"CAA": "Charleston"},
+    {"Big South": "Longwood"},
+    {"Horizon": "Oakland"},
+    {"AEC": "Vermont"},
+    {"Big Sky": "Montana State"},
+    {"Patriot": "Colgate"},
+    {"OVC": "Morehead State"},
+    {"Summit": "South Dakota State"},
+    {"A-Sun": "Stetson"},
+    {"MAAC": "Saint Peter's"},
+    {"NEC": "Wagner"},
+    {"MEAC": "Howard"},
+    {"SWAC": "Grambling"}
+]
 women_conference_champions = {
     "ACC": "NC State",
     "Big Ten": "Iowa"
 }
 
 for gender in genders:
-    bracket.create_bracket(gender, season)
+    bracket.create_bracket(gender, season, men_conference_champions)

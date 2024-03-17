@@ -14,7 +14,9 @@ import matplotlib.pyplot as plt
 from tabulate import tabulate
 
 # Team.create_teams_from_json()
-# Conference.create_conferences_from_json()
+Conference.create_conferences_from_json()
+for conf in Conference.filtered_conference_list("men",2024):
+    print(f'"{conf.Name}": "",')
 # for year in [2021,2022,2023]:
 #     for gender in ['men','women']:
 #         data.team_training_data(year, gender)

@@ -1,67 +1,67 @@
 1	South Carolina	Auto	False
-1	Stanford	Auto	False
 1	Iowa	Auto	False
 1	Texas	Auto	False
-2	Ohio State	At-Large	False
+1	Stanford	Auto	False
 2	Connecticut	Auto	False
 2	Louisiana State	At-Large	False
-2	NC State	Auto	False
+2	Ohio State	At-Large	False
+2	UCLA	At-Large	False
+3	Indiana	At-Large	False
 3	Southern California	At-Large	False
-3	Virginia Tech	At-Large	False
-3	Kansas State	At-Large	False
-3	UCLA	At-Large	False
-4	Oregon State	At-Large	False
-4	Indiana	At-Large	False
-4	Colorado	At-Large	False
+3	Virginia Tech	Auto	False
+3	NC State	At-Large	False
 4	Utah	At-Large	False
+4	Oregon State	At-Large	False
+4	Kansas State	At-Large	False
+4	Notre Dame	At-Large	False
+5	Colorado	At-Large	False
 5	West Virginia	At-Large	False
-5	Notre Dame	At-Large	False
-5	Louisville	At-Large	False
 5	Baylor	At-Large	False
-6	Michigan State	At-Large	False
+5	Louisville	At-Large	False
 6	Gonzaga	Auto	False
-6	Creighton	At-Large	False
 6	Duke	At-Large	False
+6	Michigan State	At-Large	False
+6	Oklahoma	At-Large	False
+7	Creighton	At-Large	False
 7	Alabama	At-Large	False
-7	Oklahoma	At-Large	False
-7	Mississippi State	At-Large	False
-7	Syracuse	At-Large	False
-8	Nebraska	At-Large	False
+7	Iowa State	At-Large	False
+7	Nebraska	At-Large	False
 8	North Carolina	At-Large	False
 8	Washington State	At-Large	False
 8	Tennessee	At-Large	False
-9	Texas A&M	At-Large	False
-9	Maryland	At-Large	False
-9	Princeton	Auto	False
-9	Marquette	At-Large	False
-10	Florida State	At-Large	False
-10	Nevada-Las Vegas	Auto	False
-10	Arizona	At-Large	False
-10	Iowa State	At-Large	False
-11	Kansas	At-Large	False
-11	Penn State	At-Large	True
-11	Mississippi	At-Large	True
-11	California	At-Large	True
+8	Syracuse	At-Large	False
+9	Mississippi State	At-Large	False
+9	Arizona	At-Large	False
+9	Florida State	At-Large	False
+9	Nevada-Las Vegas	Auto	False
+10	Princeton	Auto	False
+10	Kansas	At-Large	False
+10	Mississippi	At-Large	False
+10	Texas A&M	At-Large	False
+11	Penn State	At-Large	False
+11	Marquette	At-Large	True
 11	Arkansas	At-Large	True
+11	California	At-Large	True
+11	Maryland	At-Large	True
 11	Middle Tennessee	Auto	False
-12	Richmond	Auto	False
 12	Green Bay	Auto	False
+12	Richmond	Auto	False
 12	Florida Gulf Coast	Auto	False
-12	Drake	Auto	False
+12	Belmont	Auto	False
 13	South Dakota State	Auto	False
 13	Toledo	Auto	False
-13	Eastern Washington	Auto	False
-13	Stony Brook	Auto	False
-14	Grand Canyon	Auto	False
-14	North Texas	Auto	False
-14	Marshall	Auto	False
+13	Marshall	Auto	False
+13	North Texas	Auto	False
+14	Eastern Washington	Auto	False
+14	Stony Brook	Auto	False
 14	Fairfield	Auto	False
+14	Grand Canyon	Auto	False
 15	Chattanooga	Auto	False
-15	Jackson State	Auto	False
 15	Maine	Auto	False
+15	Jackson State	Auto	False
 15	UC Irvine	Auto	False
-16	Lamar	Auto	False
 16	Norfolk State	Auto	False
+16	Lamar	Auto	False
 16	Southern Indiana	Auto	True
 16	Holy Cross	Auto	True
 16	High Point	Auto	True
@@ -70,9 +70,9 @@
 First Teams Out
 0	Florida
 1	Miami (FL)
-2	Villanova
-3	Vanderbilt
-4	Michigan
-5	Washington
-6	Illinois
-7	Auburn
+2	Vanderbilt
+3	Oklahoma State
+4	Auburn
+5	Illinois
+6	Michigan
+7	Villanova
